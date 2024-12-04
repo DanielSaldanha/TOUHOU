@@ -10,6 +10,9 @@ public class PlayerMoving : MonoBehaviour
     public GameObject Bullet;
     GameObject Clone;
    public  float time, MaxTime;
+
+
+    Main main;
     void Start ()
     {
         _PlayerRB2D = GetComponent<Rigidbody2D>();
@@ -17,23 +20,30 @@ public class PlayerMoving : MonoBehaviour
 
     void Update ()
     {
-        time += Time.deltaTime;
-        if (Input.GetKey(KeyCode.Z) && time > MaxTime)
-        {
-
-            Clone = Instantiate(Bullet, transform.position, Quaternion.identity);
-            time = 0;
-
-        }
-       
+        Bull3t();
         sllow();
         _PlayerDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        /*
+        if(main.aviso == true)
+        {
+            Destroy(gameObject);
+        }
+        */
     }
 
     void FixedUpdate()
     {
         _PlayerRB2D.MovePosition(_PlayerRB2D.position + _PlayerDirection* _PlayerSpeed * Time.deltaTime); 
     }
+
+    private void OnParticleCollision(GameObject c)
+    {
+        if(c.gameObject.layer == 8)
+        {
+            Destroy(gameObject);
+        }
+    }
+   
     void sllow()
     {
         if (Input.GetKey(KeyCode.LeftShift))
@@ -42,7 +52,18 @@ public class PlayerMoving : MonoBehaviour
         }
         else
         {
-            _PlayerSpeed = 6;
+            _PlayerSpeed = 7;
+        }
+    }
+    void Bull3t()
+    {
+        time += Time.deltaTime;
+        if (Input.GetKey(KeyCode.Z) && time > MaxTime)
+        {
+
+            Clone = Instantiate(Bullet, transform.position, Quaternion.identity);
+            time = 0;
+
         }
     }
 

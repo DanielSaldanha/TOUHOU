@@ -13,11 +13,26 @@ public class Main : MonoBehaviour
     public float size;
     float angle;
     public Material material;
+    public float spin_speed;
+    float time;
+    
+    //public bool aviso;
 
     public ParticleSystem system;
     void Awake()
     {
+        
         Sumon();
+    }
+    private void Start()
+    {
+        
+    }
+    private void FixedUpdate()
+    {
+
+        time += Time.deltaTime;
+        transform.rotation = Quaternion.Euler(0, 0,spin_speed * time);  
     }
     void Sumon()
     {
@@ -40,14 +55,29 @@ public class Main : MonoBehaviour
             mainModule.startColor = Color.green;
             mainModule.startSize = 0.5f;
             mainModule.startSpeed = speed;
+
             mainModule.maxParticles = 10000;
+            mainModule.duration = 0f;
+            mainModule.simulationSpace = ParticleSystemSimulationSpace.World;
+
+            // var Colisao = system.trigger;
+            //  Colisao.enter = ParticleSystemOverlapAction.Kill;
+            var colisaum = system.collision;
+            colisaum.enabled = true;                     //ativa ou desativa
+            colisaum.type = ParticleSystemCollisionType.World;
+            colisaum.mode = ParticleSystemCollisionMode.Collision2D;
+            colisaum.bounce = 0;                          //nao deixar voar
+            colisaum.collidesWith -= 6;  // -= 5                  //layer
+            colisaum.sendCollisionMessages = true;        //identificar colisao
+            go.layer += 8;
+            
 
             var emission = system.emission;
             emission.enabled = false;
             
            var forma = system.shape;
            
-           forma.enabled = true;
+
            forma.shapeType = ParticleSystemShapeType.Sprite;
            forma.sprite = null;
             
