@@ -44,12 +44,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0d4ead5440c294da62b68801caec2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Number_of_coluns: 100
+  Number_of_coluns: 10
   speed: 3
   texture: {fileID: -560314155, guid: e30eb5882d4d4764a834099fe488ffa5, type: 3}
   color: {r: 1, g: 1, b: 1, a: 1}
-  lifetime: 10
-  firerate: 0.5
+  lifetime: 20
+  firerate: 0.2
   size: 0.3
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  spin_speed: 20
   system: {fileID: 0}

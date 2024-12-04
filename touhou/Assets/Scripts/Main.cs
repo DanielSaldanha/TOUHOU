@@ -15,8 +15,9 @@ public class Main : MonoBehaviour
     public Material material;
     public float spin_speed;
     float time;
+
+    //ALteraçoes
     
-    //public bool aviso;
 
     public ParticleSystem system;
     void Awake()
@@ -27,6 +28,10 @@ public class Main : MonoBehaviour
     private void Start()
     {
         
+    }
+    private void Update()
+    {
+      
     }
     private void FixedUpdate()
     {

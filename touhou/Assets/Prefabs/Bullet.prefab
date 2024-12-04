@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Number_of_coluns: 100
-  speed: 7
+  speed: 3
   texture: {fileID: -1621019749, guid: 18fe515dfd8187843bf0305d7a27adf6, type: 3}
   color: {r: 1, g: 1, b: 1, a: 1}
   lifetime: 10

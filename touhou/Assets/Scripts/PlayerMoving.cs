@@ -41,6 +41,7 @@ public class PlayerMoving : MonoBehaviour
         if(c.gameObject.layer == 8)
         {
             Destroy(gameObject);
+            Destroy(c.gameObject);
         }
     }
    
