@@ -75,7 +75,11 @@ public class Main : MonoBehaviour
             colisaum.collidesWith -= 6;  // -= 5                  //layer
             colisaum.sendCollisionMessages = true;        //identificar colisao
             go.layer += 8;
-            
+
+            var visualizar = system;
+         //   visualizar.r
+
+
 
             var emission = system.emission;
             emission.enabled = false;

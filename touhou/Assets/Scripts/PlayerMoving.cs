@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMoving : MonoBehaviour
 {
@@ -9,26 +10,51 @@ public class PlayerMoving : MonoBehaviour
     private Rigidbody2D _PlayerRB2D;
     public GameObject Bullet;
     GameObject Clone;
-   public  float time, MaxTime;
+    public  float time, MaxTime;
+
+    //VIDA
+
+    public int vidaAtual = 3;
+    public float timelife,maxtimelife;
+    public Text txtlife,frameTime;
+    public int abreviaTempo;
+
+    bool Controlador;
 
 
-    Main main;
+
     void Start ()
     {
         _PlayerRB2D = GetComponent<Rigidbody2D>();
+        LevelManager.Manager += Iniciar;
+        timelife = 0;
+        timelife = 3;
+    
     }
 
     void Update ()
     {
-        Bull3t();
-        sllow();
-        _PlayerDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        /*
-        if(main.aviso == true)
+        if(Controlador == true)
+        {
+            Bull3t();
+            sllow();
+            _PlayerDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+            txtlife.text = "Life " + vidaAtual.ToString();
+            frameTime.text = "Invencible Frame " + abreviaTempo.ToString();
+        }
+        if(timelife < maxtimelife)
+        {
+            timelife += Time.deltaTime;
+        }
+        if(vidaAtual == 0)
         {
             Destroy(gameObject);
         }
-        */
+       if(timelife > abreviaTempo)
+        {
+            abreviaTempo += 1;
+        }
+       
     }
 
     void FixedUpdate()
@@ -38,10 +64,17 @@ public class PlayerMoving : MonoBehaviour
 
     private void OnParticleCollision(GameObject c)
     {
-        if(c.gameObject.layer == 8)
+        if (c.gameObject.layer == 8)
         {
-            Destroy(gameObject);
-            Destroy(c.gameObject);
+            if(timelife >= maxtimelife)
+            {
+                timelife = 0;
+                vidaAtual -= 1;
+                abreviaTempo = 0;
+                Destroy(c.gameObject);
+            }
+           
+          
         }
     }
    
@@ -67,5 +100,9 @@ public class PlayerMoving : MonoBehaviour
 
         }
     }
-
+    void Iniciar()
+    {
+        Controlador = true;
+    }
+   
 }
