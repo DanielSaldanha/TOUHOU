@@ -49,6 +49,7 @@ public class PlayerMoving : MonoBehaviour
         if(vidaAtual == 0)
         {
             Destroy(gameObject);
+           
         }
        if(timelife > abreviaTempo)
         {
