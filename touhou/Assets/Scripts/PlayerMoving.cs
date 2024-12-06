@@ -21,12 +21,14 @@ public class PlayerMoving : MonoBehaviour
 
     bool Controlador;
 
-
-
+   public Text Vitoria;
+    Boss main2;
     void Start ()
     {
         _PlayerRB2D = GetComponent<Rigidbody2D>();
+        main2 = FindObjectOfType<Boss>();
         LevelManager.Manager += Iniciar;
+        LevelManager.ManagerStop += Destruir;
         timelife = 0;
         timelife = 3;
     
@@ -46,16 +48,21 @@ public class PlayerMoving : MonoBehaviour
         {
             timelife += Time.deltaTime;
         }
-        if(vidaAtual == 0)
+        if(vidaAtual <= 0)
         {
-            Destroy(gameObject);
            
+            Vitoria.text = "v o c e   p e r d e u";
+            
         }
        if(timelife > abreviaTempo)
-        {
+       {
             abreviaTempo += 1;
+       }
+        if (main2.life <= 0)
+        {
+            Vitoria.text = "v o c e   v e n c e u";
         }
-       
+
     }
 
     void FixedUpdate()
@@ -104,6 +111,13 @@ public class PlayerMoving : MonoBehaviour
     void Iniciar()
     {
         Controlador = true;
+    }
+    void Destruir()
+    {
+        gameObject.SetActive(false);
+        txtlife.text = "";
+        frameTime.text =  "";
+        Controlador = false;
     }
    
 }

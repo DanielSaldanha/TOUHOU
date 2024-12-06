@@ -80,11 +80,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Number_of_coluns: 10
-  speed: 1.8
+  speed: 2
   texture: {fileID: -827699456, guid: 73002fefb869cc04d848d2012d7a30d6, type: 3}
   color: {r: 1, g: 1, b: 1, a: 1}
   lifetime: 10
-  firerate: 1
+  firerate: 0.8
   size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 25
@@ -134,11 +134,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Number_of_coluns: 10
-  speed: 1.8
+  speed: 2
   texture: {fileID: 1225389246, guid: 3299956fa897d1b46b7bf07781b473ec, type: 3}
   color: {r: 1, g: 1, b: 1, a: 1}
   lifetime: 10
-  firerate: 1.2
+  firerate: 0.8
   size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 25
@@ -188,11 +188,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Number_of_coluns: 10
-  speed: 1.8
+  speed: 2
   texture: {fileID: 21300000, guid: 2b555d795ee2b1e4db836c81e77c6533, type: 3}
   color: {r: 1, g: 1, b: 1, a: 1}
   lifetime: 10
-  firerate: 1
+  firerate: 0.8
   size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 25
@@ -242,11 +242,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Number_of_coluns: 10
-  speed: 1.8
+  speed: 2
   texture: {fileID: -560314155, guid: e30eb5882d4d4764a834099fe488ffa5, type: 3}
   color: {r: 1, g: 1, b: 1, a: 1}
   lifetime: 10
-  firerate: 1.2
+  firerate: 0.8
   size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 25

@@ -78,14 +78,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Number_of_coluns: 25
-  speed: 1
+  speed: 3
   texture: {fileID: -1621019749, guid: 18fe515dfd8187843bf0305d7a27adf6, type: 3}
   color: {r: 1, g: 1, b: 1, a: 1}
   lifetime: 10
-  firerate: 1.2
-  size: 0.15
+  firerate: 0.5
+  size: 0.3
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
-  spin_speed: 2
+  spin_speed: 15
   system: {fileID: 0}
 --- !u!1 &4410211125731089201
 GameObject:
@@ -132,12 +132,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Number_of_coluns: 25
-  speed: 1
+  speed: 3
   texture: {fileID: -560314155, guid: e30eb5882d4d4764a834099fe488ffa5, type: 3}
   color: {r: 1, g: 1, b: 1, a: 1}
   lifetime: 10
-  firerate: 1.2
-  size: 0.15
+  firerate: 0.5
+  size: 0.3
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
-  spin_speed: 2
+  spin_speed: 15
   system: {fileID: 0}

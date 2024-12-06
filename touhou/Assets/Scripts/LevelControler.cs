@@ -20,6 +20,7 @@ public class LevelControler : MonoBehaviour
         
         Controlador = false;
         LevelManager.Manager += Iniciar;
+        LevelManager.ManagerStop += parar;
     }
 
 
@@ -37,6 +38,7 @@ public class LevelControler : MonoBehaviour
                 time = 0;
             }
         }
+        
        
        
     }
@@ -110,6 +112,10 @@ public class LevelControler : MonoBehaviour
     {
         Controlador = true;
 
+    }
+    void parar()
+    {
+        Controlador = false;
     }
 
 }

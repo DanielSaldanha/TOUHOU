@@ -1,24 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using static UnityEngine.SceneManagement.SceneManager;
-using UnityEngine.SceneManagement;
+
 public class LevelManager : MonoBehaviour
 {
    public delegate void Mensagem();
-   public static Mensagem Manager;
+   public static Mensagem Manager, ManagerStop;
+
+    public GameObject end;
+
+    PlayerMoving main;
+    Boss main2;
     void Start()
     {
-        
+        end.SetActive(false);
+        main = FindObjectOfType<PlayerMoving>();
+        main2 = FindObjectOfType<Boss>();
     }
 
   
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+       if(main.vidaAtual <= 0 || main2.life <= 0)
         {
-            Restart();
+            end.SetActive(true);
+            
+            if(ManagerStop != null)
+            {
+                ManagerStop();
+            }
+            
         }
+
     }
     public void Comecar()
     {
@@ -32,10 +45,5 @@ public class LevelManager : MonoBehaviour
         Application.Quit();
 
     }
-   public void Restart()
-    {
-        //  SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        //  LoadScene(GetActiveScene().buildIndex);
-      //  SceneManager.LoadScene("SampleScene");
-    }
+  
 }
