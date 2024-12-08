@@ -62,7 +62,7 @@ public class Main : MonoBehaviour
             mainModule.startSpeed = speed;
 
             mainModule.maxParticles = 10000;
-            mainModule.duration = 0f;
+           // mainModule.duration = 0f;
             mainModule.simulationSpace = ParticleSystemSimulationSpace.World;
 
             // var Colisao = system.trigger;

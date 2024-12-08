@@ -42,13 +42,20 @@ public class PlayerMoving : MonoBehaviour
             sllow();
             _PlayerDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             txtlife.text = "Life " + vidaAtual.ToString();
-            frameTime.text = "Invencible Frame " + abreviaTempo.ToString();
+            frameTime.text = "Frame " + abreviaTempo.ToString();
         }
         if(timelife < maxtimelife)
         {
             timelife += Time.deltaTime;
+            gameObject.layer = 2;
+
         }
-        if(vidaAtual <= 0)
+        else
+        {
+            gameObject.layer = 3;
+        }
+
+        if (vidaAtual <= 0)
         {
            
             Vitoria.text = "v o c e   p e r d e u";
@@ -62,6 +69,9 @@ public class PlayerMoving : MonoBehaviour
         {
             Vitoria.text = "v o c e   v e n c e u";
         }
+
+        
+        
 
     }
 
