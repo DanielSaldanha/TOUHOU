@@ -9,12 +9,13 @@ public class Boss : MonoBehaviour
     public float life = 17f;
 
 
-   
+    public GameObject[] bosses;
+    public int Index;
     void Start()
     {
        gameObject.SetActive(false);
        LevelManager.Manager += Iniciar;
-        LevelManager.ManagerStop += parar;
+       LevelManager.ManagerStop += parar;
 
     }
 
@@ -24,16 +25,27 @@ public class Boss : MonoBehaviour
         slider.value = life;
         if(life <= 0)
         {
+            life = 17;
+            bosses[Index].SetActive(false);
+            Index += 1;
+            bosses[Index].SetActive(true);
            
-            Destroy(gameObject);
-           
+            if (Index == 3)
+            {
+                Index = 3;
+            }
         }
+        if(Index == 3 && life <= 0)
+        {
+            Destroy(gameObject);
+        }
+        
     }
     private void OnTriggerEnter2D(Collider2D c)
     {
         if(c.tag == "tiro")
         {
-            life -= 0.01f;
+            life -= 1f;
             Destroy(c.gameObject);
         }    
     }
