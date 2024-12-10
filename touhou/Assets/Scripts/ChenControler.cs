@@ -13,17 +13,18 @@ public class ChenControler : MonoBehaviour
     public float time, maxtime;
     public bool pare;
 
-    bool Controlador;
+   public bool Controlador;
 
-    
+
+    LevelControler main;
     void Start()
     {
 
-        Controlador = false;
+        Controlador = true;
         LevelManager.Manager += Iniciar;
         LevelManager.ManagerStop += parar;
 
-       
+        main = FindObjectOfType<LevelControler>();
     }
 
 
@@ -41,6 +42,12 @@ public class ChenControler : MonoBehaviour
                 clonagem();
                 time = 0;
             }
+        }
+        
+        if(main.aviso == true)
+        {
+            destrua();
+            main.aviso = false;
         }
         
 
@@ -100,7 +107,7 @@ public class ChenControler : MonoBehaviour
         Clone5 = Instantiate(n5, p5.position, Quaternion.identity);
         */
     }
-    void destrua()
+   public void destrua()
     {
         Destroy(Clone1);
         Destroy(Clone2);

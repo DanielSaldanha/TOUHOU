@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour
     {
        if(main.vidaAtual <= 0)//|| main2.life <= 0
         {
-         //   end.SetActive(true);
+            end.SetActive(true);
             
             if(ManagerStop != null)
             {

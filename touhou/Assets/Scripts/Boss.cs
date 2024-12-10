@@ -9,14 +9,17 @@ public class Boss : MonoBehaviour
     public float life = 17f;
 
 
-    public GameObject[] bosses;
-    public int Index;
+    public bool partida;
+    public int Index = -1;
+
+    LevelControler main;
     void Start()
     {
        gameObject.SetActive(false);
        LevelManager.Manager += Iniciar;
        LevelManager.ManagerStop += parar;
-
+        partida = true;
+        main = FindObjectOfType<LevelControler>();
     }
 
     
@@ -26,19 +29,11 @@ public class Boss : MonoBehaviour
         if(life <= 0)
         {
             life = 17;
-            bosses[Index].SetActive(false);
-            Index += 1;
-            bosses[Index].SetActive(true);
-           
-            if (Index == 3)
-            {
-                Index = 3;
-            }
+            Index++;
+            partida = true;
+            main.aviso = true;
         }
-        if(Index == 3 && life <= 0)
-        {
-            Destroy(gameObject);
-        }
+       
         
     }
     private void OnTriggerEnter2D(Collider2D c)
@@ -51,6 +46,7 @@ public class Boss : MonoBehaviour
     }
     void Iniciar()
     {
+        Index++;
         gameObject.SetActive(true);
     }
     void parar()

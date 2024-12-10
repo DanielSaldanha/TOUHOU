@@ -14,7 +14,7 @@ public class PlayerMoving : MonoBehaviour
 
     //VIDA
 
-    public int vidaAtual = 5;
+    public int vidaAtual = 3;
     public float timelife,maxtimelife;
     public Text txtlife,frameTime;
     public int abreviaTempo;
