@@ -1,0 +1,4505 @@
+fileFormatVersion: 2
+guid: 2e2835a3b92288f46815e7c950e87d60
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: perfeito_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 756
+        width: 256
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbd5416aee6c174f9c9ada1d46bfd67
+      internalID: -1703854822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 755
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac4004bc2d4fb047b25bfa1d657f13d
+      internalID: 795296917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 756
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19446a5c53441649aafb73beb1c6ec0
+      internalID: 604634683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 756
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14af2809156dfde4bb2578fa1babb16e
+      internalID: 2039166810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 756
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c008801d9933347970537b6f67ef44
+      internalID: 1078294453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 756
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848731e7bd652274181b8a8e1d8881eb
+      internalID: -1725744881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_6
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 756
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c153436169c604bb562a592d7cff11
+      internalID: 1903324466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 756
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24614f7d2fa93bf4e822043c8bdf8c2f
+      internalID: -1888719626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 756
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45676074801e9040aa184920648577e
+      internalID: 1213773878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_9
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 756
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c7ed5f0dce19a46870c32178801430
+      internalID: -73361845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 756
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f559aed459d6e4a8b8dff5c213f251
+      internalID: 509839786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_11
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 756
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cfb1ae75e0611418f9fc1d93cef78f
+      internalID: 1132726164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_12
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 756
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c4f9e78003460478872eeaf7d730dd
+      internalID: -1766184637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_13
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 756
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9ef0b9d9502334faebb94c6a6b95bd
+      internalID: 2133805114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_14
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 756
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5132fb79d9e4a094f8a933d273ce1b3d
+      internalID: 1509841472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 707
+        width: 256
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39efbf438ddb9f845939b76486ac6e4f
+      internalID: -811785322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 726
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dcb59e0022f0c43aed2794fa8a8dec
+      internalID: 943080688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_17
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 692
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586bfe419b9a9bb46a8bc6600dbe2824
+      internalID: 767692534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_18
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 691
+        width: 127
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e4a0fe4325ebb41a3a41a8b950d560
+      internalID: -416916335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_19
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 692
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810e4855f55bcb6409c7d0e6802f987c
+      internalID: 282880935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_20
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 712
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f6b160edc6f6a4e9e5c3c4774c5e3c
+      internalID: 858536662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 692
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdc0b39d9991d041bfdc2d30a29fa1d
+      internalID: 213794923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_22
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 692
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ae5ccc9dab996469468f748f0d3c92
+      internalID: 2011529753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17eaa25505e9d2246aff8312daa86226
+      internalID: -71429938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_24
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb6b48a781277f4a9021004dfea4890
+      internalID: -672902423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ee678fe5ac7ca4b9a12230cedcd131
+      internalID: -1505868982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_26
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f766f40235c5d0647a5169b47755c08e
+      internalID: 1871455532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 692
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c05f2da78f32643bfda5ce8caf59e3
+      internalID: 1153929830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_28
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49aef5b3a2ddf949a55cae72376f92b
+      internalID: -2051954745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_29
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8a2a2900e290c40bb225550caa104c
+      internalID: -1123452578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_30
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2728bb71600a0f544ad33e68768a094f
+      internalID: 475099135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_31
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21139c70a1f8d394bb89bcb904b637cf
+      internalID: -1117464113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_32
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0841bc2bd54349149af21f033d5da409
+      internalID: 1756584451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_33
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26815987696df34c973974c9a45f517
+      internalID: -1956209200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_34
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119eb8bf61b2ba84ea7c32d4851bd3ff
+      internalID: -1228108107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_35
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c9f6d54b70932459336dac4ff525b4
+      internalID: 1689211382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_36
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 692
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3d9feb63c4ed4419eb0d0f5e8b99d2
+      internalID: 1232940092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 563
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8559f05e1eab3d7448aa4886adcce27e
+      internalID: 683736471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_38
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 628
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c59e4ea65942249a504a7f30863aad
+      internalID: -514010182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_39
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 628
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8487678c4a10e274ca3f2d86c47478f7
+      internalID: -1562933700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_40
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 563
+        width: 129
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d9acba03981bf47afbcf717a2c0a69
+      internalID: -2054378364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_41
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 595
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ebe65785c8e9f45b47340aa4268cd6
+      internalID: -1177549664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_42
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 595
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b0eda4de1abaf4eb6cea284c117245
+      internalID: -1971310356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_43
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 595
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3598851c8c8e7d84382de0481a5873fc
+      internalID: 1534154001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_44
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 595
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae59e3f1db6a754591207e9e2605090
+      internalID: 798056604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_45
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 563
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5507eca9272d7e4caeb1a348758d845
+      internalID: 14470452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_46
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 515
+        width: 81
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bcd184908ee1740955fe60ca6903a5
+      internalID: -1135844466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_47
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 563
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03b041b26ef6fd46be0b9ee5521ceac
+      internalID: -258192630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 533
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667284f7c6e4c504b96280fcb48931c6
+      internalID: -706859514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_49
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 533
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8a6477ee7723c4dbffcd6ebd6fa04e
+      internalID: 879834898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_50
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 533
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2fd2bb5f3d890448217ae44dd705f8
+      internalID: -395005868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_51
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 533
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ee1a5d722fc3749a45b8e11ea888fd
+      internalID: 492193319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_52
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 533
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4dd46e4494a61468e4ce960a93e58d
+      internalID: 1956408629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_53
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 533
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423ea8f0802855b4487154c99e1da914
+      internalID: 607802209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_54
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 533
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a228ad7197a46459c453ac199f3e2e
+      internalID: -1734225128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_55
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 533
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5c9f4c7dba3b84e99703623e56fd16
+      internalID: 488208525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_56
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 549
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c879d68f830e5b418e159a9dbdeefc2
+      internalID: 1206291690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_57
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 549
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f4dac13ff8490439ae157e94af467c
+      internalID: 1494368402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_58
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 550
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932148c6f0a1c1e42bf4d830f972a74a
+      internalID: -1296835057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 515
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8100454088aa544bd1d6091620bec6
+      internalID: -539664217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_60
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 517
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba29b9dd3d39cd346b0c5a49ea2010da
+      internalID: -1428706916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_61
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 517
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23676fbea8cc5b46adea827b9ccf938
+      internalID: 490669364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_62
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 517
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6a76e76dce3f2438d9ac57f5d8c506
+      internalID: 367413832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_63
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 517
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57360d642bda03042b0de7763bd6be17
+      internalID: -1862433566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_64
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 517
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f66722f04769c40bf8d82129e0b85a
+      internalID: -1541527363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_65
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 517
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c345af715e7bd3c4f9c309c83a30dc3a
+      internalID: 986069985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_66
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 517
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99ec00659524874cb50d10531dd97bc
+      internalID: -159736618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_67
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 517
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691f68ed608a78d4ab8c2a221c3bf439
+      internalID: 1087675611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_68
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 517
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3ef7738b45b71448ac411cd8a6104f
+      internalID: 2069148696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_69
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 517
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c736767d2489e478731fb1082b8e57
+      internalID: 1814186870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_70
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 515
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105e39c3caeacee4c93bfab60fef05cf
+      internalID: -2087772019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_71
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 517
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419c8435de1e0584fb73d9fdc6776012
+      internalID: 1067107470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_72
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 516
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58442ae152452604b97671eb6d5bfc97
+      internalID: 438015509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_73
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 516
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd3c3e4000a10b42bc7bc2bddfa6c2a
+      internalID: 882488978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_74
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 516
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d21c43d7d1ac2b498206961d03f4d8c
+      internalID: -1663660712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_75
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 521
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d55e4a73372c1b47bfff2de4f86d640
+      internalID: -590422664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_76
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 484
+        width: 256
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787ecbd15c9ca474a83689f35ea78e11
+      internalID: -1760816903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_77
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 483
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b8527fdb0fd844c95fd689eaa5e3fe
+      internalID: 531071386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_78
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 483
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82ef0578b5cdc24386b3c870a2605b9
+      internalID: -198427768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_79
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 483
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40601b92c94ede4c9f737b4db5b271c
+      internalID: 492004384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_80
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 483
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1343ab431030fec44a6e73adcfb7ac2d
+      internalID: -636170572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_81
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 483
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3244588570a1547a6113e13a4d2681
+      internalID: -1970534256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_82
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 483
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c68eac0a7680747a1608a4a6adbf38
+      internalID: -1440207058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_83
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 483
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1028e5610bc13ad4c8a111e167cec696
+      internalID: -989590553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_84
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 483
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83802636cf590143ac579f7b885be82
+      internalID: -799740064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_85
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 419
+        width: 256
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7544feaa7dcf342b4a0903d7019237
+      internalID: 532681902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_86
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 419
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbf138cff9110b45a1990806cd487a3
+      internalID: 525106532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_87
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 419
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29fb078a72f29f4b9b72a7040e3d7f9
+      internalID: 42395462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_88
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 419
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ce7f91b9d9146419641edf0b942bf4
+      internalID: 2114272801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_89
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 419
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d0eb4de2fcede4dafef4898cdf7d16
+      internalID: -588385616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_90
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 354
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8ca69832ad8b146b58cae1ec762aad
+      internalID: -571820717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_91
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 386
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5439aae691162341b0fb476410b26e2
+      internalID: 1869785529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_92
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 386
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d4571011fd79a408d03b94f59eefcb
+      internalID: -563096468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_93
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 386
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa8e958ef3015042adc96e492595125
+      internalID: -517331061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_94
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 386
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac0b91a2d7833a43b15728f2c021054
+      internalID: -675665108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_95
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 386
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0df047d4c7b7847bec2fd2f14a0fc8
+      internalID: 651383150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_96
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 386
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8343d9c5667794da9baa698d3bd970
+      internalID: 1115057303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_97
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 386
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361501250d58d1045a1cff00e6b41e93
+      internalID: 1866395544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_98
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 403
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2475639c7c05bb4794af2f32dfe1611
+      internalID: -1828225050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_99
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 403
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9299b6aecbde5414398fde2580363a77
+      internalID: 1317824070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_100
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 402
+        width: 96
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7477d61aa7b71854984ff35d26c4ddcc
+      internalID: -977331722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_101
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 405
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29d83d053d4f1c4d8a4faba744e4c20
+      internalID: -1680377974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_102
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 405
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0ed87bf432ea046878cc275cd4fdbd
+      internalID: 738856142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_103
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 405
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41696ad41c41cea42b97aca9ff08fe1f
+      internalID: 672563944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_104
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 405
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91180b457eb0412459bd6a35fd9ba2ae
+      internalID: -791410116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_105
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 408
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fab27d25e341b42820e163de10ca79
+      internalID: -585224176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_106
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 405
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108c0274a7a403047b1d79290ff5dd78
+      internalID: 1112134012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_107
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 405
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928f2228701e8f74aa84c2f0d405378e
+      internalID: 133276045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_108
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 405
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c903c886d730e4b8914b1bfcd230c5
+      internalID: -1395701586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_109
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 388
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9ec2893fc8e444cae77b5b7b3fd459
+      internalID: 509405777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_110
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 388
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7cab51e81d0c84487fa27edf87cc4a
+      internalID: 391593364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_111
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 388
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb55afa5b5fc574497d0881fd623f10
+      internalID: 163312049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_112
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 388
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa71848f4de3454baab51b41c5f515f
+      internalID: 361054965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_113
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 388
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1ca45323fbff14baf3309916e8d7e4
+      internalID: -1918839322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_114
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 388
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc9510e13eccdc4f8dd57b70f3020a5
+      internalID: 1488350262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_115
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 392
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f4a34d2bd82904180d418ef17ec400
+      internalID: -454531323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_116
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 392
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9670e77497ef6c5499c6308d82933da0
+      internalID: -1480111287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_117
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 388
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7191132e6409a8f46a149b24595d0170
+      internalID: 236487542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_118
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 376
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394601ede13b602429d5425add692f57
+      internalID: 390079046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_119
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 354
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17243aeac383e9408bf75d63fb8af2f
+      internalID: 524448174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_120
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 354
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679bd2d983f4cb74384e9248cc195fb8
+      internalID: 445104229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_121
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 354
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e919ce3dbc19cda4286c42aa9eae61e4
+      internalID: -1289751290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_122
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 354
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fac06be60892584c918298b6c27da81
+      internalID: 1993690644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_123
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 354
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8a8c6bca6bfe34fbf78d188a19fff8
+      internalID: 686276237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_124
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 354
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50b865eb6a60d0419fcdcea04b83894
+      internalID: 961838271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_125
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 354
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67facdcf3e449d94e9f5ee5a837b8cc5
+      internalID: -1033558397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_126
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 370
+        width: 144
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a6aa3a6c3374c4298a73d3b8f80414
+      internalID: -1489831057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_127
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 323
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db818f15e01ac549a7139c196c0d777
+      internalID: -1183788143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_128
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 323
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49208c8755a60044bae71d61ec1549c
+      internalID: 1997665533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_129
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 323
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b636beec2ea2be647b8ee302d20cd457
+      internalID: 1302476587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_130
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 323
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be75b152fc06f964181a537946a38dd4
+      internalID: 1998997961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_131
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 323
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b393c48e6ab07d747829ee4b8c6edbef
+      internalID: -375502126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_132
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 323
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fce6b18b9188cb4ab46ea2fe55ca190
+      internalID: -2127814235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_133
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 323
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ff6590a561cf24592c5dca7e441f2b
+      internalID: -1892201583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_134
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 323
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855745a2306aa4944a8b09aaafd36e4f
+      internalID: -1595735259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_135
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 350
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe487f2790cdda43bb3dedd4832363a
+      internalID: -1674333869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_136
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 350
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a4a627e9d49aa4a90576b9dc3ded88
+      internalID: 180496358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_137
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 350
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9202b66ea2f2d2e499b644e177f3cdd9
+      internalID: 1790845397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_138
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 350
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c86690a984e014799be6031369b708
+      internalID: 516674812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_139
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 350
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7a5f1046f3a374bb092faec4fbcce6
+      internalID: -1629428776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_140
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 350
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104ccf0855c7148429babcc12b3c79a3
+      internalID: 187314128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_141
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 326
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0015a28123eb1e943a6427191a26ebca
+      internalID: 15043380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_142
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 326
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b9324c122e5d74eb3d2349bbf67eee
+      internalID: -526009103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_143
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 326
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c111f9fffdb7742875d8eae8dbee7c
+      internalID: 686001079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_144
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 326
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663df1ceb948beb4791d309ab00458b1
+      internalID: -843706651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_145
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 326
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dc112af691dab4d8ca8fc741518286
+      internalID: -302173622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_146
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 326
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b3b9e81ba2b1e44a0555ff9b2c6875
+      internalID: 2034136351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_147
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 259
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9328ee084223b6f4196446269ddcd5f1
+      internalID: 1927759221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_148
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 259
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38ad4a9bb65ff14eb5d22244ab9df20
+      internalID: -352176026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_149
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 259
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae27ee47d17911e4d8d774cd9ce26997
+      internalID: 1437090351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_150
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 259
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12e0718c19a2e448a87973639aa2f7d
+      internalID: -2122142123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_151
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66663e7e2734a334f9d4dddd5ee93326
+      internalID: -153868814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_152
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73def763f193a5845a54c9cae7b6b200
+      internalID: 881893267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_153
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b081003da8e29184ea8b54301266abd9
+      internalID: -1122498174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_154
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47ee53373b7ee04ab553e13511c846d
+      internalID: 1955853913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_155
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a96076b23bed949b35440543bad5c3
+      internalID: 329924565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_156
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15ffcefbe51cae419727bb717e52b01
+      internalID: 988928457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_157
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4520a59f38db84546a39915f663e5ccf
+      internalID: 2032028671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_158
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9b3f076e2b1b240b7b9a156b9cc08e
+      internalID: -1437438011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_159
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d751977b4931d0946a97d7da8e20b6d2
+      internalID: 1174395115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_160
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565a24111170d474cb92289315d234ae
+      internalID: -581547635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_161
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db5a7d280bd4b947819647aaf05fb46
+      internalID: -1844323744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_162
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4da1f3cb589c04dbdbb62156a95163
+      internalID: 417247669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_163
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8f4bde57be41a409a0c9da5d9078f0
+      internalID: 1922272965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_164
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6866bc134eea34c88896ce536656d4
+      internalID: -1345703701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_165
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc616a46fa9010f4f8678a1d77e41d09
+      internalID: 776833364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_166
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2f926caf5ff904f823f9126106fe63
+      internalID: 2013424850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_167
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 274
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914b2323e87bcc64b8fdca72d69b8137
+      internalID: -89218919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_168
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 274
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e040d8b33e819479ee4226032ad8f6
+      internalID: 991054166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_169
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 274
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395d6fa4a9aadb8409e8de3d23a12ff2
+      internalID: 2083127415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_170
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 274
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd3226b6a57bed418f997a216ca265a
+      internalID: 861986526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_171
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 245
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d63297065ef02a46b1ccf0eea18a946
+      internalID: 149753483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_172
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 129
+        width: 67
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c445730f82d4ce4487a7a4d2c04f6f8
+      internalID: -1830262712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_173
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 129
+        width: 12
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b243e6d161c214aaf82f95983cd7b8
+      internalID: -123470145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_174
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 129
+        width: 13
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010d684859c227b4b9ccb0be0611e5aa
+      internalID: -184929102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_175
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 212
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d798b932b392d840b38746db6c02bdf
+      internalID: 774051745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_176
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 250
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded7cc3641d66054d86845159a5a036c
+      internalID: -1035566643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_177
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 250
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30d76b5e87093b43a092457093f5651
+      internalID: -2078332936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_178
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 250
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823fdb433bc0bda4bb176044cc0b6893
+      internalID: 83502264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_179
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 229
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251424a785944844791010686766e19f
+      internalID: -1537071537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_180
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 201
+        width: 10
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b387ba99ed40a4d87f60ba2c09e773
+      internalID: -1993333341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_181
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 216
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe6ab12af127ed498b7f8d6c50d6a6d
+      internalID: 1567446068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_182
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 215
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55298876c642234cb05abb1e430b042
+      internalID: -417266494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_183
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 213
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310ac0b626e7bad4a93d49a6d0495a97
+      internalID: -609337086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_184
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 197
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c882127750f20ce418c8c103aca81a1b
+      internalID: -2092780610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_185
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 173
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4795cd5433692b4d9b48ff5f7d4bad0
+      internalID: 574435873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_186
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 181
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fd216b8366c5a4f87542783f94d561
+      internalID: -793852571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_187
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 165
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6a2772f37ff50428b6df999820fa4d
+      internalID: -1883022046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_188
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 146
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c9c6b4fd34b284ebe81f88f14b6bdc
+      internalID: 1017609928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_189
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 149
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0f88059c3190341b4640ae92b8f1ee
+      internalID: -1374940323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_190
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 133
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32152cefab4a5ca4ea7c937bacd26ee0
+      internalID: -1884983615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_191
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 117
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6bfa7664ad7594d838968b934d4376
+      internalID: 674793000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_192
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 101
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5d88a4307d58a4b9ceba50d187d16e
+      internalID: 1694644760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_193
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 85
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46c3799e129f1d4eb5d4401a69c8ec2
+      internalID: -1522561410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_194
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 69
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3590b3f00d95275479fc353e4c3e0edb
+      internalID: -1420579848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_195
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 53
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2ac33a1b5f1bf4dbff5219bf331b85
+      internalID: 517247944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_196
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 37
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cdc1bbb84127e489ded2bf47544563
+      internalID: -1450758691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_197
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 21
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1612abbe52a30144a5894e33731a398
+      internalID: 1241449760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfeito_198
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd3e2eb06f5fff4aaa8f6276623dbcf
+      internalID: -269102503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      perfeito_0: -1703854822
+      perfeito_1: 795296917
+      perfeito_10: 509839786
+      perfeito_100: -977331722
+      perfeito_101: -1680377974
+      perfeito_102: 738856142
+      perfeito_103: 672563944
+      perfeito_104: -791410116
+      perfeito_105: -585224176
+      perfeito_106: 1112134012
+      perfeito_107: 133276045
+      perfeito_108: -1395701586
+      perfeito_109: 509405777
+      perfeito_11: 1132726164
+      perfeito_110: 391593364
+      perfeito_111: 163312049
+      perfeito_112: 361054965
+      perfeito_113: -1918839322
+      perfeito_114: 1488350262
+      perfeito_115: -454531323
+      perfeito_116: -1480111287
+      perfeito_117: 236487542
+      perfeito_118: 390079046
+      perfeito_119: 524448174
+      perfeito_12: -1766184637
+      perfeito_120: 445104229
+      perfeito_121: -1289751290
+      perfeito_122: 1993690644
+      perfeito_123: 686276237
+      perfeito_124: 961838271
+      perfeito_125: -1033558397
+      perfeito_126: -1489831057
+      perfeito_127: -1183788143
+      perfeito_128: 1997665533
+      perfeito_129: 1302476587
+      perfeito_13: 2133805114
+      perfeito_130: 1998997961
+      perfeito_131: -375502126
+      perfeito_132: -2127814235
+      perfeito_133: -1892201583
+      perfeito_134: -1595735259
+      perfeito_135: -1674333869
+      perfeito_136: 180496358
+      perfeito_137: 1790845397
+      perfeito_138: 516674812
+      perfeito_139: -1629428776
+      perfeito_14: 1509841472
+      perfeito_140: 187314128
+      perfeito_141: 15043380
+      perfeito_142: -526009103
+      perfeito_143: 686001079
+      perfeito_144: -843706651
+      perfeito_145: -302173622
+      perfeito_146: 2034136351
+      perfeito_147: 1927759221
+      perfeito_148: -352176026
+      perfeito_149: 1437090351
+      perfeito_15: -811785322
+      perfeito_150: -2122142123
+      perfeito_151: -153868814
+      perfeito_152: 881893267
+      perfeito_153: -1122498174
+      perfeito_154: 1955853913
+      perfeito_155: 329924565
+      perfeito_156: 988928457
+      perfeito_157: 2032028671
+      perfeito_158: -1437438011
+      perfeito_159: 1174395115
+      perfeito_16: 943080688
+      perfeito_160: -581547635
+      perfeito_161: -1844323744
+      perfeito_162: 417247669
+      perfeito_163: 1922272965
+      perfeito_164: -1345703701
+      perfeito_165: 776833364
+      perfeito_166: 2013424850
+      perfeito_167: -89218919
+      perfeito_168: 991054166
+      perfeito_169: 2083127415
+      perfeito_17: 767692534
+      perfeito_170: 861986526
+      perfeito_171: 149753483
+      perfeito_172: -1830262712
+      perfeito_173: -123470145
+      perfeito_174: -184929102
+      perfeito_175: 774051745
+      perfeito_176: -1035566643
+      perfeito_177: -2078332936
+      perfeito_178: 83502264
+      perfeito_179: -1537071537
+      perfeito_18: -416916335
+      perfeito_180: -1993333341
+      perfeito_181: 1567446068
+      perfeito_182: -417266494
+      perfeito_183: -609337086
+      perfeito_184: -2092780610
+      perfeito_185: 574435873
+      perfeito_186: -793852571
+      perfeito_187: -1883022046
+      perfeito_188: 1017609928
+      perfeito_189: -1374940323
+      perfeito_19: 282880935
+      perfeito_190: -1884983615
+      perfeito_191: 674793000
+      perfeito_192: 1694644760
+      perfeito_193: -1522561410
+      perfeito_194: -1420579848
+      perfeito_195: 517247944
+      perfeito_196: -1450758691
+      perfeito_197: 1241449760
+      perfeito_198: -269102503
+      perfeito_2: 604634683
+      perfeito_20: 858536662
+      perfeito_21: 213794923
+      perfeito_22: 2011529753
+      perfeito_23: -71429938
+      perfeito_24: -672902423
+      perfeito_25: -1505868982
+      perfeito_26: 1871455532
+      perfeito_27: 1153929830
+      perfeito_28: -2051954745
+      perfeito_29: -1123452578
+      perfeito_3: 2039166810
+      perfeito_30: 475099135
+      perfeito_31: -1117464113
+      perfeito_32: 1756584451
+      perfeito_33: -1956209200
+      perfeito_34: -1228108107
+      perfeito_35: 1689211382
+      perfeito_36: 1232940092
+      perfeito_37: 683736471
+      perfeito_38: -514010182
+      perfeito_39: -1562933700
+      perfeito_4: 1078294453
+      perfeito_40: -2054378364
+      perfeito_41: -1177549664
+      perfeito_42: -1971310356
+      perfeito_43: 1534154001
+      perfeito_44: 798056604
+      perfeito_45: 14470452
+      perfeito_46: -1135844466
+      perfeito_47: -258192630
+      perfeito_48: -706859514
+      perfeito_49: 879834898
+      perfeito_5: -1725744881
+      perfeito_50: -395005868
+      perfeito_51: 492193319
+      perfeito_52: 1956408629
+      perfeito_53: 607802209
+      perfeito_54: -1734225128
+      perfeito_55: 488208525
+      perfeito_56: 1206291690
+      perfeito_57: 1494368402
+      perfeito_58: -1296835057
+      perfeito_59: -539664217
+      perfeito_6: 1903324466
+      perfeito_60: -1428706916
+      perfeito_61: 490669364
+      perfeito_62: 367413832
+      perfeito_63: -1862433566
+      perfeito_64: -1541527363
+      perfeito_65: 986069985
+      perfeito_66: -159736618
+      perfeito_67: 1087675611
+      perfeito_68: 2069148696
+      perfeito_69: 1814186870
+      perfeito_7: -1888719626
+      perfeito_70: -2087772019
+      perfeito_71: 1067107470
+      perfeito_72: 438015509
+      perfeito_73: 882488978
+      perfeito_74: -1663660712
+      perfeito_75: -590422664
+      perfeito_76: -1760816903
+      perfeito_77: 531071386
+      perfeito_78: -198427768
+      perfeito_79: 492004384
+      perfeito_8: 1213773878
+      perfeito_80: -636170572
+      perfeito_81: -1970534256
+      perfeito_82: -1440207058
+      perfeito_83: -989590553
+      perfeito_84: -799740064
+      perfeito_85: 532681902
+      perfeito_86: 525106532
+      perfeito_87: 42395462
+      perfeito_88: 2114272801
+      perfeito_89: -588385616
+      perfeito_9: -73361845
+      perfeito_90: -571820717
+      perfeito_91: 1869785529
+      perfeito_92: -563096468
+      perfeito_93: -517331061
+      perfeito_94: -675665108
+      perfeito_95: 651383150
+      perfeito_96: 1115057303
+      perfeito_97: 1866395544
+      perfeito_98: -1828225050
+      perfeito_99: 1317824070
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -86,14 +86,15 @@ public class Main : MonoBehaviour
             
            var forma = system.shape;
            
-
+            
            forma.shapeType = ParticleSystemShapeType.Sprite;
            forma.sprite = null;
             
            var text = system.textureSheetAnimation;
            text.mode = ParticleSystemAnimationMode.Sprites;
            text.AddSprite(texture);
-           text.enabled = true;   
+           text.enabled = true;  
+            
         }
 
         // Every 2 secs we will emit.

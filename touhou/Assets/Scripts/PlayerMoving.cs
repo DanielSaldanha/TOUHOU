@@ -23,6 +23,12 @@ public class PlayerMoving : MonoBehaviour
 
    public Text Vitoria;
     Boss main2;
+
+    //DANO
+    //EFEITO DE BRIR CENA
+    [SerializeField] Color cor;
+    [SerializeField] SpriteRenderer spritecor;
+    public float timeframe;
     void Start ()
     {
         _PlayerRB2D = GetComponent<Rigidbody2D>();
@@ -31,7 +37,7 @@ public class PlayerMoving : MonoBehaviour
         LevelManager.ManagerStop += Destruir;
         timelife = 0;
         timelife = 3;
-    
+      
     }
 
     void Update ()
@@ -44,15 +50,20 @@ public class PlayerMoving : MonoBehaviour
             txtlife.text = "Life " + vidaAtual.ToString();
             frameTime.text = "Frame " + abreviaTempo.ToString();
         }
-        if(timelife < maxtimelife)
+
+        spritecor.color = cor;
+        
+        if (timelife < maxtimelife)
         {
             timelife += Time.deltaTime;
             gameObject.layer = 2;
-
+            AnimaçaoDano();
         }
         else
         {
             gameObject.layer = 3;
+            cor.a = 255;
+            cor = Color.white;
         }
 
         if (vidaAtual <= 0)
@@ -129,5 +140,20 @@ public class PlayerMoving : MonoBehaviour
         frameTime.text =  "";
         Controlador = false;
     }
-   
+   void AnimaçaoDano()
+    {
+        timeframe += Time.deltaTime;
+        if (timeframe >= 0.15f)
+        {
+            cor = Color.black;
+        }
+        else
+        {
+            cor = Color.white;
+        }
+        if (timeframe >= 0.3)
+        {
+            timeframe = 0;
+        }
+    }
 }

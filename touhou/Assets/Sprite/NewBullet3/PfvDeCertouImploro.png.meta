@@ -1,0 +1,809 @@
+fileFormatVersion: 2
+guid: 760b2d43d3dbff14198141758808424e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 673
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addab09821bc7e546874bf1f864f976d
+      internalID: -272740698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 677
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5ab3458d43ca648ba709d91fdaf250
+      internalID: 222308680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_2
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 657
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c6948e897daa840815047c9638b563
+      internalID: 1260028435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 625
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aeda3822533d6c418faa653775be5cc
+      internalID: -1667119304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 593
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79072214f6487e54fb7736bbf9fa57ba
+      internalID: 1629707600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 622
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a97c470a200297428e75f5ab7200124
+      internalID: 790630225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 595
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a5bcc6e0fd22a4681c763a1891581c
+      internalID: -1548972001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 609
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee102055575f67343ad7b101712fbd7c
+      internalID: -1303807293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 485
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1034147985b9e0441b404f05e677a078
+      internalID: -208385266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_9
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 526
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4084f8a84ca556241a1fac0aaeb22949
+      internalID: -1871815113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_10
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 521
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedcf16fecace3d43ae2d22b78e1de81
+      internalID: -97758927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 520
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1909df23a85dd34ab8fadce9a028335
+      internalID: -231171113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_12
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 477
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504889ccde4064d44bdc0f432487b8f0
+      internalID: 417348778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_13
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 489
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a750f4a43c0417b41895ad897e2cd811
+      internalID: 1919940075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_14
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 488
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553db18cff85dc04081c939bffcc4a8b
+      internalID: 197232417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_15
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 465
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3d990e7ba1b45438e175ebc18e1ca6
+      internalID: -1686478847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 402
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24aafd03abf3fc043842df271bf04e94
+      internalID: -215878218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 453
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b29e40b5e0801844a278ccb10e7ae7c
+      internalID: 1623723873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_18
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 399
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82094217d0951349b877b8d1b6a96e2
+      internalID: -1741809054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_19
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 405
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde07c047c1899c4db1aa0837824431a
+      internalID: -1349812712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_20
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 403
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c865e672145c5b0478d18f08e1e546cb
+      internalID: -629301320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_21
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 453
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3f5ab6c7598b74780a22ace91e3068
+      internalID: 544265284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 405
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590faa8de540f5e408e99ce3739aae7c
+      internalID: -1465741680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 405
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d0dccdad16fb745977c9d24b1540be
+      internalID: -1239307054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_24
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 397
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7d9778aae3ee94f91c816085814bb9
+      internalID: 1711200258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 405
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f857c7e96df31894c8bcb998b207c75f
+      internalID: -1792165166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_26
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 400
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6faff706068e1f94d84b1ba3994a2688
+      internalID: -140816746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_27
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 270
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a064cf94ffb2e47459382776d672b237
+      internalID: -2046171471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_28
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 222
+        width: 99
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1112168e4b80641bbccb46f182c9b6
+      internalID: 1521801662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 130
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62ee623dc73b3e4293a09fb35f215a4
+      internalID: -1652768387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PfvDeCertouImploro_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 153
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c18b2e3f605de742aa7f7b28974aa6e
+      internalID: 2050946685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PfvDeCertouImploro_0: -272740698
+      PfvDeCertouImploro_1: 222308680
+      PfvDeCertouImploro_10: -97758927
+      PfvDeCertouImploro_11: -231171113
+      PfvDeCertouImploro_12: 417348778
+      PfvDeCertouImploro_13: 1919940075
+      PfvDeCertouImploro_14: 197232417
+      PfvDeCertouImploro_15: -1686478847
+      PfvDeCertouImploro_16: -215878218
+      PfvDeCertouImploro_17: 1623723873
+      PfvDeCertouImploro_18: -1741809054
+      PfvDeCertouImploro_19: -1349812712
+      PfvDeCertouImploro_2: 1260028435
+      PfvDeCertouImploro_20: -629301320
+      PfvDeCertouImploro_21: 544265284
+      PfvDeCertouImploro_22: -1465741680
+      PfvDeCertouImploro_23: -1239307054
+      PfvDeCertouImploro_24: 1711200258
+      PfvDeCertouImploro_25: -1792165166
+      PfvDeCertouImploro_26: -140816746
+      PfvDeCertouImploro_27: -2046171471
+      PfvDeCertouImploro_28: 1521801662
+      PfvDeCertouImploro_29: -1652768387
+      PfvDeCertouImploro_3: -1667119304
+      PfvDeCertouImploro_30: 2050946685
+      PfvDeCertouImploro_4: 1629707600
+      PfvDeCertouImploro_5: 790630225
+      PfvDeCertouImploro_6: -1548972001
+      PfvDeCertouImploro_7: -1303807293
+      PfvDeCertouImploro_8: -208385266
+      PfvDeCertouImploro_9: -1871815113
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

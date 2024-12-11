@@ -46,11 +46,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Number_of_coluns: 10
   speed: 1.5
-  texture: {fileID: -1621019749, guid: 18fe515dfd8187843bf0305d7a27adf6, type: 3}
-  color: {r: 1, g: 1, b: 1, a: 1}
+  texture: {fileID: -1409486568, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
+  color: {r: 0.25743148, g: 0.44623706, b: 0.8396226, a: 1}
   lifetime: 20
   firerate: 0.6
-  size: 0.3
+  size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
   system: {fileID: 0}
@@ -100,11 +100,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Number_of_coluns: 10
   speed: 1.5
-  texture: {fileID: -560314155, guid: e30eb5882d4d4764a834099fe488ffa5, type: 3}
-  color: {r: 1, g: 1, b: 1, a: 1}
+  texture: {fileID: -399186866, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
+  color: {r: 0.9056604, g: 0.2776789, b: 0.2776789, a: 1}
   lifetime: 20
   firerate: 0.6
-  size: 0.3
+  size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
   system: {fileID: 0}
@@ -220,11 +220,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Number_of_coluns: 10
   speed: 1.5
-  texture: {fileID: -560314155, guid: e30eb5882d4d4764a834099fe488ffa5, type: 3}
-  color: {r: 1, g: 1, b: 1, a: 1}
+  texture: {fileID: -399186866, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
+  color: {r: 0.9056604, g: 0.2776789, b: 0.2776789, a: 1}
   lifetime: 20
   firerate: 0.6
-  size: 0.3
+  size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
   system: {fileID: 0}
@@ -307,11 +307,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Number_of_coluns: 10
   speed: 1.5
-  texture: {fileID: -1621019749, guid: 18fe515dfd8187843bf0305d7a27adf6, type: 3}
-  color: {r: 1, g: 1, b: 1, a: 1}
+  texture: {fileID: -1409486568, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
+  color: {r: 0.25743148, g: 0.44623706, b: 0.8396226, a: 1}
   lifetime: 20
   firerate: 0.6
-  size: 0.3
+  size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
   system: {fileID: 0}

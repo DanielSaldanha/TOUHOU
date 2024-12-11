@@ -40,7 +40,7 @@ public class Boss : MonoBehaviour
     {
         if(c.tag == "tiro")
         {
-            life -= 0.015f;
+            life -= 0.1f;
             Destroy(c.gameObject);
         }    
     }
