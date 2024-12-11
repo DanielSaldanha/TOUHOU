@@ -57,6 +57,11 @@ public class LevelControler : MonoBehaviour
     void parar()
     {
         Controlador = false;
+        Destroy(Clone);
+        Destroy(Clone2);
+        Destroy(Clone3);
+       
+
     }
     void controle()
     {
@@ -81,6 +86,7 @@ public class LevelControler : MonoBehaviour
                     main.partida = false;
                 }
             }
+            /*
             if (main.Index == 2)
             { 
                 if(aviso == false)
@@ -91,6 +97,7 @@ public class LevelControler : MonoBehaviour
                     main.partida = false;
                 }
             }
+            */
         }
        
     }

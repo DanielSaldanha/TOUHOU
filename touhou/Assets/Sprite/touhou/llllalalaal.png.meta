@@ -1,0 +1,2239 @@
+fileFormatVersion: 2
+guid: 42679db5a73cd6c41b1c55aa1abdd6c3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: llllalalaal_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 255
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac2c104cdb86e6439c279be74f6cd01
+      internalID: 785566484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 255
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee680fbf92727648a79d764f0c8586c
+      internalID: -378745222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 255
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce79783104d6d75498d11b64471d6087
+      internalID: 1701850549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 255
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296d60c943b38c34c9dbcede2c7d7be1
+      internalID: -1977138352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 255
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced2f53e677b57c42ab3979151f4d4bb
+      internalID: 2121580341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 255
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6c3029220f0664eb93e2cb054ab9e8
+      internalID: -405784482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_6
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 254
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8924677eb4d7824e8bf1f85e2442684
+      internalID: 1922887946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_7
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 255
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c543f3ba9ae27b4fae17e6a5c9c6bf9
+      internalID: -905920641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 254
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16ba91c808fb594b915b73a3a90ce00
+      internalID: -1555596448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_9
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 254
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e23d0554f68e93419699058d43b54e8
+      internalID: 1000060650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_10
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 255
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dca689507e97240ae04157a0fcae59
+      internalID: -341828402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 254
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ec6124db029a24599004b88657bc9b
+      internalID: -1455151857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 219
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696cbdbb3a731a143b1896cb40bfeb73
+      internalID: -1374775258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 219
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad90ba83c070a24c9b2ad0022755e2a
+      internalID: -306813207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 219
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cd007d77ad44d45ac670cf59572617
+      internalID: -47542796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 219
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513ec43257222c14ca60ac4aaa864ab3
+      internalID: -1975696782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 219
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7325a3a9611d8ac49b31ce36e4ea0f14
+      internalID: -1369859634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_17
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 219
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfc8cf293e77b842a29f8855d600072
+      internalID: -1997345251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_18
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 218
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee8469acd8ddd840be245b56f6f9720
+      internalID: -2142761199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_19
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 219
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755342261a6beac4696942e1df515ce7
+      internalID: 1380532921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_20
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 218
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0019f540b796e49a4e24758a9c6839
+      internalID: -1443572295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_21
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 219
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394fe1cfed40fcd4a89a5b3c8d083f8d
+      internalID: 1094677451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_22
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 219
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1817afdf3a1d0b546ad7240802bed1e0
+      internalID: 2006286992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_23
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 219
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a49e248874c53044b17607b6ed5df52
+      internalID: 2115716282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 183
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9927ee713c00e14a846e18671173e2a
+      internalID: 688102267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 183
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f761a486b809da642b993ebae56e61eb
+      internalID: 469362428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_26
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 183
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34358cca8e0e65a4f9d5f1334b45dbaf
+      internalID: 918364568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_27
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 183
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5ac34f15cc9d141b6d293bd525a09c
+      internalID: 2043767129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_28
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 183
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c5a43916a9d0f41a73293d3ae30d36
+      internalID: 477748182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_29
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 183
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb3e94a98f56f5439dc1f30a4353c78
+      internalID: -1858388403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_30
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 182
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bf5ba3cdd157b44ab98c67415c3252
+      internalID: -1661615418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_31
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 183
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08477ceecba90c946be748f3009f7d59
+      internalID: -446935438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_32
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 182
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da0999a2f6b3dd4f8d47084b877b806
+      internalID: -705201124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_33
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 183
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c610912a549bf43be329997a78ebef
+      internalID: 1485705034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_34
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 183
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2dc3c03efa87649980aee194e6b666
+      internalID: -517909723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_35
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 183
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03efa1551323bbc4a8d188a9e182921c
+      internalID: -1367417595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 147
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b141765bd565d4d9696b5eb464b6c5
+      internalID: -2030352591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_37
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 147
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8530427f4b5fe8743ad35dcc1709b623
+      internalID: -1672908286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_38
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 147
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46b86eca3523f749a74797998c0386a
+      internalID: -493402767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_39
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 147
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884c723da0f88044ea3723daf27f9f98
+      internalID: 1536319467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_40
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 147
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451cfeb35aa217243895c5d1abaafcee
+      internalID: -2117544916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_41
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 147
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6327b3dcdc85b46b458fdff5de6729
+      internalID: 563542048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_42
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 146
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77e69bf3d87a6b4e9aa20175fca37bd
+      internalID: -1146101037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 147
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a77420238b33042ba7a8836c1c106c
+      internalID: 860109317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_44
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 146
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daa55f74c334244faeb59a54726f9f8
+      internalID: -1912192741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_45
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 146
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d64439966e0e54286a0fe300f10f6c
+      internalID: 6865855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_46
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 147
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03fba78988369b43a9c62f4afaf0f71
+      internalID: -2128837667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_47
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 146
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a52f231ec0db1f45aa8c88831835891
+      internalID: 143567236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 111
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfb8a171b8647143a274375c5c72f32
+      internalID: -1852383638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_49
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 111
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf497869f784ec47870ae27ecb6fa5a
+      internalID: 2100782056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 111
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45bf30fe7a7cef4b8982ff19d995bff
+      internalID: 723556467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_51
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 111
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655e824dff4949f4fa078a78e548d72f
+      internalID: -164602300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_52
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 111
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbd873ac50e5944186c24dc2b02c826
+      internalID: -1761994781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_53
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 111
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420d58df42d42e44b920e61dc1f56fa0
+      internalID: 287355443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_54
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 110
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3273cfa2e6e864cb2d7dd296758eec
+      internalID: 921770890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_55
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 111
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9584bf7f21353bc40b6f17598995d325
+      internalID: -909636025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_56
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 110
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe155f51f052ca468490ef764df9f80
+      internalID: 885438506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_57
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 110
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1657f4f3e5dfc8245b825abbff920a28
+      internalID: 707836357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_58
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 111
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc42cf85c5008b44a9565b07a9d165c5
+      internalID: 1349521205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_59
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 110
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8e05b4240009b45a9c85491b2ea942
+      internalID: -686982174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 75
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac85501727cdfb44fbf1e70a27b9f63a
+      internalID: -731609487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 75
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57406d233a8f2a643bf04dbdb6c8adc5
+      internalID: 1178592174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_62
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 75
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d5450a9e7309748a6cb05187a39213
+      internalID: -1875432218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_63
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 75
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98460ac012f070b41956be661fe7424d
+      internalID: -785302368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_64
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 75
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916f0babe93f91946a50a769b93c02cd
+      internalID: -163629954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_65
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 75
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5491f958b2b0146a1f2ebf7f0affa0
+      internalID: -1252032911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_66
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 74
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd29022525b7ac49b69f5e097282598
+      internalID: 1292597448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_67
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 75
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d9ca3cf2b730940991f39232b68bd7
+      internalID: 2140678413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_68
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 74
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e3a45607b6876429df84fbe2ef1c70
+      internalID: -725957177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_69
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 74
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f6dccb3bd5e1d4b96fb892ffacfd3d
+      internalID: -1580515815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_70
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 75
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053e69f1653141b4aa2f5cc8729d0e41
+      internalID: 1817048307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_71
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 74
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db07fa53c84d89b42b374f2362ad7c76
+      internalID: -1191899679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_72
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 39
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778e64cf4a7ea6045bd864f4d893fc78
+      internalID: -1244560685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_73
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 39
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0c6c71502e03f4c9759604e0444dea
+      internalID: -845986038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_74
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 39
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc4234d9732ee14089c830437736546
+      internalID: 1480272594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_75
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 39
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbca2a85fb101449be9c2e1363b8725
+      internalID: 1171553381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_76
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 39
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae091bcde47b9bd44b6c4097a4c4d907
+      internalID: 1197060386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_77
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 39
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50aa668c1ed452c49816ed08e82bc6be
+      internalID: -473095909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_78
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 38
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44c2c66acbeef0419175a055e772a71
+      internalID: -1326917189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_79
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 39
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b371e6e3e26834fb04b3694381fd56
+      internalID: 1197292577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_80
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 38
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949456277303a7e4aa22e2e4565cdbaf
+      internalID: 787477141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_81
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 38
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8352206d8dbfa47b020998ff25ee30
+      internalID: 452910550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_82
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 39
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fd59f517669e248b8fb759aaf04ec6
+      internalID: 744611527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_83
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 38
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc20a39543cacf47b251e3228a7684b
+      internalID: -626231869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_84
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a393efa126b3b74d8b19f9ef573f28d
+      internalID: -1857761697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_85
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a062c78ed8fa948b029659ac022aad
+      internalID: 95615016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_86
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cce06e16c7e434a85378585b41d7f2
+      internalID: -463992935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_87
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 3
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b96bade4d876a4c8c462b586d01b9c
+      internalID: -1243393292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_88
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f22926fe17c3341aece9da8e436184
+      internalID: -1914032874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_89
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 3
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd943dcf830306439df6d726abf5d20
+      internalID: -1129279220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_90
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eaa4ad061325634b9df10a72bf6df33
+      internalID: -1636612589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_91
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 3
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312d1378fe91abf4ea9bf36560714127
+      internalID: 1348279576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_92
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b046827bea748d3408eb8ecbbf4bee05
+      internalID: -1857807822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_93
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d616b6858226014fadbf386de81b1b6
+      internalID: -1106254584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_94
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 3
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5938fce34148837449383668a98b83c1
+      internalID: 323501387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llllalalaal_95
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e305c450574d714998886511558764e
+      internalID: 458934434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      llllalalaal_0: 785566484
+      llllalalaal_1: -378745222
+      llllalalaal_10: -341828402
+      llllalalaal_11: -1455151857
+      llllalalaal_12: -1374775258
+      llllalalaal_13: -306813207
+      llllalalaal_14: -47542796
+      llllalalaal_15: -1975696782
+      llllalalaal_16: -1369859634
+      llllalalaal_17: -1997345251
+      llllalalaal_18: -2142761199
+      llllalalaal_19: 1380532921
+      llllalalaal_2: 1701850549
+      llllalalaal_20: -1443572295
+      llllalalaal_21: 1094677451
+      llllalalaal_22: 2006286992
+      llllalalaal_23: 2115716282
+      llllalalaal_24: 688102267
+      llllalalaal_25: 469362428
+      llllalalaal_26: 918364568
+      llllalalaal_27: 2043767129
+      llllalalaal_28: 477748182
+      llllalalaal_29: -1858388403
+      llllalalaal_3: -1977138352
+      llllalalaal_30: -1661615418
+      llllalalaal_31: -446935438
+      llllalalaal_32: -705201124
+      llllalalaal_33: 1485705034
+      llllalalaal_34: -517909723
+      llllalalaal_35: -1367417595
+      llllalalaal_36: -2030352591
+      llllalalaal_37: -1672908286
+      llllalalaal_38: -493402767
+      llllalalaal_39: 1536319467
+      llllalalaal_4: 2121580341
+      llllalalaal_40: -2117544916
+      llllalalaal_41: 563542048
+      llllalalaal_42: -1146101037
+      llllalalaal_43: 860109317
+      llllalalaal_44: -1912192741
+      llllalalaal_45: 6865855
+      llllalalaal_46: -2128837667
+      llllalalaal_47: 143567236
+      llllalalaal_48: -1852383638
+      llllalalaal_49: 2100782056
+      llllalalaal_5: -405784482
+      llllalalaal_50: 723556467
+      llllalalaal_51: -164602300
+      llllalalaal_52: -1761994781
+      llllalalaal_53: 287355443
+      llllalalaal_54: 921770890
+      llllalalaal_55: -909636025
+      llllalalaal_56: 885438506
+      llllalalaal_57: 707836357
+      llllalalaal_58: 1349521205
+      llllalalaal_59: -686982174
+      llllalalaal_6: 1922887946
+      llllalalaal_60: -731609487
+      llllalalaal_61: 1178592174
+      llllalalaal_62: -1875432218
+      llllalalaal_63: -785302368
+      llllalalaal_64: -163629954
+      llllalalaal_65: -1252032911
+      llllalalaal_66: 1292597448
+      llllalalaal_67: 2140678413
+      llllalalaal_68: -725957177
+      llllalalaal_69: -1580515815
+      llllalalaal_7: -905920641
+      llllalalaal_70: 1817048307
+      llllalalaal_71: -1191899679
+      llllalalaal_72: -1244560685
+      llllalalaal_73: -845986038
+      llllalalaal_74: 1480272594
+      llllalalaal_75: 1171553381
+      llllalalaal_76: 1197060386
+      llllalalaal_77: -473095909
+      llllalalaal_78: -1326917189
+      llllalalaal_79: 1197292577
+      llllalalaal_8: -1555596448
+      llllalalaal_80: 787477141
+      llllalalaal_81: 452910550
+      llllalalaal_82: 744611527
+      llllalalaal_83: -626231869
+      llllalalaal_84: -1857761697
+      llllalalaal_85: 95615016
+      llllalalaal_86: -463992935
+      llllalalaal_87: -1243393292
+      llllalalaal_88: -1914032874
+      llllalalaal_89: -1129279220
+      llllalalaal_9: 1000060650
+      llllalalaal_90: -1636612589
+      llllalalaal_91: 1348279576
+      llllalalaal_92: -1857807822
+      llllalalaal_93: -1106254584
+      llllalalaal_94: 323501387
+      llllalalaal_95: 458934434
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

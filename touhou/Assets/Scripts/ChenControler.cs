@@ -126,6 +126,7 @@ public class ChenControler : MonoBehaviour
     }
     void parar()
     {
+        destrua();
         Controlador = false;
     }
 

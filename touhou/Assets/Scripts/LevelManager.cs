@@ -31,7 +31,7 @@ public class LevelManager : MonoBehaviour
   
     void Update()
     {
-       if(main.vidaAtual <= 0)//|| main2.life <= 0
+       if(main.vidaAtual <= 0 || main2.Index >= 2)//|| main2.life <= 0
         {
             end.SetActive(true);
             
@@ -41,6 +41,7 @@ public class LevelManager : MonoBehaviour
             }
             
         }
+       
 
         time2 += Time.deltaTime;
         if(time2 >= maxtime)

@@ -65,7 +65,7 @@ public class PlayerMoving : MonoBehaviour
        {
             abreviaTempo += 1;
        }
-        if (main2.life <= 0)
+        if (main2.Index >= 2)
         {
             Vitoria.text = "v o c e   v e n c e u";
         }
