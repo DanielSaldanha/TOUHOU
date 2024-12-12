@@ -20,6 +20,10 @@ public class Main : MonoBehaviour
     
 
     public ParticleSystem system;
+
+    //LUZ
+   // public Light luzinha;
+   // public float Ratio;
     void Awake()
     {
         
@@ -65,6 +69,7 @@ public class Main : MonoBehaviour
            // mainModule.duration = 0f;
             mainModule.simulationSpace = ParticleSystemSimulationSpace.World;
 
+            //MEU SISTEMA DE COLISAO    
             // var Colisao = system.trigger;
             //  Colisao.enter = ParticleSystemOverlapAction.Kill;
             var colisaum = system.collision;
@@ -77,7 +82,13 @@ public class Main : MonoBehaviour
             go.layer += 8;
 
             var visualizar = system;
-         //   visualizar.r
+            //   visualizar.r
+
+            //LUZES
+          //  var luz = system.lights;
+           // luz.enabled = true;
+           // luz.light = luzinha;
+          //  luz.ratio = Ratio;
 
 
 

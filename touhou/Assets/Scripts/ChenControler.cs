@@ -17,6 +17,7 @@ public class ChenControler : MonoBehaviour
 
 
     LevelControler main;
+    PlayerMoving mainP;
     void Start()
     {
 
@@ -25,6 +26,7 @@ public class ChenControler : MonoBehaviour
         LevelManager.ManagerStop += parar;
 
         main = FindObjectOfType<LevelControler>();
+        mainP = FindObjectOfType<PlayerMoving>();
     }
 
 
@@ -48,6 +50,11 @@ public class ChenControler : MonoBehaviour
         {
             destrua();
             main.aviso = false;
+        }
+        if(mainP.derrota == true)
+        {
+            destrua();
+            mainP.derrota = false;
         }
         
 

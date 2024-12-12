@@ -145,6 +145,6 @@ MonoBehaviour:
   n9: {fileID: 4755339890402023557, guid: dbc866c42e2444348bc915f51b4b2ffb, type: 3}
   aleatoriedade: 0
   time: 0
-  maxtime: 10
+  maxtime: 7
   pare: 0
   Controlador: 0

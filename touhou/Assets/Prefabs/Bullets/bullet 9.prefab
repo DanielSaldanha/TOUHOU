@@ -54,6 +54,8 @@ MonoBehaviour:
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
   system: {fileID: 0}
+  luzinha: {fileID: 89092757461285628, guid: d7e63b6fe903dd34ca5ed5f72f04cafb, type: 3}
+  Ratio: 0.5
 --- !u!1 &996312429199621934
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +110,8 @@ MonoBehaviour:
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
   system: {fileID: 0}
+  luzinha: {fileID: 89092757461285628, guid: d7e63b6fe903dd34ca5ed5f72f04cafb, type: 3}
+  Ratio: 0.5
 --- !u!1 &1179051895231863693
 GameObject:
   m_ObjectHideFlags: 0
@@ -162,6 +166,8 @@ MonoBehaviour:
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 15
   system: {fileID: 0}
+  luzinha: {fileID: 89092757461285628, guid: d7e63b6fe903dd34ca5ed5f72f04cafb, type: 3}
+  Ratio: 0.5
 --- !u!1 &2557938571538331172
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +222,8 @@ MonoBehaviour:
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
   system: {fileID: 0}
+  luzinha: {fileID: 89092757461285628, guid: d7e63b6fe903dd34ca5ed5f72f04cafb, type: 3}
+  Ratio: 0.5
 --- !u!1 &3773592924072327440
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,6 +278,8 @@ MonoBehaviour:
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 15
   system: {fileID: 0}
+  luzinha: {fileID: 89092757461285628, guid: d7e63b6fe903dd34ca5ed5f72f04cafb, type: 3}
+  Ratio: 0.5
 --- !u!1 &4755339890402023557
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,3 +371,5 @@ MonoBehaviour:
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 15
   system: {fileID: 0}
+  luzinha: {fileID: 89092757461285628, guid: d7e63b6fe903dd34ca5ed5f72f04cafb, type: 3}
+  Ratio: 0.5

@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Number_of_coluns: 20
-  speed: 5
+  speed: 6
   texture: {fileID: -2046171471, guid: 760b2d43d3dbff14198141758808424e, type: 3}
   color: {r: 1, g: 1, b: 1, a: 1}
   lifetime: 10
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Number_of_coluns: 20
-  speed: 6
+  speed: 7
   texture: {fileID: -2046171471, guid: 760b2d43d3dbff14198141758808424e, type: 3}
   color: {r: 1, g: 1, b: 1, a: 1}
   lifetime: 10
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Number_of_coluns: 20
-  speed: 5
+  speed: 6
   texture: {fileID: -2046171471, guid: 760b2d43d3dbff14198141758808424e, type: 3}
   color: {r: 1, g: 1, b: 1, a: 1}
   lifetime: 10

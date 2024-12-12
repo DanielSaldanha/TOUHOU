@@ -13,6 +13,11 @@ public class Boss : MonoBehaviour
     public int Index = -1;
 
     LevelControler main;
+
+    //PENTAGRAMA
+    public GameObject satan;
+    float z = 0;
+    public float velocidadeRotacionatoria;
     void Start()
     {
        gameObject.SetActive(false);
@@ -33,7 +38,7 @@ public class Boss : MonoBehaviour
             partida = true;
             main.aviso = true;
         }
-       
+        Gira();
         
     }
     private void OnTriggerEnter2D(Collider2D c)
@@ -52,6 +57,11 @@ public class Boss : MonoBehaviour
     void parar()
     {
        gameObject.SetActive(false);
+    }
+    void Gira()
+    {
+        z = z + Time.deltaTime * velocidadeRotacionatoria;
+        satan.transform.rotation = Quaternion.Euler(0, 0, z);
     }
 
 }

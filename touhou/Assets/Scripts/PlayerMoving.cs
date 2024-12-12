@@ -5,39 +5,51 @@ using UnityEngine.UI;
 
 public class PlayerMoving : MonoBehaviour
 {
+    bool Controlador;
+
+    //MOVE
     public float _PlayerSpeed;
     private Vector2 _PlayerDirection;
     private Rigidbody2D _PlayerRB2D;
+
+    //BULLET
     public GameObject Bullet;
     GameObject Clone;
     public  float time, MaxTime;
 
+   
     //VIDA
-
-    public int vidaAtual = 3;
+    public int vidaAtual = 5;
     public float timelife,maxtimelife;
     public Text txtlife,frameTime;
     public int abreviaTempo;
 
-    bool Controlador;
-
-   public Text Vitoria;
+    //WIN ou PERCA
+    public Text Vitoria;
     Boss main2;
 
     //DANO
-    //EFEITO DE BRIR CENA
     [SerializeField] Color cor;
     [SerializeField] SpriteRenderer spritecor;
     public float timeframe;
+    public bool derrota;
+
+    // X
+    public GameObject X;
+    GameObject CloneX;
+    public float Efeito, timeE, maxtimeE;
+    public int Uso;
+
     void Start ()
     {
         _PlayerRB2D = GetComponent<Rigidbody2D>();
         main2 = FindObjectOfType<Boss>();
+        
         LevelManager.Manager += Iniciar;
         LevelManager.ManagerStop += Destruir;
         timelife = 0;
         timelife = 3;
-      
+        Uso = 3;
     }
 
     void Update ()
@@ -50,40 +62,9 @@ public class PlayerMoving : MonoBehaviour
             txtlife.text = "Life " + vidaAtual.ToString();
             frameTime.text = "Frame " + abreviaTempo.ToString();
         }
-
-        spritecor.color = cor;
-        
-        if (timelife < maxtimelife)
-        {
-            timelife += Time.deltaTime;
-            gameObject.layer = 2;
-            AnimaçaoDano();
-        }
-        else
-        {
-            gameObject.layer = 3;
-            cor.a = 255;
-            cor = Color.white;
-        }
-
-        if (vidaAtual <= 0)
-        {
-           
-            Vitoria.text = "v o c e   p e r d e u";
-            
-        }
-       if(timelife > abreviaTempo)
-       {
-            abreviaTempo += 1;
-       }
-        if (main2.Index >= 2)
-        {
-            Vitoria.text = "v o c e   v e n c e u";
-        }
-
-        
-        
-
+        SistemaDeDanoEhp();
+        EspecialDoX();
+        timeE += Time.deltaTime;
     }
 
     void FixedUpdate()
@@ -111,11 +92,11 @@ public class PlayerMoving : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            _PlayerSpeed = 3;
+            _PlayerSpeed = 2.7f;
         }
         else
         {
-            _PlayerSpeed = 7;
+            _PlayerSpeed = 5.2f;
         }
     }
     void Bull3t()
@@ -143,7 +124,7 @@ public class PlayerMoving : MonoBehaviour
    void AnimaçaoDano()
     {
         timeframe += Time.deltaTime;
-        if (timeframe >= 0.15f)
+        if (timeframe >= 0.2f)
         {
             cor = Color.black;
         }
@@ -151,9 +132,63 @@ public class PlayerMoving : MonoBehaviour
         {
             cor = Color.white;
         }
-        if (timeframe >= 0.3)
+        if (timeframe >= 0.4)
         {
             timeframe = 0;
+        }
+    }
+    void EspecialDoX()
+    {
+        if(Uso > 0)
+        {
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                Destroy(CloneX);
+                CloneX = Instantiate(X, this.transform.position, Quaternion.identity);
+                derrota = true;
+                timelife = 0;
+                Uso -= 1;
+                timeE = 0;
+                Efeito = 0.1f;
+            }
+        }
+       
+        Efeito += timeE / 180;              
+
+    }
+    void SistemaDeDanoEhp()
+    {
+        spritecor.color = cor;
+
+        if (timelife < maxtimelife)
+        {
+            timelife += Time.deltaTime;
+            gameObject.layer = 2;
+            AnimaçaoDano();
+
+            X.transform.localScale = new Vector3(Efeito, Efeito, Efeito);
+        }
+        else
+        {
+            gameObject.layer = 3;
+            cor.a = 255;
+            cor = Color.white;
+            Destroy(CloneX);
+        }
+
+        if (vidaAtual <= 0)
+        {
+
+            Vitoria.text = "v o c e   p e r d e u";
+
+        }
+        if (timelife > abreviaTempo)
+        {
+            abreviaTempo += 1;
+        }
+        if (main2.Index >= 2)
+        {
+            Vitoria.text = "v o c e   v e n c e u";
         }
     }
 }
