@@ -37,8 +37,8 @@ public class PlayerMoving : MonoBehaviour
     // X
     public GameObject X;
     GameObject CloneX;
-    public float Efeito, timeE, maxtimeE;
     public int Uso;
+    public Text UltraPower;
 
     void Start ()
     {
@@ -47,9 +47,9 @@ public class PlayerMoving : MonoBehaviour
         
         LevelManager.Manager += Iniciar;
         LevelManager.ManagerStop += Destruir;
-        timelife = 0;
+      //  timelife = 0;
         timelife = 3;
-        Uso = 3;
+        Uso = 5;
     }
 
     void Update ()
@@ -64,7 +64,12 @@ public class PlayerMoving : MonoBehaviour
         }
         SistemaDeDanoEhp();
         EspecialDoX();
-        timeE += Time.deltaTime;
+        
+        if(timelife >= 0.45f)
+        {
+            Destroy(CloneX); 
+        }
+        UltraPower.text = "Especial " + Uso.ToString();
     }
 
     void FixedUpdate()
@@ -148,13 +153,9 @@ public class PlayerMoving : MonoBehaviour
                 derrota = true;
                 timelife = 0;
                 Uso -= 1;
-                timeE = 0;
-                Efeito = 0.1f;
+               
             }
-        }
-       
-        Efeito += timeE / 180;              
-
+        }                  
     }
     void SistemaDeDanoEhp()
     {
@@ -166,14 +167,14 @@ public class PlayerMoving : MonoBehaviour
             gameObject.layer = 2;
             AnimaçaoDano();
 
-            X.transform.localScale = new Vector3(Efeito, Efeito, Efeito);
+         
         }
         else
         {
             gameObject.layer = 3;
             cor.a = 255;
             cor = Color.white;
-            Destroy(CloneX);
+            
         }
 
         if (vidaAtual <= 0)
