@@ -19,7 +19,7 @@ public class PlayerMoving : MonoBehaviour
 
    
     //VIDA
-    public int vidaAtual = 5;
+    public int vidaAtual;
     public float timelife,maxtimelife;
     public Text txtlife,frameTime;
     public int abreviaTempo;
@@ -50,6 +50,7 @@ public class PlayerMoving : MonoBehaviour
       //  timelife = 0;
         timelife = 3;
         Uso = 5;
+        vidaAtual = 5;
     }
 
     void Update ()
@@ -61,9 +62,10 @@ public class PlayerMoving : MonoBehaviour
             _PlayerDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             txtlife.text = "Life " + vidaAtual.ToString();
             frameTime.text = "Frame " + abreviaTempo.ToString();
+            SistemaDeDanoEhp();
+            EspecialDoX();
         }
-        SistemaDeDanoEhp();
-        EspecialDoX();
+       
         
         if(timelife >= 0.45f)
         {
@@ -142,6 +144,7 @@ public class PlayerMoving : MonoBehaviour
             timeframe = 0;
         }
     }
+    
     void EspecialDoX()
     {
         if(Uso > 0)
@@ -157,6 +160,7 @@ public class PlayerMoving : MonoBehaviour
             }
         }                  
     }
+    
     void SistemaDeDanoEhp()
     {
         spritecor.color = cor;
@@ -187,7 +191,7 @@ public class PlayerMoving : MonoBehaviour
         {
             abreviaTempo += 1;
         }
-        if (main2.Index >= 2)
+        if (main2.Index >= 3)
         {
             Vitoria.text = "v o c e   v e n c e u";
         }

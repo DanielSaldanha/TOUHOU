@@ -31,7 +31,7 @@ public class LevelManager : MonoBehaviour
   
     void Update()
     {
-       if(main.vidaAtual <= 0 || main2.Index >= 2)//|| main2.life <= 0
+       if(main.vidaAtual <= 0 || main2.Index >= 3)//|| main2.life <= 0
         {
             end.SetActive(true);
             
@@ -65,6 +65,24 @@ public class LevelManager : MonoBehaviour
     {
         Application.Quit();
 
+    }
+    public void facil()
+    {
+        main.vidaAtual = 10;
+        main.Uso = 10;
+        main2.damage = 0.025f;
+    }
+    public void medio()
+    {
+        main.vidaAtual = 5;
+        main.Uso = 5;
+        main2.damage = 0.02f;
+    }
+    public void dificil()
+    {
+        main.vidaAtual = 3;
+        main.Uso = 5;
+        main2.damage = 0.015f;
     }
 
   

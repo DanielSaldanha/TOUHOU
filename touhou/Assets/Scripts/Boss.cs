@@ -14,10 +14,18 @@ public class Boss : MonoBehaviour
 
     LevelControler main;
 
+    //DANO
+    public float damage;
+
     //PENTAGRAMA
     public GameObject satan;
     float z = 0;
     public float velocidadeRotacionatoria;
+
+    //EFEITINHO ESPECIAL
+    public GameObject efeito, poss;
+    GameObject CloneE;
+    public float time, maxtime;
     void Start()
     {
        gameObject.SetActive(false);
@@ -25,6 +33,7 @@ public class Boss : MonoBehaviour
        LevelManager.ManagerStop += parar;
         partida = true;
         main = FindObjectOfType<LevelControler>();
+        damage = 0.015f;
     }
 
     
@@ -37,15 +46,24 @@ public class Boss : MonoBehaviour
             Index++;
             partida = true;
             main.aviso = true;
+            time = 0;
+            CloneE = Instantiate(efeito, poss.transform.position, Quaternion.identity);
+            
         }
         Gira();
-        
+        time += Time.deltaTime;
+        if(time >= maxtime)
+        {
+            Destroy(CloneE);
+           
+        }
+               
     }
     private void OnTriggerEnter2D(Collider2D c)
     {
         if(c.tag == "tiro")
         {
-            life -= 0.1f;
+            life -= damage;
             Destroy(c.gameObject);
         }    
     }
@@ -57,6 +75,7 @@ public class Boss : MonoBehaviour
     void parar()
     {
        gameObject.SetActive(false);
+        Destroy(CloneE);
     }
     void Gira()
     {

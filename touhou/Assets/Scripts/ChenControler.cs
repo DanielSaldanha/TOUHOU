@@ -27,6 +27,7 @@ public class ChenControler : MonoBehaviour
 
         main = FindObjectOfType<LevelControler>();
         mainP = FindObjectOfType<PlayerMoving>();
+        time = 5;
     }
 
 

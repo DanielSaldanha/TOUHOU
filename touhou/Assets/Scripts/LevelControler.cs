@@ -86,7 +86,7 @@ public class LevelControler : MonoBehaviour
                     main.partida = false;
                 }
             }
-            /*
+            
             if (main.Index == 2)
             { 
                 if(aviso == false)
@@ -97,7 +97,7 @@ public class LevelControler : MonoBehaviour
                     main.partida = false;
                 }
             }
-            */
+            
         }
        
     }

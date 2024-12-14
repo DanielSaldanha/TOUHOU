@@ -49,18 +49,18 @@ MonoBehaviour:
   p3: {fileID: 7261156477498535065, guid: bad4188607851b64b999477cc6d4a5ae, type: 3}
   p4: {fileID: 2644627070602467420, guid: e2ec3e116311a104fa90aec771eeeca2, type: 3}
   p5: {fileID: 3091186302551928108, guid: bcda33631614b75498c8d2aa718ea452, type: 3}
-  n1: {fileID: 8612186529319226808, guid: 00f57b843311b024cb3673810e16e472, type: 3}
-  n2: {fileID: 6557614216611548627, guid: 186cf1353c75db641b0d3e42c9db6295, type: 3}
-  n3: {fileID: 8612186529319226808, guid: 00f57b843311b024cb3673810e16e472, type: 3}
-  n4: {fileID: 6557614216611548627, guid: 186cf1353c75db641b0d3e42c9db6295, type: 3}
-  n5: {fileID: 6557614216611548627, guid: 186cf1353c75db641b0d3e42c9db6295, type: 3}
-  n6: {fileID: 6557614216611548627, guid: 186cf1353c75db641b0d3e42c9db6295, type: 3}
-  n7: {fileID: 8612186529319226808, guid: 00f57b843311b024cb3673810e16e472, type: 3}
-  n8: {fileID: 6557614216611548627, guid: 186cf1353c75db641b0d3e42c9db6295, type: 3}
-  n9: {fileID: 8612186529319226808, guid: 00f57b843311b024cb3673810e16e472, type: 3}
+  n1: {fileID: 8043806132503411281, guid: c4da0d5c1b1a26540bb39cd1ccd0f5aa, type: 3}
+  n2: {fileID: 6557614216611548627, guid: 1814b0c8cff5df64b952999350c5cd55, type: 3}
+  n3: {fileID: 6557614216611548627, guid: 5ef507c04d4da1945a11bf5c1377b04e, type: 3}
+  n4: {fileID: 6557614216611548627, guid: 1814b0c8cff5df64b952999350c5cd55, type: 3}
+  n5: {fileID: 3216336431786167170, guid: 7dee7e62f1bd39442b6f82466108d732, type: 3}
+  n6: {fileID: 7102023202211877191, guid: aa4f1bd01dd1cd54caebb0573b27ea2b, type: 3}
+  n7: {fileID: 5575905778458735764, guid: fc5dff7845f026440be1d9abfcfbad43, type: 3}
+  n8: {fileID: 8043806132503411281, guid: c4da0d5c1b1a26540bb39cd1ccd0f5aa, type: 3}
+  n9: {fileID: 6557614216611548627, guid: 5ef507c04d4da1945a11bf5c1377b04e, type: 3}
   aleatoriedade: 0
   time: 0
-  maxtime: 10
+  maxtime: 13
   pare: 0
   Controlador: 0
 --- !u!1 &7725026930364646933
@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 8494922412638226136}
   - component: {fileID: 5931036741552665740}
   m_Layer: 0
-  m_Name: chen (2)
+  m_Name: kaguia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.6433337, y: -1.8300002, z: 0.12709534}
-  m_LocalScale: {x: 0.56470007, y: 0.56470007, z: 0.56470007}
+  m_LocalScale: {x: 1.0240428, y: 1.0240428, z: 1.0240428}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 202224836548418475}
@@ -137,8 +137,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 586422775, guid: 7ad7d4f8214f2b64ea0260c49ad6f6f7, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: -905920641, guid: 42679db5a73cd6c41b1c55aa1abdd6c3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
