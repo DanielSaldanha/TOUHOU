@@ -33,7 +33,7 @@ public class Boss : MonoBehaviour
        LevelManager.ManagerStop += parar;
         partida = true;
         main = FindObjectOfType<LevelControler>();
-        damage = 0.015f;
+      //  damage = 0.015f;
     }
 
     

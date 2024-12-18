@@ -16,6 +16,9 @@ public class LevelManager : MonoBehaviour
    [SerializeField] Color cor;
    [SerializeField] SpriteRenderer spritecor;
     public float time,time2,maxtime;
+
+    //DIFICULDADE
+    public int us, vd;
    
     void Start()
     {
@@ -26,6 +29,8 @@ public class LevelManager : MonoBehaviour
 
         cor.a = 255;
         cor = Color.black;
+        medio();
+
     }
 
   
@@ -50,8 +55,11 @@ public class LevelManager : MonoBehaviour
             spritecor.color = cor;
             cor.a -= time;
         }
-        
 
+        if(main2.life <= 0)
+        {
+            justo();
+        }
 
     }
     public void Comecar()
@@ -71,18 +79,32 @@ public class LevelManager : MonoBehaviour
         main.vidaAtual = 10;
         main.Uso = 10;
         main2.damage = 0.025f;
+        armazem();
     }
     public void medio()
     {
         main.vidaAtual = 5;
         main.Uso = 5;
         main2.damage = 0.02f;
+        armazem();
     }
     public void dificil()
     {
         main.vidaAtual = 3;
         main.Uso = 5;
         main2.damage = 0.015f;
+        armazem();
+    }
+    void armazem()
+    {
+        vd = main.vidaAtual;
+        us = main.Uso;
+       
+    }
+    public void justo()
+    {
+        main.vidaAtual = vd;
+        main.Uso = us;
     }
 
   

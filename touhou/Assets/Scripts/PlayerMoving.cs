@@ -49,8 +49,8 @@ public class PlayerMoving : MonoBehaviour
         LevelManager.ManagerStop += Destruir;
       //  timelife = 0;
         timelife = 3;
-        Uso = 5;
-        vidaAtual = 5;
+       // Uso = 5;
+       // vidaAtual = 5;
     }
 
     void Update ()
