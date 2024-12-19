@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
    public delegate void Mensagem();
    public static Mensagem Manager, ManagerStop;
 
-    public GameObject end;
+    public GameObject end,TelaInicial,boss,player;
 
     PlayerMoving main;
     Boss main2;
@@ -39,7 +40,8 @@ public class LevelManager : MonoBehaviour
        if(main.vidaAtual <= 0 || main2.Index >= 3)//|| main2.life <= 0
         {
             end.SetActive(true);
-            
+            player.SetActive(false);
+            boss.SetActive(false);
             if(ManagerStop != null)
             {
                 ManagerStop();
@@ -61,6 +63,11 @@ public class LevelManager : MonoBehaviour
             justo();
         }
 
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        }
     }
     public void Comecar()
     {
@@ -68,6 +75,8 @@ public class LevelManager : MonoBehaviour
         {
             Manager();
         }
+        TelaInicial.SetActive(false);
+        boss.SetActive(true);
     }
     public void Quit()
     {
@@ -78,7 +87,7 @@ public class LevelManager : MonoBehaviour
     {
         main.vidaAtual = 10;
         main.Uso = 10;
-        main2.damage = 0.025f;
+        main2.damage = 1f;
         armazem();
     }
     public void medio()

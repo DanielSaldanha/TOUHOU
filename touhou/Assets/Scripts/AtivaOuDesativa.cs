@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class AtivaOuDesativa : MonoBehaviour
 {
-   
+    bool r;
     void Start()
     {
         LevelManager.Manager += Desativar;
+        r = true;
     }
 
     
@@ -17,6 +18,10 @@ public class AtivaOuDesativa : MonoBehaviour
     }
     void Desativar()
     {
-        gameObject.SetActive(false);
+        r = !r;
+           gameObject.SetActive(r);
+      //  Destroy(gameObject);
+       
+       
     }
 }

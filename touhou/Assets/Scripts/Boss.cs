@@ -47,7 +47,7 @@ public class Boss : MonoBehaviour
             partida = true;
             main.aviso = true;
             time = 0;
-            CloneE = Instantiate(efeito, poss.transform.position, Quaternion.identity);
+           // CloneE = Instantiate(efeito, poss.transform.position, Quaternion.identity);
             
         }
         Gira();
@@ -70,12 +70,12 @@ public class Boss : MonoBehaviour
     void Iniciar()
     {
         Index++;
-        gameObject.SetActive(true);
+       // gameObject.SetActive(true);
     }
     void parar()
     {
-       gameObject.SetActive(false);
-        Destroy(CloneE);
+      // gameObject.SetActive(false);
+      //  Destroy(CloneE);
     }
     void Gira()
     {
