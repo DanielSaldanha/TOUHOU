@@ -8,7 +8,7 @@ public class LevelManager : MonoBehaviour
    public delegate void Mensagem();
    public static Mensagem Manager, ManagerStop;
 
-    public GameObject end,TelaInicial,boss,player;
+    public GameObject end, TelaInicial, boss, player, pausagem;
 
     PlayerMoving main;
     Boss main2;
@@ -20,6 +20,9 @@ public class LevelManager : MonoBehaviour
 
     //DIFICULDADE
     public int us, vd;
+
+    //PAUSE OU DESPAUSE
+    bool pause;
    
     void Start()
     {
@@ -31,18 +34,22 @@ public class LevelManager : MonoBehaviour
         cor.a = 255;
         cor = Color.black;
         medio();
+        pause = true;
+        pausagem.SetActive(false);
 
     }
 
   
     void Update()
     {
-       if(main.vidaAtual <= 0 || main2.Index >= 3)//|| main2.life <= 0
+        pausar();
+       if (main.vidaAtual <= 0 || main2.Index >= 3)//|| main2.life <= 0
         {
             end.SetActive(true);
             player.SetActive(false);
             boss.SetActive(false);
-            if(ManagerStop != null)
+            Destroy(main2.CloneE);
+            if (ManagerStop != null)
             {
                 ManagerStop();
             }
@@ -65,8 +72,9 @@ public class LevelManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R))
         {
+            Time.timeScale = 1;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
+           
         }
     }
     public void Comecar()
@@ -115,6 +123,25 @@ public class LevelManager : MonoBehaviour
         main.vidaAtual = vd;
         main.Uso = us;
     }
+    void pausar()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if(pause == false)
+            {
+                Time.timeScale = 1;
+                
+            }
+            if(pause == true)
+            {
+                Time.timeScale = 0;
+                
+            }
+            pausagem.SetActive(pause);
+            pause = !pause;
+        }
+    }
 
+    
   
 }

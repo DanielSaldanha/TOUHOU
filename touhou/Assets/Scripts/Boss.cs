@@ -24,13 +24,13 @@ public class Boss : MonoBehaviour
 
     //EFEITINHO ESPECIAL
     public GameObject efeito, poss;
-    GameObject CloneE;
+    public GameObject CloneE;
     public float time, maxtime;
     void Start()
     {
        gameObject.SetActive(false);
        LevelManager.Manager += Iniciar;
-       LevelManager.ManagerStop += parar;
+      // LevelManager.ManagerStop += parar;
         partida = true;
         main = FindObjectOfType<LevelControler>();
       //  damage = 0.015f;
@@ -47,7 +47,7 @@ public class Boss : MonoBehaviour
             partida = true;
             main.aviso = true;
             time = 0;
-           // CloneE = Instantiate(efeito, poss.transform.position, Quaternion.identity);
+            CloneE = Instantiate(efeito, poss.transform.position, Quaternion.identity);
             
         }
         Gira();
@@ -74,7 +74,7 @@ public class Boss : MonoBehaviour
     }
     void parar()
     {
-      // gameObject.SetActive(false);
+     //  gameObject.SetActive(false);
       //  Destroy(CloneE);
     }
     void Gira()
