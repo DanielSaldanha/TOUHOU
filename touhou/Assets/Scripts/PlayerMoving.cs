@@ -46,7 +46,7 @@ public class PlayerMoving : MonoBehaviour
         main2 = FindObjectOfType<Boss>();
         
         LevelManager.Manager += Iniciar;
-        LevelManager.ManagerStop += Destruir;     
+     //   LevelManager.ManagerStop += Destruir;     
         timelife = 5;            
     }
 
@@ -118,7 +118,7 @@ public class PlayerMoving : MonoBehaviour
     {
         Controlador = true;
     }
-    void Destruir()
+    public void Destruir()
     {
        // gameObject.SetActive(false);
         txtlife.text = "";

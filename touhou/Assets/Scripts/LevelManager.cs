@@ -46,7 +46,7 @@ public class LevelManager : MonoBehaviour
        if (main.vidaAtual <= 0 || main2.Index >= 3)//|| main2.life <= 0
         {
             end.SetActive(true);
-            player.SetActive(false);
+            playerDestruido();// player.SetActive(false);
             boss.SetActive(false);
             Destroy(main2.CloneE);
             if (ManagerStop != null)
@@ -70,12 +70,7 @@ public class LevelManager : MonoBehaviour
             justo();
         }
 
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            Time.timeScale = 1;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-           
-        }
+      //  Resetar();
     }
     public void Comecar()
     {
@@ -90,6 +85,18 @@ public class LevelManager : MonoBehaviour
     {
         Application.Quit();
 
+    }
+    public void Resetar()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        /*
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            
+
+        }
+        */
     }
     public void facil()
     {
@@ -141,7 +148,11 @@ public class LevelManager : MonoBehaviour
             pause = !pause;
         }
     }
-
+    void playerDestruido()
+    {
+        main.Destruir();
+        player.SetActive(false);
+    }
     
   
 }
