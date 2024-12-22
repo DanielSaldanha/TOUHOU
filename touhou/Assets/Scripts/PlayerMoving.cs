@@ -13,11 +13,14 @@ public class PlayerMoving : MonoBehaviour
     private Rigidbody2D _PlayerRB2D;
 
     //BULLET
-    public GameObject Bullet;
-    GameObject Clone;
+    public GameObject Bullet,BulletSuper;
+    GameObject Clone,CloneSuper;
     public  float time, MaxTime;
+    public float timeSuper, MaxTimeSuper;
 
    
+
+
     //VIDA
     public int vidaAtual;
     public float timelife,maxtimelife;
@@ -55,6 +58,7 @@ public class PlayerMoving : MonoBehaviour
         if(Controlador == true)
         {
             Bull3t();
+            Bull3tSuper();
             sllow();
             _PlayerDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             txtlife.text = "Life " + vidaAtual.ToString();
@@ -113,6 +117,19 @@ public class PlayerMoving : MonoBehaviour
             time = 0;
 
         }
+    }
+    void Bull3tSuper()
+    {
+        timeSuper += Time.deltaTime;
+        if (Input.GetKey(KeyCode.Z) && timeSuper > MaxTimeSuper)
+        {
+
+            CloneSuper = Instantiate(BulletSuper, transform.position, Quaternion.identity);
+            timeSuper = 0;
+
+        }
+      
+        //  BulletSuper.transform.LookAt(apontar);
     }
     void Iniciar()
     {

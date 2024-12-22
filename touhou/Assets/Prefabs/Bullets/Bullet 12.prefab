@@ -47,7 +47,7 @@ MonoBehaviour:
   Number_of_coluns: 25
   speed: 5
   texture: {fileID: -2046171471, guid: 760b2d43d3dbff14198141758808424e, type: 3}
-  color: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 1, g: 1, b: 1, a: 0.6666667}
   lifetime: 10
   firerate: 0.7
   size: 0.7
@@ -101,7 +101,7 @@ MonoBehaviour:
   Number_of_coluns: 25
   speed: 5
   texture: {fileID: 2050946685, guid: 760b2d43d3dbff14198141758808424e, type: 3}
-  color: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 1, g: 1, b: 1, a: 0.6666667}
   lifetime: 10
   firerate: 1.1
   size: 0.7
@@ -189,7 +189,7 @@ MonoBehaviour:
   Number_of_coluns: 25
   speed: 5
   texture: {fileID: -1652768387, guid: 760b2d43d3dbff14198141758808424e, type: 3}
-  color: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 1, g: 1, b: 1, a: 0.6666667}
   lifetime: 10
   firerate: 0.9
   size: 0.7

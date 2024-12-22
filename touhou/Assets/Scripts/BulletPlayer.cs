@@ -8,6 +8,8 @@ public class BulletPlayer : MonoBehaviour
   public  float Velocidade;
     Rigidbody2D RB;
     public float time, MaxTime;
+
+    
     void Start()
     {
         RB = GetComponent<Rigidbody2D>();
@@ -18,7 +20,7 @@ public class BulletPlayer : MonoBehaviour
         if(time > MaxTime)
         {
             Destroy(gameObject);
-        }
+        }      
     }
     
     void FixedUpdate()

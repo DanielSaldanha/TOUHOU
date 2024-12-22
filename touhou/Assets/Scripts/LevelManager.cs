@@ -22,7 +22,7 @@ public class LevelManager : MonoBehaviour
     public int us, vd;
 
     //PAUSE OU DESPAUSE
-    bool pause;
+    bool pause, permitir;
    
     void Start()
     {
@@ -35,7 +35,9 @@ public class LevelManager : MonoBehaviour
         cor = Color.black;
         medio();
         pause = true;
+        permitir = false;
         pausagem.SetActive(false);
+
 
     }
 
@@ -45,6 +47,7 @@ public class LevelManager : MonoBehaviour
         pausar();
        if (main.vidaAtual <= 0 || main2.Index >= 3)//|| main2.life <= 0
         {
+            permitir = false;
             end.SetActive(true);
             playerDestruido();// player.SetActive(false);
             boss.SetActive(false);
@@ -78,6 +81,7 @@ public class LevelManager : MonoBehaviour
         {
             Manager();
         }
+        permitir = true;
         TelaInicial.SetActive(false);
         boss.SetActive(true);
     }
@@ -90,13 +94,7 @@ public class LevelManager : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        /*
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            
-
-        }
-        */
+  
     }
     public void facil()
     {
@@ -132,21 +130,24 @@ public class LevelManager : MonoBehaviour
     }
     void pausar()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (permitir == true)
         {
-            if(pause == false)
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                Time.timeScale = 1;
-                
+                if (pause == false)
+                {
+                    Time.timeScale = 1;
+
+                }
+                if (pause == true)
+                {
+                    Time.timeScale = 0;
+
+                }
+                pausagem.SetActive(pause);
+                pause = !pause;
             }
-            if(pause == true)
-            {
-                Time.timeScale = 0;
-                
-            }
-            pausagem.SetActive(pause);
-            pause = !pause;
-        }
+        }       
     }
     void playerDestruido()
     {
