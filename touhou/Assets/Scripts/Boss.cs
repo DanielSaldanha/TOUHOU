@@ -65,7 +65,11 @@ public class Boss : MonoBehaviour
         {
             life -= damage;
             Destroy(c.gameObject);
-        }    
+        }   
+        if(c.tag == "X")
+        {
+            life -= 0.02f;
+        }
     }
     void Iniciar()
     {

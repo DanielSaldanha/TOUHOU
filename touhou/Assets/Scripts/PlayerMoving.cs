@@ -38,10 +38,11 @@ public class PlayerMoving : MonoBehaviour
     public bool derrota;
 
     // X
-    public GameObject X;
-    GameObject CloneX;
+    public GameObject X,USX;
+    GameObject CloneX,UltraSkillX;
     public int Uso;
     public Text UltraPower;
+    public float timeX, maxtimeX;
 
     void Start ()
     {
@@ -121,7 +122,8 @@ public class PlayerMoving : MonoBehaviour
     void Bull3tSuper()
     {
         timeSuper += Time.deltaTime;
-        if (Input.GetKey(KeyCode.Z) && timeSuper > MaxTimeSuper)
+
+        if (Input.GetKey(KeyCode.Z) &&  Input.GetKey(KeyCode.LeftShift) && timeSuper > MaxTimeSuper)
         {
 
             CloneSuper = Instantiate(BulletSuper, transform.position, Quaternion.identity);
@@ -162,18 +164,26 @@ public class PlayerMoving : MonoBehaviour
     
     void EspecialDoX()
     {
+        timeX += Time.deltaTime;
         if(Uso > 0)
         {
             if (Input.GetKeyDown(KeyCode.X))
             {
                 Destroy(CloneX);
+                Destroy(UltraSkillX);
                 CloneX = Instantiate(X, this.transform.position, Quaternion.identity);
+                UltraSkillX = Instantiate(USX);
                 derrota = true;
                 timelife = 0;
+                timeX = 0;
                 Uso -= 1;
                
             }
-        }                  
+        }          
+        if(timeX >= maxtimeX)
+        {
+            Destroy(UltraSkillX);
+        }
     }
     
     void SistemaDeDanoEhp()
