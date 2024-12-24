@@ -12,6 +12,7 @@ public class LevelManager : MonoBehaviour
 
     PlayerMoving main;
     Boss main2;
+    LevelControler main3;
 
    //EFEITO DE BRIR CENA
    [SerializeField] Color cor;
@@ -23,6 +24,12 @@ public class LevelManager : MonoBehaviour
 
     //PAUSE OU DESPAUSE
     bool pause, permitir;
+
+    //SONS
+    public GameObject OpenMenuSound;
+    GameObject CloneSound;
+
+   
    
     void Start()
     {
@@ -30,6 +37,7 @@ public class LevelManager : MonoBehaviour
         end.SetActive(false);
         main = FindObjectOfType<PlayerMoving>();
         main2 = FindObjectOfType<Boss>();
+        main3 = FindObjectOfType<LevelControler>();
 
         cor.a = 255;
         cor = Color.black;
@@ -56,7 +64,8 @@ public class LevelManager : MonoBehaviour
             {
                 ManagerStop();
             }
-            
+            main3.CloneSongs.SetActive(false);
+
         }
        
 
@@ -100,21 +109,21 @@ public class LevelManager : MonoBehaviour
     {
         main.vidaAtual = 10;
         main.Uso = 10;
-        main2.damage = 1f;
+        main2.damage = 0.02f;
         armazem();
     }
     public void medio()
     {
         main.vidaAtual = 5;
         main.Uso = 5;
-        main2.damage = 0.02f;
+        main2.damage = 0.009f;
         armazem();
     }
     public void dificil()
     {
         main.vidaAtual = 3;
         main.Uso = 5;
-        main2.damage = 0.015f;
+        main2.damage = 0.009f;
         armazem();
     }
     void armazem()
@@ -132,6 +141,7 @@ public class LevelManager : MonoBehaviour
     {
         if (permitir == true)
         {
+
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 if (pause == false)
@@ -144,6 +154,10 @@ public class LevelManager : MonoBehaviour
                     Time.timeScale = 0;
 
                 }
+                main3.CloneSongs.SetActive(!pause);
+                CloneSound = Instantiate(OpenMenuSound);
+
+
                 pausagem.SetActive(pause);
                 pause = !pause;
             }

@@ -520,6 +520,9 @@ MonoBehaviour:
   - {fileID: 7725026930364646933, guid: 0fcc001aae81e4d47860e612c58b6c95, type: 3}
   pos: {fileID: 1954356566}
   aviso: 0
+  themeChen: {fileID: 2030779266125831011, guid: 730d5d92ba613ba45867555f40b1e218, type: 3}
+  themeMariza: {fileID: 5138076091106687817, guid: 0cd73611c2ba3fe46bca6bd0e746025f, type: 3}
+  CloneSongs: {fileID: 0}
 --- !u!4 &43746466
 Transform:
   m_ObjectHideFlags: 0
@@ -1442,6 +1445,9 @@ MonoBehaviour:
   UltraPower: {fileID: 434110660}
   timeX: 0
   maxtimeX: 10
+  Xsound: {fileID: 265273805494548757, guid: 5cf15201ce630c84e938118926cd2cfb, type: 3}
+  SoundBullet: {fileID: 265273805494548757, guid: 0da995509a395cf4a8d9934193e9cf6a, type: 3}
+  AutoHurt: {fileID: 265273805494548757, guid: 21a127e4f27e3c64c96fcb2a1613befa, type: 3}
 --- !u!50 &263044652
 Rigidbody2D:
   serializedVersion: 4
@@ -2017,6 +2023,7 @@ MonoBehaviour:
   maxtime: 0.7
   us: 0
   vd: 0
+  OpenMenuSound: {fileID: 265273805494548757, guid: 4deac7157674f3b4e89da7442cc7e3e4, type: 3}
 --- !u!4 &416223725
 Transform:
   m_ObjectHideFlags: 0
@@ -5171,6 +5178,8 @@ MonoBehaviour:
   CloneE: {fileID: 0}
   time: 0
   maxtime: 0.6
+  HurtXsound: {fileID: 265273805494548757, guid: 295ee45bcdb3a574c921311b996fd25d, type: 3}
+  NextBoss: {fileID: 265273805494548757, guid: a2715bd15dfa5cd4a9eb3b5339e60935, type: 3}
 --- !u!1 &1440245951
 GameObject:
   m_ObjectHideFlags: 0

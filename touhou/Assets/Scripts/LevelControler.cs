@@ -20,6 +20,11 @@ public class LevelControler : MonoBehaviour
     public bool aviso = false;
 
     ChenControler Main;
+
+
+    //MUSICAS
+    public GameObject themeChen, themeMariza;
+   public GameObject CloneSongs;
     void Start()
     {
         
@@ -71,6 +76,8 @@ public class LevelControler : MonoBehaviour
         {
             if (main.Index == 0)
             {
+                CloneSongs = Instantiate(themeChen);
+
                 Clone = Instantiate(boss[0], pos.position, Quaternion.identity);
                 main.partida = false;
                 
@@ -80,6 +87,9 @@ public class LevelControler : MonoBehaviour
             {
                 if (aviso == false)
                 {
+                    Destroy(CloneSongs);
+                    CloneSongs = Instantiate(themeMariza);
+
                     //  Main.destrua();
                     Destroy(Clone);
                     Clone2 = Instantiate(boss[1], pos.position, Quaternion.identity);
@@ -91,6 +101,8 @@ public class LevelControler : MonoBehaviour
             { 
                 if(aviso == false)
                 {
+                    Destroy(CloneSongs);
+                    CloneSongs = Instantiate(themeMariza);
                     // Main.destrua();
                     Destroy(Clone2);
                     Clone3 = Instantiate(boss[2], pos.position, Quaternion.identity);

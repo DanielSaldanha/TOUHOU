@@ -18,9 +18,6 @@ public class PlayerMoving : MonoBehaviour
     public  float time, MaxTime;
     public float timeSuper, MaxTimeSuper;
 
-   
-
-
     //VIDA
     public int vidaAtual;
     public float timelife,maxtimelife;
@@ -43,6 +40,11 @@ public class PlayerMoving : MonoBehaviour
     public int Uso;
     public Text UltraPower;
     public float timeX, maxtimeX;
+
+    //SONS
+    public GameObject Xsound,SoundBullet,AutoHurt;
+    GameObject CloneSound;
+
 
     void Start ()
     {
@@ -91,6 +93,8 @@ public class PlayerMoving : MonoBehaviour
                 vidaAtual -= 1;
                 abreviaTempo = 0;
                 Destroy(c.gameObject);
+
+                CloneSound = Instantiate(AutoHurt);
             }
            
           
@@ -116,8 +120,9 @@ public class PlayerMoving : MonoBehaviour
 
             Clone = Instantiate(Bullet, transform.position, Quaternion.identity);
             time = 0;
-
+            CloneSound = Instantiate(SoundBullet);
         }
+       
     }
     void Bull3tSuper()
     {
@@ -177,7 +182,7 @@ public class PlayerMoving : MonoBehaviour
                 timelife = 0;
                 timeX = 0;
                 Uso -= 1;
-               
+                CloneSound = Instantiate(Xsound);
             }
         }          
         if(timeX >= maxtimeX)

@@ -123,7 +123,7 @@ MonoBehaviour:
   "posi\xE7aoInimigo": {fileID: 3598653889582905892, guid: 0c45f05772c5f134ab854f392677baa5, type: 3}
   Velocidade: 7
   time: 0
-  MaxTime: 3
+  MaxTime: 1.25
 --- !u!1 &2991720314878329173
 GameObject:
   m_ObjectHideFlags: 0

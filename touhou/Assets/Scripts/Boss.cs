@@ -26,6 +26,11 @@ public class Boss : MonoBehaviour
     public GameObject efeito, poss;
     public GameObject CloneE;
     public float time, maxtime;
+
+
+    //SONS
+    public GameObject HurtXsound,NextBoss;
+    GameObject CloneSound;
     void Start()
     {
        gameObject.SetActive(false);
@@ -48,6 +53,7 @@ public class Boss : MonoBehaviour
             main.aviso = true;
             time = 0;
             CloneE = Instantiate(efeito, poss.transform.position, Quaternion.identity);
+            CloneSound = Instantiate(NextBoss);
             
         }
         Gira();
@@ -69,6 +75,7 @@ public class Boss : MonoBehaviour
         if(c.tag == "X")
         {
             life -= 0.02f;
+            CloneSound = Instantiate(HurtXsound);
         }
     }
     void Iniciar()
