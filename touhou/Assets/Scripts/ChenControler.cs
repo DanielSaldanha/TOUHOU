@@ -6,7 +6,7 @@ public class ChenControler : MonoBehaviour
 {
     public Transform p1, p2, p3, p4, p5;
     public GameObject n1, n2, n3, n4, n5, n6, n7, n8, n9;
-    GameObject Clone1, Clone2, Clone3, Clone4, Clone5, Clone6, Clone7, Clone8, Clone9;
+    GameObject Clone1;//, Clone2, Clone3, Clone4, Clone5, Clone6, Clone7, Clone8, Clone9;
 
     [SerializeField] int aleatoriedade;
 
@@ -72,35 +72,35 @@ public class ChenControler : MonoBehaviour
         }
         else if (aleatoriedade == 2)
         {
-            Clone2 = Instantiate(n2, p2.position, Quaternion.identity);
+            Clone1 = Instantiate(n2, p2.position, Quaternion.identity);
         }
         else if (aleatoriedade == 3)
         {
-            Clone3 = Instantiate(n3, p3.position, Quaternion.identity);
+            Clone1 = Instantiate(n3, p3.position, Quaternion.identity);
         }
         else if (aleatoriedade == 4)
         {
-            Clone4 = Instantiate(n4, p4.position, Quaternion.identity);
+            Clone1 = Instantiate(n4, p4.position, Quaternion.identity);
         }
         else if (aleatoriedade == 5)
         {
-            Clone5 = Instantiate(n5, p5.position, Quaternion.identity);
+            Clone1 = Instantiate(n5, p5.position, Quaternion.identity);
         }
         else if (aleatoriedade == 6)
         {
-            Clone6 = Instantiate(n6, p5.position, Quaternion.identity);
+            Clone1 = Instantiate(n6, p5.position, Quaternion.identity);
         }
         else if (aleatoriedade == 7)
         {
-            Clone7 = Instantiate(n7, p5.position, Quaternion.identity);
+            Clone1 = Instantiate(n7, p5.position, Quaternion.identity);
         }
         else if (aleatoriedade == 8)
         {
-            Clone8 = Instantiate(n8, p5.position, Quaternion.identity);
+            Clone1 = Instantiate(n8, p5.position, Quaternion.identity);
         }
         else if (aleatoriedade == 9)
         {
-            Clone9 = Instantiate(n9, p2.position, Quaternion.identity);
+            Clone1 = Instantiate(n9, p2.position, Quaternion.identity);
         }
 
 
@@ -118,6 +118,7 @@ public class ChenControler : MonoBehaviour
    public void destrua()
     {
         Destroy(Clone1);
+        /*
         Destroy(Clone2);
         Destroy(Clone3);
         Destroy(Clone4);
@@ -126,6 +127,7 @@ public class ChenControler : MonoBehaviour
         Destroy(Clone7);
         Destroy(Clone8);
         Destroy(Clone9);
+        */
     }
     void Iniciar()
     {

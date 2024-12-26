@@ -721,7 +721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 1586758389937080577}
-  velocidadeRotacionatoria: -600
+  velocidadeRotacionatoria: -1000
   objGuardante: {fileID: 9045027195655938596}
   time: 0
   maxtime: 0
@@ -1310,7 +1310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 2509457709489792868}
-  velocidadeRotacionatoria: -600
+  velocidadeRotacionatoria: -1000
   objGuardante: {fileID: 8720198853088109431}
   time: 0
   maxtime: 0
@@ -2818,7 +2818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 5512783743251715921}
-  velocidadeRotacionatoria: -600
+  velocidadeRotacionatoria: -1000
   objGuardante: {fileID: 4513972648566199512}
   time: 0
   maxtime: 0
@@ -3725,7 +3725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 6694807271643195654}
-  velocidadeRotacionatoria: -600
+  velocidadeRotacionatoria: -1000
   objGuardante: {fileID: 4417698133591851208}
   time: 0
   maxtime: 0

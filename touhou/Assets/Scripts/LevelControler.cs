@@ -76,7 +76,7 @@ public class LevelControler : MonoBehaviour
         {
             if (main.Index == 0)
             {
-                CloneSongs = Instantiate(themeChen);
+                CloneSongs = Instantiate(themeMariza);
 
                 Clone = Instantiate(boss[0], pos.position, Quaternion.identity);
                 main.partida = false;
@@ -102,7 +102,7 @@ public class LevelControler : MonoBehaviour
                 if(aviso == false)
                 {
                     Destroy(CloneSongs);
-                    CloneSongs = Instantiate(themeMariza);
+                    CloneSongs = Instantiate(themeChen);
                     // Main.destrua();
                     Destroy(Clone2);
                     Clone3 = Instantiate(boss[2], pos.position, Quaternion.identity);

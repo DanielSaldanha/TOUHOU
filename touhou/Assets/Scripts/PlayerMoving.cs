@@ -7,42 +7,49 @@ public class PlayerMoving : MonoBehaviour
 {
     bool Controlador;
 
-    //MOVE
+    [Header("MOVE")]
     public float _PlayerSpeed;
     private Vector2 _PlayerDirection;
     private Rigidbody2D _PlayerRB2D;
 
-    //BULLET
-    public GameObject Bullet,BulletSuper;
+    [Header("SHOOT")]
+    public GameObject Bullet;
+    public GameObject BulletSuper;
     GameObject Clone,CloneSuper;
     public  float time, MaxTime;
     public float timeSuper, MaxTimeSuper;
 
-    //VIDA
+    [Header("LIFE")]
     public int vidaAtual;
     public float timelife,maxtimelife;
     public Text txtlife,frameTime;
     public int abreviaTempo;
 
-    //WIN ou PERCA
+    [Header("WIN or NO")]
     public Text Vitoria;
     Boss main2;
 
-    //DANO
+    [Header("DAMAGE")]
     [SerializeField] Color cor;
     [SerializeField] SpriteRenderer spritecor;
     public float timeframe;
     public bool derrota;
 
-    // X
-    public GameObject X,USX;
+    [Header("SKILL X")]
+    public GameObject X;
+    public GameObject USX;
     GameObject CloneX,UltraSkillX;
     public int Uso;
     public Text UltraPower;
     public float timeX, maxtimeX;
 
-    //SONS
-    public GameObject Xsound,SoundBullet,AutoHurt;
+    [Header("DEATH BOMB SYSTEM")]
+    public float timeDamage;
+    public float MaxTimeDamage;
+
+    [Header("SOUNDS")]
+    public GameObject Xsound;
+    public GameObject SoundBullet, AutoHurt;
     GameObject CloneSound;
 
 
@@ -53,7 +60,8 @@ public class PlayerMoving : MonoBehaviour
         
         LevelManager.Manager += Iniciar;
      //   LevelManager.ManagerStop += Destruir;     
-        timelife = 5;            
+        timelife = 5;
+        timeDamage = MaxTimeDamage;
     }
 
     void Update ()
@@ -85,19 +93,11 @@ public class PlayerMoving : MonoBehaviour
 
     private void OnParticleCollision(GameObject c)
     {
-        if (c.gameObject.layer == 8)
+        if (c.gameObject.layer == 8 && timelife >= maxtimelife)
         {
-            if(timelife >= maxtimelife)
-            {
-                timelife = 0;
-                vidaAtual -= 1;
-                abreviaTempo = 0;
-                Destroy(c.gameObject);
-
-                CloneSound = Instantiate(AutoHurt);
-            }
-           
-          
+            timeDamage = 0;
+            DeathBomb();
+            Destroy(c.gameObject);
         }
     }
    
@@ -201,7 +201,9 @@ public class PlayerMoving : MonoBehaviour
             gameObject.layer = 2;
             AnimaçaoDano();
 
-         
+            //SYSTEM OF THE DEATH BOMB
+            timeDamage += Time.deltaTime;
+
         }
         else
         {
@@ -225,5 +227,24 @@ public class PlayerMoving : MonoBehaviour
         {
             Vitoria.text = "v o c e   v e n c e u";
         }
+    }
+
+    void DeathBomb()
+    {
+
+        if (Input.GetKeyDown(KeyCode.X) && timeDamage < MaxTimeDamage)
+        {
+            vidaAtual += 1;
+        
+        }     
+        else
+        {
+            timelife = 0;
+            vidaAtual -= 1;
+            abreviaTempo = 0;
+           
+            CloneSound = Instantiate(AutoHurt);
+        }
+        
     }
 }
