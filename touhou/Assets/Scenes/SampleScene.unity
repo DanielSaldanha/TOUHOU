@@ -1446,7 +1446,7 @@ MonoBehaviour:
   timeX: 0
   maxtimeX: 10
   timeDamage: 0
-  MaxTimeDamage: 3
+  MaxTimeDamage: 0.133
   Xsound: {fileID: 265273805494548757, guid: 5cf15201ce630c84e938118926cd2cfb, type: 3}
   SoundBullet: {fileID: 265273805494548757, guid: 0da995509a395cf4a8d9934193e9cf6a, type: 3}
   AutoHurt: {fileID: 265273805494548757, guid: 21a127e4f27e3c64c96fcb2a1613befa, type: 3}

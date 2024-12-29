@@ -76,6 +76,7 @@ public class PlayerMoving : MonoBehaviour
             frameTime.text = "Frame " + abreviaTempo.ToString();
             SistemaDeDanoEhp();
             EspecialDoX();
+            DeathBomb();
         }
        
         
@@ -84,6 +85,9 @@ public class PlayerMoving : MonoBehaviour
             Destroy(CloneX); 
         }
         UltraPower.text = "Especial " + Uso.ToString();
+
+        //SYSTEM OF THE DEATH BOMB
+        timeDamage += Time.deltaTime;
     }
 
     void FixedUpdate()
@@ -96,7 +100,12 @@ public class PlayerMoving : MonoBehaviour
         if (c.gameObject.layer == 8 && timelife >= maxtimelife)
         {
             timeDamage = 0;
-            DeathBomb();
+           
+            timelife = 0;
+            vidaAtual -= 1;
+            abreviaTempo = 0;
+
+            CloneSound = Instantiate(AutoHurt);
             Destroy(c.gameObject);
         }
     }
@@ -201,8 +210,7 @@ public class PlayerMoving : MonoBehaviour
             gameObject.layer = 2;
             AnimaçaoDano();
 
-            //SYSTEM OF THE DEATH BOMB
-            timeDamage += Time.deltaTime;
+            
 
         }
         else
@@ -231,12 +239,20 @@ public class PlayerMoving : MonoBehaviour
 
     void DeathBomb()
     {
-
         if (Input.GetKeyDown(KeyCode.X) && timeDamage < MaxTimeDamage)
         {
             vidaAtual += 1;
+            timeDamage = MaxTimeDamage;
+
+        }
+        /*
+        if (derrota == true && timeDamage < MaxTimeDamage)
+        {
+            vidaAtual += 1;
+            timeDamage = MaxTimeDamage;
+
+        }
         
-        }     
         else
         {
             timelife = 0;
@@ -244,7 +260,7 @@ public class PlayerMoving : MonoBehaviour
             abreviaTempo = 0;
            
             CloneSound = Instantiate(AutoHurt);
-        }
-        
+        }Input.GetKeyDown(KeyCode.X)
+        */
     }
 }

@@ -52,7 +52,8 @@ public class ChenControler : MonoBehaviour
             destrua();
             main.aviso = false;
         }
-        if(mainP.derrota == true)
+        // DESTRUIR BULLETS COM O ESPECIAL DO "X" E DEATH BOMB
+        if(mainP.derrota == true)//&& mainP.timeDamage >= mainP.MaxTimeDamage
         {
             destrua();
             mainP.derrota = false;
