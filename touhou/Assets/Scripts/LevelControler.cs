@@ -92,7 +92,7 @@ public class LevelControler : MonoBehaviour
 
                     //  Main.destrua();
                     Destroy(Clone);
-                    Clone2 = Instantiate(boss[1], pos.position, Quaternion.identity);
+                    Clone = Instantiate(boss[1], pos.position, Quaternion.identity);
                     main.partida = false;
                 }
             }
@@ -104,12 +104,24 @@ public class LevelControler : MonoBehaviour
                     Destroy(CloneSongs);
                     CloneSongs = Instantiate(themeChen);
                     // Main.destrua();
-                    Destroy(Clone2);
-                    Clone3 = Instantiate(boss[2], pos.position, Quaternion.identity);
+                    Destroy(Clone);
+                    Clone = Instantiate(boss[2], pos.position, Quaternion.identity);
                     main.partida = false;
                 }
             }
-            
+            if (main.Index == 3)
+            {
+                if (aviso == false)
+                {
+                    Destroy(CloneSongs);
+                    CloneSongs = Instantiate(themeChen);
+                    // Main.destrua();
+                    Destroy(Clone);
+                    Clone = Instantiate(boss[3], pos.position, Quaternion.identity);
+                    main.partida = false;
+                }
+            }
+
         }
        
     }

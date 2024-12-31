@@ -53,8 +53,8 @@ public class LevelManager : MonoBehaviour
     void Update()
     {
         pausar();
-       if (main.vidaAtual <= 0 || main2.Index >= 3)//|| main2.life <= 0
-        {
+       if (main.vidaAtual <= 0 || main2.Index >= 4)//|| main2.Index >= 3
+       {
             permitir = false;
             end.SetActive(true);
             playerDestruido();// player.SetActive(false);
@@ -66,7 +66,8 @@ public class LevelManager : MonoBehaviour
             }
             main3.CloneSongs.SetActive(false);
 
-        }
+       }
+       
        
 
         time2 += Time.deltaTime;
@@ -109,7 +110,7 @@ public class LevelManager : MonoBehaviour
     {
         main.vidaAtual = 10;
         main.Uso = 10;
-        main2.damage = 0.02f;
+        main2.damage = 0.5f;
         armazem();
     }
     public void medio()
@@ -168,6 +169,9 @@ public class LevelManager : MonoBehaviour
         main.Destruir();
         player.SetActive(false);
     }
-    
-  
+    //
+    public void FASEdois()
+    {
+        SceneManager.LoadScene("FASE2");
+    }
 }

@@ -517,6 +517,7 @@ MonoBehaviour:
   - {fileID: 2683226169107058502, guid: 91e180924339a09449543b42a205b2e2, type: 3}
   - {fileID: 7725026930364646933, guid: 0fcc001aae81e4d47860e612c58b6c95, type: 3}
   - {fileID: 7506662943761807138, guid: a8bf3273e32fcc042a8ab645a9fd59a6, type: 3}
+  - {fileID: 7506662943761807138, guid: f1d79510831abe344aca2ad45ee2dcdd, type: 3}
   - {fileID: 7725026930364646933, guid: 0fcc001aae81e4d47860e612c58b6c95, type: 3}
   pos: {fileID: 1954356566}
   aviso: 0
@@ -1019,7 +1020,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -750, y: 0}
+  m_AnchoredPosition: {x: -735, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &196987177
@@ -6985,12 +6986,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -2
-  m_Sprite: {fileID: -2054378364, guid: 2e2835a3b92288f46815e7c950e87d60, type: 3}
+  m_Sprite: {fileID: -969071362, guid: fe54083971a59be4da82620eb8bcb05f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.29, y: 1.26}
+  m_Size: {x: 1.27, y: 1.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -7931,7 +7932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.78039217}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

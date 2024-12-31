@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2e2835a3b92288f46815e7c950e87d60
+guid: fe54083971a59be4da82620eb8bcb05f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: perfeito_0
+      name: perfeito 1_0
       rect:
         serializedVersion: 2
         x: 1
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecbd5416aee6c174f9c9ada1d46bfd67
-      internalID: -1703854822
+      spriteID: d3d5b5be4aef4e74da21fd519ea3f266
+      internalID: 366167885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_1
+      name: perfeito 1_1
       rect:
         serializedVersion: 2
         x: 258
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ac4004bc2d4fb047b25bfa1d657f13d
-      internalID: 795296917
+      spriteID: ae1efc9de98e3cd439547d55736fcb0b
+      internalID: -126852636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_2
+      name: perfeito 1_2
       rect:
         serializedVersion: 2
         x: 307
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c19446a5c53441649aafb73beb1c6ec0
-      internalID: 604634683
+      spriteID: a4cf0ff9b1017f449b30c54c229af094
+      internalID: -1043622098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_3
+      name: perfeito 1_3
       rect:
         serializedVersion: 2
         x: 323
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14af2809156dfde4bb2578fa1babb16e
-      internalID: 2039166810
+      spriteID: c716c7b9366f95942b9ea3a255923a62
+      internalID: 2049579720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_4
+      name: perfeito 1_4
       rect:
         serializedVersion: 2
         x: 339
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0c008801d9933347970537b6f67ef44
-      internalID: 1078294453
+      spriteID: 90ae2282bb7bbae4589f8760afb7ee41
+      internalID: 600562861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_5
+      name: perfeito 1_5
       rect:
         serializedVersion: 2
         x: 355
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 848731e7bd652274181b8a8e1d8881eb
-      internalID: -1725744881
+      spriteID: 3844c7a96f8ef934ea846bc997a656b8
+      internalID: 1499282158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_6
+      name: perfeito 1_6
       rect:
         serializedVersion: 2
         x: 371
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59c153436169c604bb562a592d7cff11
-      internalID: 1903324466
+      spriteID: 7a0ad6c335eb615418b4fe894dc7d626
+      internalID: -544575455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_7
+      name: perfeito 1_7
       rect:
         serializedVersion: 2
         x: 387
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24614f7d2fa93bf4e822043c8bdf8c2f
-      internalID: -1888719626
+      spriteID: d8cb2832a6a6ba04d8aeaaea10393948
+      internalID: 142252515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_8
+      name: perfeito 1_8
       rect:
         serializedVersion: 2
         x: 403
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a45676074801e9040aa184920648577e
-      internalID: 1213773878
+      spriteID: f93a1db8017830e4daa2a19e12c33288
+      internalID: 1351564579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_9
+      name: perfeito 1_9
       rect:
         serializedVersion: 2
         x: 419
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7c7ed5f0dce19a46870c32178801430
-      internalID: -73361845
+      spriteID: b0d16225f07badb45b1a3d263b3177e0
+      internalID: 1421632258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_10
+      name: perfeito 1_10
       rect:
         serializedVersion: 2
         x: 435
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8f559aed459d6e4a8b8dff5c213f251
-      internalID: 509839786
+      spriteID: 2fac1dad826863d41be0aa359b2dec6f
+      internalID: 1791245046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_11
+      name: perfeito 1_11
       rect:
         serializedVersion: 2
         x: 451
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39cfb1ae75e0611418f9fc1d93cef78f
-      internalID: 1132726164
+      spriteID: 1092af8be1e83df40b2bc46f93dd0d16
+      internalID: 1611816482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_12
+      name: perfeito 1_12
       rect:
         serializedVersion: 2
         x: 467
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5c4f9e78003460478872eeaf7d730dd
-      internalID: -1766184637
+      spriteID: ef95c3693c3d6f24f8e329f27cba0a7c
+      internalID: 926607057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_13
+      name: perfeito 1_13
       rect:
         serializedVersion: 2
         x: 483
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab9ef0b9d9502334faebb94c6a6b95bd
-      internalID: 2133805114
+      spriteID: cdda242bcb26b8742bf7ebf282aaa975
+      internalID: 779716690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_14
+      name: perfeito 1_14
       rect:
         serializedVersion: 2
         x: 499
@@ -418,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5132fb79d9e4a094f8a933d273ce1b3d
-      internalID: 1509841472
+      spriteID: b95adae3d00f3db48aa42e5a0234cf06
+      internalID: -1050921798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_15
+      name: perfeito 1_15
       rect:
         serializedVersion: 2
         x: 1
@@ -439,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39efbf438ddb9f845939b76486ac6e4f
-      internalID: -811785322
+      spriteID: a2d3536fa89822b41b7479be5f474352
+      internalID: 888426640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_16
+      name: perfeito 1_16
       rect:
         serializedVersion: 2
         x: 262
@@ -460,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87dcb59e0022f0c43aed2794fa8a8dec
-      internalID: 943080688
+      spriteID: 599ebfbdb43582a43a7d5a946bcb17fd
+      internalID: -1185526709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_17
+      name: perfeito 1_17
       rect:
         serializedVersion: 2
         x: 267
@@ -481,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 586bfe419b9a9bb46a8bc6600dbe2824
-      internalID: 767692534
+      spriteID: e2b38e83502f6974ca0c038c77782420
+      internalID: 1487485608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_18
+      name: perfeito 1_18
       rect:
         serializedVersion: 2
         x: 322
@@ -502,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79e4a0fe4325ebb41a3a41a8b950d560
-      internalID: -416916335
+      spriteID: aaf49f5e6ccfc50409205f25ec54beb2
+      internalID: -939233670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_19
+      name: perfeito 1_19
       rect:
         serializedVersion: 2
         x: 451
@@ -523,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 810e4855f55bcb6409c7d0e6802f987c
-      internalID: 282880935
+      spriteID: 71838204d2f5cd24e8b2cb3f83bc7719
+      internalID: 186253432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_20
+      name: perfeito 1_20
       rect:
         serializedVersion: 2
         x: 258
@@ -544,14 +544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f6b160edc6f6a4e9e5c3c4774c5e3c
-      internalID: 858536662
+      spriteID: c5d1b2e5e4986f34dbd58308bdccf576
+      internalID: -1230985920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_21
+      name: perfeito 1_21
       rect:
         serializedVersion: 2
         x: 5
@@ -565,14 +565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcdc0b39d9991d041bfdc2d30a29fa1d
-      internalID: 213794923
+      spriteID: 6088e479ebc65d540a7a600ee3845d39
+      internalID: -1925715602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_22
+      name: perfeito 1_22
       rect:
         serializedVersion: 2
         x: 21
@@ -586,14 +586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7ae5ccc9dab996469468f748f0d3c92
-      internalID: 2011529753
+      spriteID: 7f914b5f75a1cd04f86138a63305ff52
+      internalID: 976011380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_23
+      name: perfeito 1_23
       rect:
         serializedVersion: 2
         x: 37
@@ -607,14 +607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17eaa25505e9d2246aff8312daa86226
-      internalID: -71429938
+      spriteID: 09e8264d8b2cd0a4a98d54657007389c
+      internalID: 2113040685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_24
+      name: perfeito 1_24
       rect:
         serializedVersion: 2
         x: 53
@@ -628,14 +628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fb6b48a781277f4a9021004dfea4890
-      internalID: -672902423
+      spriteID: 01f646a866ff89046abca91596d5a273
+      internalID: -261934639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_25
+      name: perfeito 1_25
       rect:
         serializedVersion: 2
         x: 69
@@ -649,14 +649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30ee678fe5ac7ca4b9a12230cedcd131
-      internalID: -1505868982
+      spriteID: d82d88d966c6211439f826bfb53bf8e5
+      internalID: -269214197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_26
+      name: perfeito 1_26
       rect:
         serializedVersion: 2
         x: 85
@@ -670,14 +670,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f766f40235c5d0647a5169b47755c08e
-      internalID: 1871455532
+      spriteID: 277072fe6c6100040977fee54d695330
+      internalID: -488028088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_27
+      name: perfeito 1_27
       rect:
         serializedVersion: 2
         x: 101
@@ -691,14 +691,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9c05f2da78f32643bfda5ce8caf59e3
-      internalID: 1153929830
+      spriteID: 2161e55394933294c8ae8c396f11487a
+      internalID: 997819321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_28
+      name: perfeito 1_28
       rect:
         serializedVersion: 2
         x: 117
@@ -712,14 +712,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f49aef5b3a2ddf949a55cae72376f92b
-      internalID: -2051954745
+      spriteID: fae4a639c9d6c4141b6742a9e6e58ee4
+      internalID: 1966560180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_29
+      name: perfeito 1_29
       rect:
         serializedVersion: 2
         x: 133
@@ -733,14 +733,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b8a2a2900e290c40bb225550caa104c
-      internalID: -1123452578
+      spriteID: aac6004c8a85bb9418a3fd539e38289f
+      internalID: -1024193714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_30
+      name: perfeito 1_30
       rect:
         serializedVersion: 2
         x: 149
@@ -754,14 +754,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2728bb71600a0f544ad33e68768a094f
-      internalID: 475099135
+      spriteID: f37f36ec5dcb2ef44a18ecb00b7bfcee
+      internalID: -2145743182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_31
+      name: perfeito 1_31
       rect:
         serializedVersion: 2
         x: 165
@@ -775,14 +775,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21139c70a1f8d394bb89bcb904b637cf
-      internalID: -1117464113
+      spriteID: f5db074b87e7af44ca5ae3025119ca26
+      internalID: 673425586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_32
+      name: perfeito 1_32
       rect:
         serializedVersion: 2
         x: 181
@@ -796,14 +796,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0841bc2bd54349149af21f033d5da409
-      internalID: 1756584451
+      spriteID: c97a396aa43d7b841b0d35f7b1544f91
+      internalID: 866134216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_33
+      name: perfeito 1_33
       rect:
         serializedVersion: 2
         x: 197
@@ -817,14 +817,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a26815987696df34c973974c9a45f517
-      internalID: -1956209200
+      spriteID: 6750b84695502e242b2c6b25db2b4c7c
+      internalID: -312568440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_34
+      name: perfeito 1_34
       rect:
         serializedVersion: 2
         x: 213
@@ -838,14 +838,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 119eb8bf61b2ba84ea7c32d4851bd3ff
-      internalID: -1228108107
+      spriteID: 9b3b4345cf27ad14ca2826b3ecf7505e
+      internalID: -1050413541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_35
+      name: perfeito 1_35
       rect:
         serializedVersion: 2
         x: 229
@@ -859,14 +859,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6c9f6d54b70932459336dac4ff525b4
-      internalID: 1689211382
+      spriteID: 849e067cf8e98db45991e2dc153c0d0c
+      internalID: 1930174279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_36
+      name: perfeito 1_36
       rect:
         serializedVersion: 2
         x: 245
@@ -880,14 +880,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d3d9feb63c4ed4419eb0d0f5e8b99d2
-      internalID: 1232940092
+      spriteID: d743df1503d4acf4a8028cedc4cae525
+      internalID: -1330160993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_37
+      name: perfeito 1_37
       rect:
         serializedVersion: 2
         x: 1
@@ -901,14 +901,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8559f05e1eab3d7448aa4886adcce27e
-      internalID: 683736471
+      spriteID: 1207207dcc42f8e4199429fcf506a701
+      internalID: 1590691347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_38
+      name: perfeito 1_38
       rect:
         serializedVersion: 2
         x: 259
@@ -922,14 +922,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66c59e4ea65942249a504a7f30863aad
-      internalID: -514010182
+      spriteID: a6742e569577dc346b57f84443e5b8be
+      internalID: 725478273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_39
+      name: perfeito 1_39
       rect:
         serializedVersion: 2
         x: 323
@@ -943,35 +943,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8487678c4a10e274ca3f2d86c47478f7
-      internalID: -1562933700
+      spriteID: 1739c82949b111343bec9d89a1a8f45e
+      internalID: -946301836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_40
+      name: perfeito 1_40
       rect:
         serializedVersion: 2
-        x: 385
-        y: 563
-        width: 129
-        height: 126
+        x: 387
+        y: 564
+        width: 127
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83d9acba03981bf47afbcf717a2c0a69
-      internalID: -2054378364
+      spriteID: fb1e131bdef43a04e91f2aac60904c2c
+      internalID: -969071362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_41
+      name: perfeito 1_41
       rect:
         serializedVersion: 2
         x: 261
@@ -985,14 +985,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78ebe65785c8e9f45b47340aa4268cd6
-      internalID: -1177549664
+      spriteID: aace47fd906875c4fbed3accc55ebd9e
+      internalID: -1377991156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_42
+      name: perfeito 1_42
       rect:
         serializedVersion: 2
         x: 294
@@ -1006,14 +1006,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6b0eda4de1abaf4eb6cea284c117245
-      internalID: -1971310356
+      spriteID: 4038877a9b030634ca5891dd5c7db404
+      internalID: -1146768892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_43
+      name: perfeito 1_43
       rect:
         serializedVersion: 2
         x: 326
@@ -1027,14 +1027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3598851c8c8e7d84382de0481a5873fc
-      internalID: 1534154001
+      spriteID: d46f9f5b83b37894d89b4999ee626786
+      internalID: 996211774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_44
+      name: perfeito 1_44
       rect:
         serializedVersion: 2
         x: 357
@@ -1048,14 +1048,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ae59e3f1db6a754591207e9e2605090
-      internalID: 798056604
+      spriteID: 8563dfae021892e4ea12db9bcda00bf7
+      internalID: -973574398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_45
+      name: perfeito 1_45
       rect:
         serializedVersion: 2
         x: 261
@@ -1069,14 +1069,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5507eca9272d7e4caeb1a348758d845
-      internalID: 14470452
+      spriteID: 7cfcdc2dfc5adbb438adef268e2ebd35
+      internalID: -1017048973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_46
+      name: perfeito 1_46
       rect:
         serializedVersion: 2
         x: 289
@@ -1090,14 +1090,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79bcd184908ee1740955fe60ca6903a5
-      internalID: -1135844466
+      spriteID: 01d7b82a0bf82de46a1ad0fd033ec335
+      internalID: -1029609282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_47
+      name: perfeito 1_47
       rect:
         serializedVersion: 2
         x: 357
@@ -1111,14 +1111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f03b041b26ef6fd46be0b9ee5521ceac
-      internalID: -258192630
+      spriteID: 6ca849d880c16e4488ce45b4dbe641f7
+      internalID: 962171827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_48
+      name: perfeito 1_48
       rect:
         serializedVersion: 2
         x: 2
@@ -1132,14 +1132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 667284f7c6e4c504b96280fcb48931c6
-      internalID: -706859514
+      spriteID: d93e98f8a5c2a194480a99eb1ccf3cf0
+      internalID: 909487782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_49
+      name: perfeito 1_49
       rect:
         serializedVersion: 2
         x: 34
@@ -1153,14 +1153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b8a6477ee7723c4dbffcd6ebd6fa04e
-      internalID: 879834898
+      spriteID: 3c890653ca8f15f4ca15580bd8f33db6
+      internalID: 1434011914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_50
+      name: perfeito 1_50
       rect:
         serializedVersion: 2
         x: 66
@@ -1174,14 +1174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a2fd2bb5f3d890448217ae44dd705f8
-      internalID: -395005868
+      spriteID: 88a657f44b3080a4cbde379e19fdae31
+      internalID: -1825414335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_51
+      name: perfeito 1_51
       rect:
         serializedVersion: 2
         x: 98
@@ -1195,14 +1195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48ee1a5d722fc3749a45b8e11ea888fd
-      internalID: 492193319
+      spriteID: 315445ecaa5f3ff4c9dc8e780d15b9b0
+      internalID: -1437405007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_52
+      name: perfeito 1_52
       rect:
         serializedVersion: 2
         x: 130
@@ -1216,14 +1216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be4dd46e4494a61468e4ce960a93e58d
-      internalID: 1956408629
+      spriteID: 1f17553a4f208844184811e7d8e5c502
+      internalID: 1095984809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_53
+      name: perfeito 1_53
       rect:
         serializedVersion: 2
         x: 162
@@ -1237,14 +1237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 423ea8f0802855b4487154c99e1da914
-      internalID: 607802209
+      spriteID: b6840a71b6f17a14fb6dccc398a2cbf9
+      internalID: 2143525766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_54
+      name: perfeito 1_54
       rect:
         serializedVersion: 2
         x: 194
@@ -1258,14 +1258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4a228ad7197a46459c453ac199f3e2e
-      internalID: -1734225128
+      spriteID: 55e60a20a0ef4a945aecc6c22d42c46a
+      internalID: 1667087648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_55
+      name: perfeito 1_55
       rect:
         serializedVersion: 2
         x: 226
@@ -1279,14 +1279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc5c9f4c7dba3b84e99703623e56fd16
-      internalID: 488208525
+      spriteID: 3c68d53f89eac5e4f92d63e234851b67
+      internalID: 988639423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_56
+      name: perfeito 1_56
       rect:
         serializedVersion: 2
         x: 260
@@ -1300,14 +1300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c879d68f830e5b418e159a9dbdeefc2
-      internalID: 1206291690
+      spriteID: 55b4d7c6b37a70141b3b41ac12ae101e
+      internalID: -2061753706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_57
+      name: perfeito 1_57
       rect:
         serializedVersion: 2
         x: 276
@@ -1321,14 +1321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33f4dac13ff8490439ae157e94af467c
-      internalID: 1494368402
+      spriteID: 6b040067b41f59643950be5ec0aa9d0e
+      internalID: 385802614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_58
+      name: perfeito 1_58
       rect:
         serializedVersion: 2
         x: 373
@@ -1342,14 +1342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 932148c6f0a1c1e42bf4d830f972a74a
-      internalID: -1296835057
+      spriteID: e579ac18c59898e44802b6d29f47dd50
+      internalID: -1905767257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_59
+      name: perfeito 1_59
       rect:
         serializedVersion: 2
         x: 1
@@ -1363,14 +1363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee8100454088aa544bd1d6091620bec6
-      internalID: -539664217
+      spriteID: 522c285828d10d54e8856b7160dc4aae
+      internalID: -2131163277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_60
+      name: perfeito 1_60
       rect:
         serializedVersion: 2
         x: 67
@@ -1384,14 +1384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba29b9dd3d39cd346b0c5a49ea2010da
-      internalID: -1428706916
+      spriteID: af91382686d13154897a3c9157de0cdc
+      internalID: 1540843383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_61
+      name: perfeito 1_61
       rect:
         serializedVersion: 2
         x: 83
@@ -1405,14 +1405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b23676fbea8cc5b46adea827b9ccf938
-      internalID: 490669364
+      spriteID: 36cb2d9b8fd64e04d96a1f8cd4c989de
+      internalID: -547852069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_62
+      name: perfeito 1_62
       rect:
         serializedVersion: 2
         x: 99
@@ -1426,14 +1426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb6a76e76dce3f2438d9ac57f5d8c506
-      internalID: 367413832
+      spriteID: 5019039be21c19549a6e5aba7abef6e4
+      internalID: -832328923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_63
+      name: perfeito 1_63
       rect:
         serializedVersion: 2
         x: 115
@@ -1447,14 +1447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57360d642bda03042b0de7763bd6be17
-      internalID: -1862433566
+      spriteID: 8449f9600954ff14c95e11b631f50cba
+      internalID: 251918695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_64
+      name: perfeito 1_64
       rect:
         serializedVersion: 2
         x: 131
@@ -1468,14 +1468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86f66722f04769c40bf8d82129e0b85a
-      internalID: -1541527363
+      spriteID: 0d7856c1688e62a4c9cf1ba92c3220f2
+      internalID: 1039519576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_65
+      name: perfeito 1_65
       rect:
         serializedVersion: 2
         x: 147
@@ -1489,14 +1489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c345af715e7bd3c4f9c309c83a30dc3a
-      internalID: 986069985
+      spriteID: e08b39486a9e96a4a9cbe508b70e4c7d
+      internalID: -47594823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_66
+      name: perfeito 1_66
       rect:
         serializedVersion: 2
         x: 163
@@ -1510,14 +1510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c99ec00659524874cb50d10531dd97bc
-      internalID: -159736618
+      spriteID: 9761c15cc72203e45972434ddf8753c6
+      internalID: 1208604717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_67
+      name: perfeito 1_67
       rect:
         serializedVersion: 2
         x: 179
@@ -1531,14 +1531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 691f68ed608a78d4ab8c2a221c3bf439
-      internalID: 1087675611
+      spriteID: 4939150aef08f9a4f8105c6db2d88134
+      internalID: -416620494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_68
+      name: perfeito 1_68
       rect:
         serializedVersion: 2
         x: 195
@@ -1552,14 +1552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db3ef7738b45b71448ac411cd8a6104f
-      internalID: 2069148696
+      spriteID: c515b10023682654c80d2c2819fb3701
+      internalID: -805809261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_69
+      name: perfeito 1_69
       rect:
         serializedVersion: 2
         x: 211
@@ -1573,14 +1573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26c736767d2489e478731fb1082b8e57
-      internalID: 1814186870
+      spriteID: 2026a417c82dce949bca7e2210f0e2a0
+      internalID: 1253505146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_70
+      name: perfeito 1_70
       rect:
         serializedVersion: 2
         x: 249
@@ -1594,14 +1594,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 105e39c3caeacee4c93bfab60fef05cf
-      internalID: -2087772019
+      spriteID: fb1c8d2a8612ee9449e643d0b1d2cd7e
+      internalID: 1501898644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_71
+      name: perfeito 1_71
       rect:
         serializedVersion: 2
         x: 260
@@ -1615,14 +1615,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 419c8435de1e0584fb73d9fdc6776012
-      internalID: 1067107470
+      spriteID: 6f3375b0796c3634ba615bc92eaadaec
+      internalID: -1214947324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_72
+      name: perfeito 1_72
       rect:
         serializedVersion: 2
         x: 355
@@ -1636,14 +1636,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58442ae152452604b97671eb6d5bfc97
-      internalID: 438015509
+      spriteID: 679f266273ff0054da24ebaa1c4689a7
+      internalID: -1318568199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_73
+      name: perfeito 1_73
       rect:
         serializedVersion: 2
         x: 386
@@ -1657,14 +1657,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dd3c3e4000a10b42bc7bc2bddfa6c2a
-      internalID: 882488978
+      spriteID: 03639dfb853976a498d8f2b788df2b5a
+      internalID: -1135843963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_74
+      name: perfeito 1_74
       rect:
         serializedVersion: 2
         x: 419
@@ -1678,14 +1678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d21c43d7d1ac2b498206961d03f4d8c
-      internalID: -1663660712
+      spriteID: 42c90a8864a90fd4a97c53236dd13670
+      internalID: -1730254362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_75
+      name: perfeito 1_75
       rect:
         serializedVersion: 2
         x: 453
@@ -1699,14 +1699,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d55e4a73372c1b47bfff2de4f86d640
-      internalID: -590422664
+      spriteID: 76e7dfd93b73c254980a35cdb8c412d1
+      internalID: 993744486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_76
+      name: perfeito 1_76
       rect:
         serializedVersion: 2
         x: 1
@@ -1720,14 +1720,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 787ecbd15c9ca474a83689f35ea78e11
-      internalID: -1760816903
+      spriteID: d56846836dbaaac4b9acde0016124d5a
+      internalID: 450382521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_77
+      name: perfeito 1_77
       rect:
         serializedVersion: 2
         x: 259
@@ -1741,14 +1741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99b8527fdb0fd844c95fd689eaa5e3fe
-      internalID: 531071386
+      spriteID: 546857627a297ae45b1fb04025c605b5
+      internalID: -1500263219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_78
+      name: perfeito 1_78
       rect:
         serializedVersion: 2
         x: 291
@@ -1762,14 +1762,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b82ef0578b5cdc24386b3c870a2605b9
-      internalID: -198427768
+      spriteID: d15c2d2ae297a71449cc090a8f5d3b36
+      internalID: -1079996021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_79
+      name: perfeito 1_79
       rect:
         serializedVersion: 2
         x: 323
@@ -1783,14 +1783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f40601b92c94ede4c9f737b4db5b271c
-      internalID: 492004384
+      spriteID: 77e5be05aca2a3e4cbffc4a9f1a1e7e2
+      internalID: -493977566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_80
+      name: perfeito 1_80
       rect:
         serializedVersion: 2
         x: 355
@@ -1804,14 +1804,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1343ab431030fec44a6e73adcfb7ac2d
-      internalID: -636170572
+      spriteID: 577e291c172091f4b80fe2679e198967
+      internalID: -526133146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_81
+      name: perfeito 1_81
       rect:
         serializedVersion: 2
         x: 387
@@ -1825,14 +1825,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a3244588570a1547a6113e13a4d2681
-      internalID: -1970534256
+      spriteID: a32079cbc7efcf042a168e6241746054
+      internalID: 560807568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_82
+      name: perfeito 1_82
       rect:
         serializedVersion: 2
         x: 419
@@ -1846,14 +1846,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1c68eac0a7680747a1608a4a6adbf38
-      internalID: -1440207058
+      spriteID: 0c64df65f8a75354589bad7cc8c8c637
+      internalID: 1664718786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_83
+      name: perfeito 1_83
       rect:
         serializedVersion: 2
         x: 451
@@ -1867,14 +1867,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1028e5610bc13ad4c8a111e167cec696
-      internalID: -989590553
+      spriteID: ff5b27f964b85594ab35f78ab665ccd9
+      internalID: 1961597924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_84
+      name: perfeito 1_84
       rect:
         serializedVersion: 2
         x: 483
@@ -1888,14 +1888,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a83802636cf590143ac579f7b885be82
-      internalID: -799740064
+      spriteID: 02d8cb9055f99c043926ff5465faffd6
+      internalID: -1973374292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_85
+      name: perfeito 1_85
       rect:
         serializedVersion: 2
         x: 1
@@ -1909,14 +1909,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b7544feaa7dcf342b4a0903d7019237
-      internalID: 532681902
+      spriteID: f1254d569c3cce549a540c6b13ffe091
+      internalID: 2049782990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_86
+      name: perfeito 1_86
       rect:
         serializedVersion: 2
         x: 260
@@ -1930,14 +1930,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cbf138cff9110b45a1990806cd487a3
-      internalID: 525106532
+      spriteID: d0cc253605fdb9e4fa4cc4e14d68f7da
+      internalID: -137582762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_87
+      name: perfeito 1_87
       rect:
         serializedVersion: 2
         x: 324
@@ -1951,14 +1951,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b29fb078a72f29f4b9b72a7040e3d7f9
-      internalID: 42395462
+      spriteID: bca0d3bf4d2430c448adf0c28ed21ae8
+      internalID: 925955063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_88
+      name: perfeito 1_88
       rect:
         serializedVersion: 2
         x: 388
@@ -1972,14 +1972,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0ce7f91b9d9146419641edf0b942bf4
-      internalID: 2114272801
+      spriteID: 5c03757a6310b9f4285bfe65d226dc4a
+      internalID: -1981233896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_89
+      name: perfeito 1_89
       rect:
         serializedVersion: 2
         x: 452
@@ -1993,14 +1993,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38d0eb4de2fcede4dafef4898cdf7d16
-      internalID: -588385616
+      spriteID: 3df0631acc262db4e937fb245094af0c
+      internalID: -102672728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_90
+      name: perfeito 1_90
       rect:
         serializedVersion: 2
         x: 5
@@ -2014,14 +2014,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e8ca69832ad8b146b58cae1ec762aad
-      internalID: -571820717
+      spriteID: 7e93c82161e96f742809b6639994e28c
+      internalID: -1749152810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_91
+      name: perfeito 1_91
       rect:
         serializedVersion: 2
         x: 37
@@ -2035,14 +2035,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5439aae691162341b0fb476410b26e2
-      internalID: 1869785529
+      spriteID: d163ea1de85dc844bb8d11e6ff8019dd
+      internalID: 883878287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_92
+      name: perfeito 1_92
       rect:
         serializedVersion: 2
         x: 69
@@ -2056,14 +2056,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21d4571011fd79a408d03b94f59eefcb
-      internalID: -563096468
+      spriteID: 7371e7ff4d1b44b48882b6f3f2cfd92f
+      internalID: -1080380176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_93
+      name: perfeito 1_93
       rect:
         serializedVersion: 2
         x: 101
@@ -2077,14 +2077,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaa8e958ef3015042adc96e492595125
-      internalID: -517331061
+      spriteID: a64e641d8d5e81d4288f054d124087ea
+      internalID: -1529895663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_94
+      name: perfeito 1_94
       rect:
         serializedVersion: 2
         x: 133
@@ -2098,14 +2098,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ac0b91a2d7833a43b15728f2c021054
-      internalID: -675665108
+      spriteID: 31fd65482bb210c488c4e908476e584e
+      internalID: -1140318335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_95
+      name: perfeito 1_95
       rect:
         serializedVersion: 2
         x: 165
@@ -2119,14 +2119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e0df047d4c7b7847bec2fd2f14a0fc8
-      internalID: 651383150
+      spriteID: 7faa864643ea23246ab8771659056a4b
+      internalID: 459264772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_96
+      name: perfeito 1_96
       rect:
         serializedVersion: 2
         x: 197
@@ -2140,14 +2140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa8343d9c5667794da9baa698d3bd970
-      internalID: 1115057303
+      spriteID: 71c4e1683a24838428ff831f2d0fee09
+      internalID: -1030124496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_97
+      name: perfeito 1_97
       rect:
         serializedVersion: 2
         x: 229
@@ -2161,14 +2161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 361501250d58d1045a1cff00e6b41e93
-      internalID: 1866395544
+      spriteID: cff7c56a7a6819f45832a1afb6ac565b
+      internalID: 78965001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_98
+      name: perfeito 1_98
       rect:
         serializedVersion: 2
         x: 260
@@ -2182,14 +2182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2475639c7c05bb4794af2f32dfe1611
-      internalID: -1828225050
+      spriteID: 82afb4f5245a461478d80ba3c28a02e9
+      internalID: -47625939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_99
+      name: perfeito 1_99
       rect:
         serializedVersion: 2
         x: 276
@@ -2203,14 +2203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9299b6aecbde5414398fde2580363a77
-      internalID: 1317824070
+      spriteID: 349c5c8c22512e04898458285c54db34
+      internalID: 23394560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_100
+      name: perfeito 1_100
       rect:
         serializedVersion: 2
         x: 290
@@ -2224,14 +2224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7477d61aa7b71854984ff35d26c4ddcc
-      internalID: -977331722
+      spriteID: 5a64c39d168679448948b0bc78f66f81
+      internalID: 2023080895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_101
+      name: perfeito 1_101
       rect:
         serializedVersion: 2
         x: 389
@@ -2245,14 +2245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d29d83d053d4f1c4d8a4faba744e4c20
-      internalID: -1680377974
+      spriteID: f69bed17eb18b6d49885257c3872f3af
+      internalID: -1319766861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_102
+      name: perfeito 1_102
       rect:
         serializedVersion: 2
         x: 405
@@ -2266,14 +2266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a0ed87bf432ea046878cc275cd4fdbd
-      internalID: 738856142
+      spriteID: 6f407e4fdc79ada479f5efc331a16a69
+      internalID: 1840690707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_103
+      name: perfeito 1_103
       rect:
         serializedVersion: 2
         x: 420
@@ -2287,14 +2287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41696ad41c41cea42b97aca9ff08fe1f
-      internalID: 672563944
+      spriteID: 8053062b8016ebc4284508342bfd2534
+      internalID: -1164164024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_104
+      name: perfeito 1_104
       rect:
         serializedVersion: 2
         x: 434
@@ -2308,14 +2308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91180b457eb0412459bd6a35fd9ba2ae
-      internalID: -791410116
+      spriteID: dbe71a3b18db9b34e8cf25e80d8c47dc
+      internalID: 279899246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_105
+      name: perfeito 1_105
       rect:
         serializedVersion: 2
         x: 450
@@ -2329,14 +2329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16fab27d25e341b42820e163de10ca79
-      internalID: -585224176
+      spriteID: fdf37649379e3034c9f6c53ed0978189
+      internalID: 475879553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_106
+      name: perfeito 1_106
       rect:
         serializedVersion: 2
         x: 452
@@ -2350,14 +2350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 108c0274a7a403047b1d79290ff5dd78
-      internalID: 1112134012
+      spriteID: 4db9f9c3bb0fd48419818be8f8142da8
+      internalID: 1208099701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_107
+      name: perfeito 1_107
       rect:
         serializedVersion: 2
         x: 484
@@ -2371,14 +2371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 928f2228701e8f74aa84c2f0d405378e
-      internalID: 133276045
+      spriteID: ddc111a6805217d4f92c0a7a67564f3c
+      internalID: -624540660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_108
+      name: perfeito 1_108
       rect:
         serializedVersion: 2
         x: 500
@@ -2392,14 +2392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64c903c886d730e4b8914b1bfcd230c5
-      internalID: -1395701586
+      spriteID: ed758696108e0994eb4235717dbfdbe0
+      internalID: 667688758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_109
+      name: perfeito 1_109
       rect:
         serializedVersion: 2
         x: 259
@@ -2413,14 +2413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc9ec2893fc8e444cae77b5b7b3fd459
-      internalID: 509405777
+      spriteID: fd78f51738700334c98ddb6dfc071fd4
+      internalID: 796711123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_110
+      name: perfeito 1_110
       rect:
         serializedVersion: 2
         x: 283
@@ -2434,14 +2434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe7cab51e81d0c84487fa27edf87cc4a
-      internalID: 391593364
+      spriteID: 1095cbf47120e264eb54fe879d03b7ee
+      internalID: 611013285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_111
+      name: perfeito 1_111
       rect:
         serializedVersion: 2
         x: 307
@@ -2455,14 +2455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcb55afa5b5fc574497d0881fd623f10
-      internalID: 163312049
+      spriteID: 6d5f482ef3d52eb458bf04b074927a3e
+      internalID: 505610767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_112
+      name: perfeito 1_112
       rect:
         serializedVersion: 2
         x: 331
@@ -2476,14 +2476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fa71848f4de3454baab51b41c5f515f
-      internalID: 361054965
+      spriteID: 0863c688a5cee1c4ea291dfe85a8dfd1
+      internalID: -1036058156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_113
+      name: perfeito 1_113
       rect:
         serializedVersion: 2
         x: 355
@@ -2497,14 +2497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c1ca45323fbff14baf3309916e8d7e4
-      internalID: -1918839322
+      spriteID: 171c2fc3c617aa94bbc8b5b01f4b73d5
+      internalID: 2043635743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_114
+      name: perfeito 1_114
       rect:
         serializedVersion: 2
         x: 379
@@ -2518,14 +2518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fc9510e13eccdc4f8dd57b70f3020a5
-      internalID: 1488350262
+      spriteID: b6c75345bdfcb0a4b889ea1338983e8b
+      internalID: -1994467488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_115
+      name: perfeito 1_115
       rect:
         serializedVersion: 2
         x: 403
@@ -2539,14 +2539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13f4a34d2bd82904180d418ef17ec400
-      internalID: -454531323
+      spriteID: 7ecdf89a8669638438246525d9dab588
+      internalID: 2146132793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_116
+      name: perfeito 1_116
       rect:
         serializedVersion: 2
         x: 419
@@ -2560,14 +2560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9670e77497ef6c5499c6308d82933da0
-      internalID: -1480111287
+      spriteID: 9623192e8dd6165459605204ba29cb75
+      internalID: -1129133017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_117
+      name: perfeito 1_117
       rect:
         serializedVersion: 2
         x: 453
@@ -2581,14 +2581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7191132e6409a8f46a149b24595d0170
-      internalID: 236487542
+      spriteID: cfd154551733a744dbbb69f8721ae769
+      internalID: 1176097139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_118
+      name: perfeito 1_118
       rect:
         serializedVersion: 2
         x: 488
@@ -2602,14 +2602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 394601ede13b602429d5425add692f57
-      internalID: 390079046
+      spriteID: bb1a0a28a74e99442b91adeb058d1631
+      internalID: -300608121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_119
+      name: perfeito 1_119
       rect:
         serializedVersion: 2
         x: 42
@@ -2623,14 +2623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b17243aeac383e9408bf75d63fb8af2f
-      internalID: 524448174
+      spriteID: 91c510d6fad88c547a7a78a41ac1f0e3
+      internalID: 1021926688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_120
+      name: perfeito 1_120
       rect:
         serializedVersion: 2
         x: 74
@@ -2644,14 +2644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 679bd2d983f4cb74384e9248cc195fb8
-      internalID: 445104229
+      spriteID: d0d1f9ab0e7e6df458a602766b97e43d
+      internalID: -31795002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_121
+      name: perfeito 1_121
       rect:
         serializedVersion: 2
         x: 106
@@ -2665,14 +2665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e919ce3dbc19cda4286c42aa9eae61e4
-      internalID: -1289751290
+      spriteID: 9585b15cb3066c84f90491fd86b54360
+      internalID: -58709107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_122
+      name: perfeito 1_122
       rect:
         serializedVersion: 2
         x: 138
@@ -2686,14 +2686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fac06be60892584c918298b6c27da81
-      internalID: 1993690644
+      spriteID: 7cf375fe25e991849ad7b330726e28ce
+      internalID: 788151883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_123
+      name: perfeito 1_123
       rect:
         serializedVersion: 2
         x: 170
@@ -2707,14 +2707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab8a8c6bca6bfe34fbf78d188a19fff8
-      internalID: 686276237
+      spriteID: aa7ddf7189db193479a5237e5d2cb661
+      internalID: 60369012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_124
+      name: perfeito 1_124
       rect:
         serializedVersion: 2
         x: 202
@@ -2728,14 +2728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d50b865eb6a60d0419fcdcea04b83894
-      internalID: 961838271
+      spriteID: 7fb8f634fba240340a11d46a6cbaeeda
+      internalID: -1626090126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_125
+      name: perfeito 1_125
       rect:
         serializedVersion: 2
         x: 234
@@ -2749,14 +2749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67facdcf3e449d94e9f5ee5a837b8cc5
-      internalID: -1033558397
+      spriteID: 1454a117cb1ae8a42a741ad9d7ba77f5
+      internalID: 1667703278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_126
+      name: perfeito 1_126
       rect:
         serializedVersion: 2
         x: 258
@@ -2770,14 +2770,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81a6aa3a6c3374c4298a73d3b8f80414
-      internalID: -1489831057
+      spriteID: 4a4bb740de82a5e43a2d510c1c38cfcb
+      internalID: -1634618033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_127
+      name: perfeito 1_127
       rect:
         serializedVersion: 2
         x: 2
@@ -2791,14 +2791,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0db818f15e01ac549a7139c196c0d777
-      internalID: -1183788143
+      spriteID: 2340f44e50943b948a44e06127b82c47
+      internalID: 1747122589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_128
+      name: perfeito 1_128
       rect:
         serializedVersion: 2
         x: 34
@@ -2812,14 +2812,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b49208c8755a60044bae71d61ec1549c
-      internalID: 1997665533
+      spriteID: cdd9164642a6e8446959140866f4fc93
+      internalID: -1022216832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_129
+      name: perfeito 1_129
       rect:
         serializedVersion: 2
         x: 66
@@ -2833,14 +2833,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b636beec2ea2be647b8ee302d20cd457
-      internalID: 1302476587
+      spriteID: 3073b0275db665d4d86528f7069b21f0
+      internalID: -409689733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_130
+      name: perfeito 1_130
       rect:
         serializedVersion: 2
         x: 98
@@ -2854,14 +2854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be75b152fc06f964181a537946a38dd4
-      internalID: 1998997961
+      spriteID: 97eaeb6757c3f334b82d53632c85e055
+      internalID: 596735517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_131
+      name: perfeito 1_131
       rect:
         serializedVersion: 2
         x: 130
@@ -2875,14 +2875,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b393c48e6ab07d747829ee4b8c6edbef
-      internalID: -375502126
+      spriteID: 4694fbbb1253ce84d9ca0ef2f6fcdf63
+      internalID: 1513362131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_132
+      name: perfeito 1_132
       rect:
         serializedVersion: 2
         x: 162
@@ -2896,14 +2896,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fce6b18b9188cb4ab46ea2fe55ca190
-      internalID: -2127814235
+      spriteID: 6f44fdac37bc3a744be6940d0b100571
+      internalID: -1553515831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_133
+      name: perfeito 1_133
       rect:
         serializedVersion: 2
         x: 194
@@ -2917,14 +2917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19ff6590a561cf24592c5dca7e441f2b
-      internalID: -1892201583
+      spriteID: ca3933f9225362b4a9ad5e542a5b85b3
+      internalID: -1318163122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_134
+      name: perfeito 1_134
       rect:
         serializedVersion: 2
         x: 226
@@ -2938,14 +2938,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 855745a2306aa4944a8b09aaafd36e4f
-      internalID: -1595735259
+      spriteID: 2b47da2beba3ce047901f8e39377bc29
+      internalID: -1227590226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_135
+      name: perfeito 1_135
       rect:
         serializedVersion: 2
         x: 260
@@ -2959,14 +2959,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fe487f2790cdda43bb3dedd4832363a
-      internalID: -1674333869
+      spriteID: d30b81e9666a87a4a9b81196e8536532
+      internalID: -2138221349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_136
+      name: perfeito 1_136
       rect:
         serializedVersion: 2
         x: 292
@@ -2980,14 +2980,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5a4a627e9d49aa4a90576b9dc3ded88
-      internalID: 180496358
+      spriteID: 6f8eb4d011fa3ac4e85f9722d57a642c
+      internalID: -1735365612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_137
+      name: perfeito 1_137
       rect:
         serializedVersion: 2
         x: 324
@@ -3001,14 +3001,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9202b66ea2f2d2e499b644e177f3cdd9
-      internalID: 1790845397
+      spriteID: 946f864ff19d95641a75bb2f0f6117c0
+      internalID: -2117581353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_138
+      name: perfeito 1_138
       rect:
         serializedVersion: 2
         x: 356
@@ -3022,14 +3022,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40c86690a984e014799be6031369b708
-      internalID: 516674812
+      spriteID: b2ba9fdba0b74f14d929271ad453ac52
+      internalID: 1004798465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_139
+      name: perfeito 1_139
       rect:
         serializedVersion: 2
         x: 388
@@ -3043,14 +3043,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb7a5f1046f3a374bb092faec4fbcce6
-      internalID: -1629428776
+      spriteID: 4fabfd45d5a986349a31d34705d9465c
+      internalID: 219586572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_140
+      name: perfeito 1_140
       rect:
         serializedVersion: 2
         x: 420
@@ -3064,14 +3064,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 104ccf0855c7148429babcc12b3c79a3
-      internalID: 187314128
+      spriteID: dfbdcf493634c8b46bc506d03b93c4b2
+      internalID: -1001627705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_141
+      name: perfeito 1_141
       rect:
         serializedVersion: 2
         x: 259
@@ -3085,14 +3085,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0015a28123eb1e943a6427191a26ebca
-      internalID: 15043380
+      spriteID: 52543c55fdaf30e46a5f7e4fbb312e8d
+      internalID: 1860134075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_142
+      name: perfeito 1_142
       rect:
         serializedVersion: 2
         x: 291
@@ -3106,14 +3106,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11b9324c122e5d74eb3d2349bbf67eee
-      internalID: -526009103
+      spriteID: 5591f9cfb59bf28499772e5e74b27a4f
+      internalID: 363114264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_143
+      name: perfeito 1_143
       rect:
         serializedVersion: 2
         x: 323
@@ -3127,14 +3127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47c111f9fffdb7742875d8eae8dbee7c
-      internalID: 686001079
+      spriteID: cb38f5ef58c47b74cb81a64ac87a1bbf
+      internalID: 286719929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_144
+      name: perfeito 1_144
       rect:
         serializedVersion: 2
         x: 355
@@ -3148,14 +3148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 663df1ceb948beb4791d309ab00458b1
-      internalID: -843706651
+      spriteID: 295731af9f19b3e48954898e6eb58fa8
+      internalID: 524296133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_145
+      name: perfeito 1_145
       rect:
         serializedVersion: 2
         x: 387
@@ -3169,14 +3169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80dc112af691dab4d8ca8fc741518286
-      internalID: -302173622
+      spriteID: 3115bcb1fbb8beb46b323ca6ebf674d0
+      internalID: 351251128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_146
+      name: perfeito 1_146
       rect:
         serializedVersion: 2
         x: 419
@@ -3190,14 +3190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3b3b9e81ba2b1e44a0555ff9b2c6875
-      internalID: 2034136351
+      spriteID: b0e45efc21e17f241b9c09f62ad99ff6
+      internalID: 2104744458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_147
+      name: perfeito 1_147
       rect:
         serializedVersion: 2
         x: 2
@@ -3211,14 +3211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9328ee084223b6f4196446269ddcd5f1
-      internalID: 1927759221
+      spriteID: fc48e86a1a36a774890a16756b0e0dea
+      internalID: 455901324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_148
+      name: perfeito 1_148
       rect:
         serializedVersion: 2
         x: 66
@@ -3232,14 +3232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b38ad4a9bb65ff14eb5d22244ab9df20
-      internalID: -352176026
+      spriteID: eecd6e0705edf164089840eb102f54a8
+      internalID: -1753426505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_149
+      name: perfeito 1_149
       rect:
         serializedVersion: 2
         x: 130
@@ -3253,14 +3253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae27ee47d17911e4d8d774cd9ce26997
-      internalID: 1437090351
+      spriteID: 5fcb8e72ea89dd942a16b3dd130e1f5c
+      internalID: 988442764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_150
+      name: perfeito 1_150
       rect:
         serializedVersion: 2
         x: 194
@@ -3274,14 +3274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a12e0718c19a2e448a87973639aa2f7d
-      internalID: -2122142123
+      spriteID: 24f6b508286d9bf4aa5087eb65a368d6
+      internalID: -2123699844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_151
+      name: perfeito 1_151
       rect:
         serializedVersion: 2
         x: 261
@@ -3295,14 +3295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66663e7e2734a334f9d4dddd5ee93326
-      internalID: -153868814
+      spriteID: b19b71bdd8cd6594db647c3539b446bd
+      internalID: 838485688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_152
+      name: perfeito 1_152
       rect:
         serializedVersion: 2
         x: 277
@@ -3316,14 +3316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73def763f193a5845a54c9cae7b6b200
-      internalID: 881893267
+      spriteID: 38c2a04a889b15a40b8661c7c2127050
+      internalID: 1736974619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_153
+      name: perfeito 1_153
       rect:
         serializedVersion: 2
         x: 293
@@ -3337,14 +3337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b081003da8e29184ea8b54301266abd9
-      internalID: -1122498174
+      spriteID: fae74bb0c7dcf3f4cab9e6f2888baaa4
+      internalID: 1248208827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_154
+      name: perfeito 1_154
       rect:
         serializedVersion: 2
         x: 309
@@ -3358,14 +3358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d47ee53373b7ee04ab553e13511c846d
-      internalID: 1955853913
+      spriteID: 4ccee48041c2286419aff25c42103018
+      internalID: 344379545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_155
+      name: perfeito 1_155
       rect:
         serializedVersion: 2
         x: 325
@@ -3379,14 +3379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30a96076b23bed949b35440543bad5c3
-      internalID: 329924565
+      spriteID: 4966d277ed01a9f46bbaaf6d5a3310d6
+      internalID: 631197553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_156
+      name: perfeito 1_156
       rect:
         serializedVersion: 2
         x: 341
@@ -3400,14 +3400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e15ffcefbe51cae419727bb717e52b01
-      internalID: 988928457
+      spriteID: 3a42a3f9e026aad47ba9e27e50b9af33
+      internalID: 279460127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_157
+      name: perfeito 1_157
       rect:
         serializedVersion: 2
         x: 357
@@ -3421,14 +3421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4520a59f38db84546a39915f663e5ccf
-      internalID: 2032028671
+      spriteID: d11dfcf0c520c18449f206ae41f57252
+      internalID: 1138523493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_158
+      name: perfeito 1_158
       rect:
         serializedVersion: 2
         x: 373
@@ -3442,14 +3442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a9b3f076e2b1b240b7b9a156b9cc08e
-      internalID: -1437438011
+      spriteID: ba11b2ae8d072cc47b6d154fc58aa6db
+      internalID: -806495536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_159
+      name: perfeito 1_159
       rect:
         serializedVersion: 2
         x: 389
@@ -3463,14 +3463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d751977b4931d0946a97d7da8e20b6d2
-      internalID: 1174395115
+      spriteID: e812e09840212eb43ad329efe6e2f10d
+      internalID: 721793787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_160
+      name: perfeito 1_160
       rect:
         serializedVersion: 2
         x: 405
@@ -3484,14 +3484,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 565a24111170d474cb92289315d234ae
-      internalID: -581547635
+      spriteID: 4b971760c42ee614dbd5a4a01d2536d3
+      internalID: -167428320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_161
+      name: perfeito 1_161
       rect:
         serializedVersion: 2
         x: 421
@@ -3505,14 +3505,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5db5a7d280bd4b947819647aaf05fb46
-      internalID: -1844323744
+      spriteID: 3238770e63946414fbdaa26b3a84b4ad
+      internalID: -973404359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_162
+      name: perfeito 1_162
       rect:
         serializedVersion: 2
         x: 437
@@ -3526,14 +3526,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d4da1f3cb589c04dbdbb62156a95163
-      internalID: 417247669
+      spriteID: f1fd2594ae9fadf40999c4ff977a78ea
+      internalID: -747649336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_163
+      name: perfeito 1_163
       rect:
         serializedVersion: 2
         x: 453
@@ -3547,14 +3547,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c8f4bde57be41a409a0c9da5d9078f0
-      internalID: 1922272965
+      spriteID: 5e2057b8d0ab7634588f5c7a4408024b
+      internalID: 318511521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_164
+      name: perfeito 1_164
       rect:
         serializedVersion: 2
         x: 469
@@ -3568,14 +3568,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff6866bc134eea34c88896ce536656d4
-      internalID: -1345703701
+      spriteID: fa609117e2eb1dc40ad686cddfb9da2d
+      internalID: -2131151544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_165
+      name: perfeito 1_165
       rect:
         serializedVersion: 2
         x: 485
@@ -3589,14 +3589,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc616a46fa9010f4f8678a1d77e41d09
-      internalID: 776833364
+      spriteID: 145c21da83c02bf46bfc37649a13f5f8
+      internalID: -1416384334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_166
+      name: perfeito 1_166
       rect:
         serializedVersion: 2
         x: 501
@@ -3610,14 +3610,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b2f926caf5ff904f823f9126106fe63
-      internalID: 2013424850
+      spriteID: 6af49aedb872f7540a98d63f1aaea9ae
+      internalID: 1992517036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_167
+      name: perfeito 1_167
       rect:
         serializedVersion: 2
         x: 260
@@ -3631,14 +3631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 914b2323e87bcc64b8fdca72d69b8137
-      internalID: -89218919
+      spriteID: 1f7875fdb21b4154c89ec5fa3d52564c
+      internalID: 2000060985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_168
+      name: perfeito 1_168
       rect:
         serializedVersion: 2
         x: 292
@@ -3652,14 +3652,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4e040d8b33e819479ee4226032ad8f6
-      internalID: 991054166
+      spriteID: c0b15043fd5ee454c95ecb2bc4f7e739
+      internalID: 1017220083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_169
+      name: perfeito 1_169
       rect:
         serializedVersion: 2
         x: 324
@@ -3673,14 +3673,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 395d6fa4a9aadb8409e8de3d23a12ff2
-      internalID: 2083127415
+      spriteID: da8dbc8e4908a6b4c98eee7ba22ee6ba
+      internalID: -803909301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_170
+      name: perfeito 1_170
       rect:
         serializedVersion: 2
         x: 356
@@ -3694,14 +3694,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dd3226b6a57bed418f997a216ca265a
-      internalID: 861986526
+      spriteID: 45f366672cc095d45a53a756e813208c
+      internalID: -337378463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_171
+      name: perfeito 1_171
       rect:
         serializedVersion: 2
         x: 5
@@ -3715,14 +3715,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d63297065ef02a46b1ccf0eea18a946
-      internalID: 149753483
+      spriteID: d766d0996cb85754bbcd967454eb407d
+      internalID: 256639693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_172
+      name: perfeito 1_172
       rect:
         serializedVersion: 2
         x: 258
@@ -3736,14 +3736,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c445730f82d4ce4487a7a4d2c04f6f8
-      internalID: -1830262712
+      spriteID: 4e2ef4bb58b1bd64d823e2ccb8aa59ec
+      internalID: -1071865829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_173
+      name: perfeito 1_173
       rect:
         serializedVersion: 2
         x: 324
@@ -3757,14 +3757,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8b243e6d161c214aaf82f95983cd7b8
-      internalID: -123470145
+      spriteID: f6a653f20f5d6424a858a78d48bf587c
+      internalID: 677730205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_174
+      name: perfeito 1_174
       rect:
         serializedVersion: 2
         x: 340
@@ -3778,14 +3778,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 010d684859c227b4b9ccb0be0611e5aa
-      internalID: -184929102
+      spriteID: abb8f17ea77cf8f4f87360f6bed18b62
+      internalID: 814346448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_175
+      name: perfeito 1_175
       rect:
         serializedVersion: 2
         x: 396
@@ -3799,14 +3799,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d798b932b392d840b38746db6c02bdf
-      internalID: 774051745
+      spriteID: f9813ecf4fe832d49b9083d2f0b9d040
+      internalID: -1145710059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_176
+      name: perfeito 1_176
       rect:
         serializedVersion: 2
         x: 485
@@ -3820,14 +3820,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ded7cc3641d66054d86845159a5a036c
-      internalID: -1035566643
+      spriteID: 4376f32973bbbd1499e4cf997e18ee2b
+      internalID: -1688493455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_177
+      name: perfeito 1_177
       rect:
         serializedVersion: 2
         x: 493
@@ -3841,14 +3841,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d30d76b5e87093b43a092457093f5651
-      internalID: -2078332936
+      spriteID: 49943038d54ca244290778c4639b39fc
+      internalID: -1946392419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_178
+      name: perfeito 1_178
       rect:
         serializedVersion: 2
         x: 500
@@ -3862,14 +3862,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 823fdb433bc0bda4bb176044cc0b6893
-      internalID: 83502264
+      spriteID: 2ed7a5592eb2d9d4c8125f44bfdaee61
+      internalID: -2104827041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_179
+      name: perfeito 1_179
       rect:
         serializedVersion: 2
         x: 5
@@ -3883,14 +3883,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 251424a785944844791010686766e19f
-      internalID: -1537071537
+      spriteID: d4b3ea1f14f21d84b8cfa5effaa09908
+      internalID: -992119672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_180
+      name: perfeito 1_180
       rect:
         serializedVersion: 2
         x: 357
@@ -3904,14 +3904,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55b387ba99ed40a4d87f60ba2c09e773
-      internalID: -1993333341
+      spriteID: 702c761c5c0a2cc4fb832e5110654ba9
+      internalID: -1891402652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_181
+      name: perfeito 1_181
       rect:
         serializedVersion: 2
         x: 441
@@ -3925,14 +3925,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfe6ab12af127ed498b7f8d6c50d6a6d
-      internalID: 1567446068
+      spriteID: f3bb52bd649eb384caacc42092180d65
+      internalID: -317258992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_182
+      name: perfeito 1_182
       rect:
         serializedVersion: 2
         x: 490
@@ -3946,14 +3946,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e55298876c642234cb05abb1e430b042
-      internalID: -417266494
+      spriteID: 5139f23305f5d254db692be51f8541cb
+      internalID: 2044210625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_183
+      name: perfeito 1_183
       rect:
         serializedVersion: 2
         x: 5
@@ -3967,14 +3967,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 310ac0b626e7bad4a93d49a6d0495a97
-      internalID: -609337086
+      spriteID: 7a92507c4dd4b6f4fab3f11dac9459f3
+      internalID: -2041533674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_184
+      name: perfeito 1_184
       rect:
         serializedVersion: 2
         x: 5
@@ -3988,14 +3988,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c882127750f20ce418c8c103aca81a1b
-      internalID: -2092780610
+      spriteID: d74b52e7fa13cf24d84625d6b3a55c56
+      internalID: 1415012972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_185
+      name: perfeito 1_185
       rect:
         serializedVersion: 2
         x: 357
@@ -4009,14 +4009,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4795cd5433692b4d9b48ff5f7d4bad0
-      internalID: 574435873
+      spriteID: 8759361e29f12d141ae9a1dec2497da9
+      internalID: -1898076949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_186
+      name: perfeito 1_186
       rect:
         serializedVersion: 2
         x: 5
@@ -4030,14 +4030,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15fd216b8366c5a4f87542783f94d561
-      internalID: -793852571
+      spriteID: 3b18e40378f377f4682f51414ceee363
+      internalID: 1654547098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_187
+      name: perfeito 1_187
       rect:
         serializedVersion: 2
         x: 5
@@ -4051,14 +4051,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee6a2772f37ff50428b6df999820fa4d
-      internalID: -1883022046
+      spriteID: 70b7b027fed117145bc67f7ff21d8f38
+      internalID: 1099752306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_188
+      name: perfeito 1_188
       rect:
         serializedVersion: 2
         x: 357
@@ -4072,14 +4072,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61c9c6b4fd34b284ebe81f88f14b6bdc
-      internalID: 1017609928
+      spriteID: 1af756141a4c9fd4ba5d17a148abdb87
+      internalID: -1864572209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_189
+      name: perfeito 1_189
       rect:
         serializedVersion: 2
         x: 5
@@ -4093,14 +4093,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c0f88059c3190341b4640ae92b8f1ee
-      internalID: -1374940323
+      spriteID: e847bf3da2b0af54a98bf6f12ef9888e
+      internalID: -97564516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_190
+      name: perfeito 1_190
       rect:
         serializedVersion: 2
         x: 5
@@ -4114,14 +4114,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32152cefab4a5ca4ea7c937bacd26ee0
-      internalID: -1884983615
+      spriteID: af395c56f49eb8145b12aa2f65349c33
+      internalID: 189690026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_191
+      name: perfeito 1_191
       rect:
         serializedVersion: 2
         x: 5
@@ -4135,14 +4135,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b6bfa7664ad7594d838968b934d4376
-      internalID: 674793000
+      spriteID: 72b3812dcb2af12458734c1fad28e98b
+      internalID: -1861999012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_192
+      name: perfeito 1_192
       rect:
         serializedVersion: 2
         x: 5
@@ -4156,14 +4156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da5d88a4307d58a4b9ceba50d187d16e
-      internalID: 1694644760
+      spriteID: 8d27c732de4b21845b38d81908521d65
+      internalID: 166965076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_193
+      name: perfeito 1_193
       rect:
         serializedVersion: 2
         x: 5
@@ -4177,14 +4177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c46c3799e129f1d4eb5d4401a69c8ec2
-      internalID: -1522561410
+      spriteID: a1e4b2a9919c04c4a83ee412f7750b17
+      internalID: 1347250942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_194
+      name: perfeito 1_194
       rect:
         serializedVersion: 2
         x: 5
@@ -4198,14 +4198,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3590b3f00d95275479fc353e4c3e0edb
-      internalID: -1420579848
+      spriteID: 0d862d3fdb0b5714bb00c4ebd811a460
+      internalID: -312022457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_195
+      name: perfeito 1_195
       rect:
         serializedVersion: 2
         x: 5
@@ -4219,14 +4219,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e2ac33a1b5f1bf4dbff5219bf331b85
-      internalID: 517247944
+      spriteID: 0fb2e47605c98e64cb37374f97550b48
+      internalID: 175433685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_196
+      name: perfeito 1_196
       rect:
         serializedVersion: 2
         x: 5
@@ -4240,14 +4240,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2cdc1bbb84127e489ded2bf47544563
-      internalID: -1450758691
+      spriteID: a4f8039cf943f7046ac5239f76d72299
+      internalID: -1855144204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_197
+      name: perfeito 1_197
       rect:
         serializedVersion: 2
         x: 5
@@ -4261,14 +4261,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1612abbe52a30144a5894e33731a398
-      internalID: 1241449760
+      spriteID: 2a61574e22e8cde4aadc7ec6778503cd
+      internalID: -313195747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfeito_198
+      name: perfeito 1_198
       rect:
         serializedVersion: 2
         x: 5
@@ -4282,8 +4282,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cd3e2eb06f5fff4aaa8f6276623dbcf
-      internalID: -269102503
+      spriteID: 4d7ea2a11759c424d8f1db299c4fec17
+      internalID: -775289147
       vertices: []
       indices: 
       edges: []
@@ -4299,205 +4299,205 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      perfeito_0: -1703854822
-      perfeito_1: 795296917
-      perfeito_10: 509839786
-      perfeito_100: -977331722
-      perfeito_101: -1680377974
-      perfeito_102: 738856142
-      perfeito_103: 672563944
-      perfeito_104: -791410116
-      perfeito_105: -585224176
-      perfeito_106: 1112134012
-      perfeito_107: 133276045
-      perfeito_108: -1395701586
-      perfeito_109: 509405777
-      perfeito_11: 1132726164
-      perfeito_110: 391593364
-      perfeito_111: 163312049
-      perfeito_112: 361054965
-      perfeito_113: -1918839322
-      perfeito_114: 1488350262
-      perfeito_115: -454531323
-      perfeito_116: -1480111287
-      perfeito_117: 236487542
-      perfeito_118: 390079046
-      perfeito_119: 524448174
-      perfeito_12: -1766184637
-      perfeito_120: 445104229
-      perfeito_121: -1289751290
-      perfeito_122: 1993690644
-      perfeito_123: 686276237
-      perfeito_124: 961838271
-      perfeito_125: -1033558397
-      perfeito_126: -1489831057
-      perfeito_127: -1183788143
-      perfeito_128: 1997665533
-      perfeito_129: 1302476587
-      perfeito_13: 2133805114
-      perfeito_130: 1998997961
-      perfeito_131: -375502126
-      perfeito_132: -2127814235
-      perfeito_133: -1892201583
-      perfeito_134: -1595735259
-      perfeito_135: -1674333869
-      perfeito_136: 180496358
-      perfeito_137: 1790845397
-      perfeito_138: 516674812
-      perfeito_139: -1629428776
-      perfeito_14: 1509841472
-      perfeito_140: 187314128
-      perfeito_141: 15043380
-      perfeito_142: -526009103
-      perfeito_143: 686001079
-      perfeito_144: -843706651
-      perfeito_145: -302173622
-      perfeito_146: 2034136351
-      perfeito_147: 1927759221
-      perfeito_148: -352176026
-      perfeito_149: 1437090351
-      perfeito_15: -811785322
-      perfeito_150: -2122142123
-      perfeito_151: -153868814
-      perfeito_152: 881893267
-      perfeito_153: -1122498174
-      perfeito_154: 1955853913
-      perfeito_155: 329924565
-      perfeito_156: 988928457
-      perfeito_157: 2032028671
-      perfeito_158: -1437438011
-      perfeito_159: 1174395115
-      perfeito_16: 943080688
-      perfeito_160: -581547635
-      perfeito_161: -1844323744
-      perfeito_162: 417247669
-      perfeito_163: 1922272965
-      perfeito_164: -1345703701
-      perfeito_165: 776833364
-      perfeito_166: 2013424850
-      perfeito_167: -89218919
-      perfeito_168: 991054166
-      perfeito_169: 2083127415
-      perfeito_17: 767692534
-      perfeito_170: 861986526
-      perfeito_171: 149753483
-      perfeito_172: -1830262712
-      perfeito_173: -123470145
-      perfeito_174: -184929102
-      perfeito_175: 774051745
-      perfeito_176: -1035566643
-      perfeito_177: -2078332936
-      perfeito_178: 83502264
-      perfeito_179: -1537071537
-      perfeito_18: -416916335
-      perfeito_180: -1993333341
-      perfeito_181: 1567446068
-      perfeito_182: -417266494
-      perfeito_183: -609337086
-      perfeito_184: -2092780610
-      perfeito_185: 574435873
-      perfeito_186: -793852571
-      perfeito_187: -1883022046
-      perfeito_188: 1017609928
-      perfeito_189: -1374940323
-      perfeito_19: 282880935
-      perfeito_190: -1884983615
-      perfeito_191: 674793000
-      perfeito_192: 1694644760
-      perfeito_193: -1522561410
-      perfeito_194: -1420579848
-      perfeito_195: 517247944
-      perfeito_196: -1450758691
-      perfeito_197: 1241449760
-      perfeito_198: -269102503
-      perfeito_2: 604634683
-      perfeito_20: 858536662
-      perfeito_21: 213794923
-      perfeito_22: 2011529753
-      perfeito_23: -71429938
-      perfeito_24: -672902423
-      perfeito_25: -1505868982
-      perfeito_26: 1871455532
-      perfeito_27: 1153929830
-      perfeito_28: -2051954745
-      perfeito_29: -1123452578
-      perfeito_3: 2039166810
-      perfeito_30: 475099135
-      perfeito_31: -1117464113
-      perfeito_32: 1756584451
-      perfeito_33: -1956209200
-      perfeito_34: -1228108107
-      perfeito_35: 1689211382
-      perfeito_36: 1232940092
-      perfeito_37: 683736471
-      perfeito_38: -514010182
-      perfeito_39: -1562933700
-      perfeito_4: 1078294453
-      perfeito_40: -2054378364
-      perfeito_41: -1177549664
-      perfeito_42: -1971310356
-      perfeito_43: 1534154001
-      perfeito_44: 798056604
-      perfeito_45: 14470452
-      perfeito_46: -1135844466
-      perfeito_47: -258192630
-      perfeito_48: -706859514
-      perfeito_49: 879834898
-      perfeito_5: -1725744881
-      perfeito_50: -395005868
-      perfeito_51: 492193319
-      perfeito_52: 1956408629
-      perfeito_53: 607802209
-      perfeito_54: -1734225128
-      perfeito_55: 488208525
-      perfeito_56: 1206291690
-      perfeito_57: 1494368402
-      perfeito_58: -1296835057
-      perfeito_59: -539664217
-      perfeito_6: 1903324466
-      perfeito_60: -1428706916
-      perfeito_61: 490669364
-      perfeito_62: 367413832
-      perfeito_63: -1862433566
-      perfeito_64: -1541527363
-      perfeito_65: 986069985
-      perfeito_66: -159736618
-      perfeito_67: 1087675611
-      perfeito_68: 2069148696
-      perfeito_69: 1814186870
-      perfeito_7: -1888719626
-      perfeito_70: -2087772019
-      perfeito_71: 1067107470
-      perfeito_72: 438015509
-      perfeito_73: 882488978
-      perfeito_74: -1663660712
-      perfeito_75: -590422664
-      perfeito_76: -1760816903
-      perfeito_77: 531071386
-      perfeito_78: -198427768
-      perfeito_79: 492004384
-      perfeito_8: 1213773878
-      perfeito_80: -636170572
-      perfeito_81: -1970534256
-      perfeito_82: -1440207058
-      perfeito_83: -989590553
-      perfeito_84: -799740064
-      perfeito_85: 532681902
-      perfeito_86: 525106532
-      perfeito_87: 42395462
-      perfeito_88: 2114272801
-      perfeito_89: -588385616
-      perfeito_9: -73361845
-      perfeito_90: -571820717
-      perfeito_91: 1869785529
-      perfeito_92: -563096468
-      perfeito_93: -517331061
-      perfeito_94: -675665108
-      perfeito_95: 651383150
-      perfeito_96: 1115057303
-      perfeito_97: 1866395544
-      perfeito_98: -1828225050
-      perfeito_99: 1317824070
+      perfeito 1_0: 366167885
+      perfeito 1_1: -126852636
+      perfeito 1_10: 1791245046
+      perfeito 1_100: 2023080895
+      perfeito 1_101: -1319766861
+      perfeito 1_102: 1840690707
+      perfeito 1_103: -1164164024
+      perfeito 1_104: 279899246
+      perfeito 1_105: 475879553
+      perfeito 1_106: 1208099701
+      perfeito 1_107: -624540660
+      perfeito 1_108: 667688758
+      perfeito 1_109: 796711123
+      perfeito 1_11: 1611816482
+      perfeito 1_110: 611013285
+      perfeito 1_111: 505610767
+      perfeito 1_112: -1036058156
+      perfeito 1_113: 2043635743
+      perfeito 1_114: -1994467488
+      perfeito 1_115: 2146132793
+      perfeito 1_116: -1129133017
+      perfeito 1_117: 1176097139
+      perfeito 1_118: -300608121
+      perfeito 1_119: 1021926688
+      perfeito 1_12: 926607057
+      perfeito 1_120: -31795002
+      perfeito 1_121: -58709107
+      perfeito 1_122: 788151883
+      perfeito 1_123: 60369012
+      perfeito 1_124: -1626090126
+      perfeito 1_125: 1667703278
+      perfeito 1_126: -1634618033
+      perfeito 1_127: 1747122589
+      perfeito 1_128: -1022216832
+      perfeito 1_129: -409689733
+      perfeito 1_13: 779716690
+      perfeito 1_130: 596735517
+      perfeito 1_131: 1513362131
+      perfeito 1_132: -1553515831
+      perfeito 1_133: -1318163122
+      perfeito 1_134: -1227590226
+      perfeito 1_135: -2138221349
+      perfeito 1_136: -1735365612
+      perfeito 1_137: -2117581353
+      perfeito 1_138: 1004798465
+      perfeito 1_139: 219586572
+      perfeito 1_14: -1050921798
+      perfeito 1_140: -1001627705
+      perfeito 1_141: 1860134075
+      perfeito 1_142: 363114264
+      perfeito 1_143: 286719929
+      perfeito 1_144: 524296133
+      perfeito 1_145: 351251128
+      perfeito 1_146: 2104744458
+      perfeito 1_147: 455901324
+      perfeito 1_148: -1753426505
+      perfeito 1_149: 988442764
+      perfeito 1_15: 888426640
+      perfeito 1_150: -2123699844
+      perfeito 1_151: 838485688
+      perfeito 1_152: 1736974619
+      perfeito 1_153: 1248208827
+      perfeito 1_154: 344379545
+      perfeito 1_155: 631197553
+      perfeito 1_156: 279460127
+      perfeito 1_157: 1138523493
+      perfeito 1_158: -806495536
+      perfeito 1_159: 721793787
+      perfeito 1_16: -1185526709
+      perfeito 1_160: -167428320
+      perfeito 1_161: -973404359
+      perfeito 1_162: -747649336
+      perfeito 1_163: 318511521
+      perfeito 1_164: -2131151544
+      perfeito 1_165: -1416384334
+      perfeito 1_166: 1992517036
+      perfeito 1_167: 2000060985
+      perfeito 1_168: 1017220083
+      perfeito 1_169: -803909301
+      perfeito 1_17: 1487485608
+      perfeito 1_170: -337378463
+      perfeito 1_171: 256639693
+      perfeito 1_172: -1071865829
+      perfeito 1_173: 677730205
+      perfeito 1_174: 814346448
+      perfeito 1_175: -1145710059
+      perfeito 1_176: -1688493455
+      perfeito 1_177: -1946392419
+      perfeito 1_178: -2104827041
+      perfeito 1_179: -992119672
+      perfeito 1_18: -939233670
+      perfeito 1_180: -1891402652
+      perfeito 1_181: -317258992
+      perfeito 1_182: 2044210625
+      perfeito 1_183: -2041533674
+      perfeito 1_184: 1415012972
+      perfeito 1_185: -1898076949
+      perfeito 1_186: 1654547098
+      perfeito 1_187: 1099752306
+      perfeito 1_188: -1864572209
+      perfeito 1_189: -97564516
+      perfeito 1_19: 186253432
+      perfeito 1_190: 189690026
+      perfeito 1_191: -1861999012
+      perfeito 1_192: 166965076
+      perfeito 1_193: 1347250942
+      perfeito 1_194: -312022457
+      perfeito 1_195: 175433685
+      perfeito 1_196: -1855144204
+      perfeito 1_197: -313195747
+      perfeito 1_198: -775289147
+      perfeito 1_2: -1043622098
+      perfeito 1_20: -1230985920
+      perfeito 1_21: -1925715602
+      perfeito 1_22: 976011380
+      perfeito 1_23: 2113040685
+      perfeito 1_24: -261934639
+      perfeito 1_25: -269214197
+      perfeito 1_26: -488028088
+      perfeito 1_27: 997819321
+      perfeito 1_28: 1966560180
+      perfeito 1_29: -1024193714
+      perfeito 1_3: 2049579720
+      perfeito 1_30: -2145743182
+      perfeito 1_31: 673425586
+      perfeito 1_32: 866134216
+      perfeito 1_33: -312568440
+      perfeito 1_34: -1050413541
+      perfeito 1_35: 1930174279
+      perfeito 1_36: -1330160993
+      perfeito 1_37: 1590691347
+      perfeito 1_38: 725478273
+      perfeito 1_39: -946301836
+      perfeito 1_4: 600562861
+      perfeito 1_40: -969071362
+      perfeito 1_41: -1377991156
+      perfeito 1_42: -1146768892
+      perfeito 1_43: 996211774
+      perfeito 1_44: -973574398
+      perfeito 1_45: -1017048973
+      perfeito 1_46: -1029609282
+      perfeito 1_47: 962171827
+      perfeito 1_48: 909487782
+      perfeito 1_49: 1434011914
+      perfeito 1_5: 1499282158
+      perfeito 1_50: -1825414335
+      perfeito 1_51: -1437405007
+      perfeito 1_52: 1095984809
+      perfeito 1_53: 2143525766
+      perfeito 1_54: 1667087648
+      perfeito 1_55: 988639423
+      perfeito 1_56: -2061753706
+      perfeito 1_57: 385802614
+      perfeito 1_58: -1905767257
+      perfeito 1_59: -2131163277
+      perfeito 1_6: -544575455
+      perfeito 1_60: 1540843383
+      perfeito 1_61: -547852069
+      perfeito 1_62: -832328923
+      perfeito 1_63: 251918695
+      perfeito 1_64: 1039519576
+      perfeito 1_65: -47594823
+      perfeito 1_66: 1208604717
+      perfeito 1_67: -416620494
+      perfeito 1_68: -805809261
+      perfeito 1_69: 1253505146
+      perfeito 1_7: 142252515
+      perfeito 1_70: 1501898644
+      perfeito 1_71: -1214947324
+      perfeito 1_72: -1318568199
+      perfeito 1_73: -1135843963
+      perfeito 1_74: -1730254362
+      perfeito 1_75: 993744486
+      perfeito 1_76: 450382521
+      perfeito 1_77: -1500263219
+      perfeito 1_78: -1079996021
+      perfeito 1_79: -493977566
+      perfeito 1_8: 1351564579
+      perfeito 1_80: -526133146
+      perfeito 1_81: 560807568
+      perfeito 1_82: 1664718786
+      perfeito 1_83: 1961597924
+      perfeito 1_84: -1973374292
+      perfeito 1_85: 2049782990
+      perfeito 1_86: -137582762
+      perfeito 1_87: 925955063
+      perfeito 1_88: -1981233896
+      perfeito 1_89: -102672728
+      perfeito 1_9: 1421632258
+      perfeito 1_90: -1749152810
+      perfeito 1_91: 883878287
+      perfeito 1_92: -1080380176
+      perfeito 1_93: -1529895663
+      perfeito 1_94: -1140318335
+      perfeito 1_95: 459264772
+      perfeito 1_96: -1030124496
+      perfeito 1_97: 78965001
+      perfeito 1_98: -47625939
+      perfeito 1_99: 23394560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
