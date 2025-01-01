@@ -77,7 +77,7 @@ public class Main : MonoBehaviour
             colisaum.type = ParticleSystemCollisionType.World;
             colisaum.mode = ParticleSystemCollisionMode.Collision2D;
             colisaum.bounce = 0;                          //nao deixar voar
-            colisaum.collidesWith -= 6;  // -= 5                  //layer
+            colisaum.collidesWith = 2;  // -= 6                  //layer
             colisaum.sendCollisionMessages = true;        //identificar colisao
             go.layer += 8;
 

@@ -1403,7 +1403,7 @@ GameObject:
   - component: {fileID: 263044653}
   - component: {fileID: 263044652}
   - component: {fileID: 263044651}
-  m_Layer: 3
+  m_Layer: 1
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1572,7 +1572,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &263044655
@@ -5431,7 +5431,7 @@ SpriteRenderer:
   m_Size: {x: 1.2028453, y: 1.5924999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1534094302
