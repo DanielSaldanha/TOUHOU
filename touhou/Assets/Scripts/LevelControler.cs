@@ -25,6 +25,9 @@ public class LevelControler : MonoBehaviour
     //MUSICAS
     public GameObject themeChen, themeMariza;
    public GameObject CloneSongs;
+
+    //CENARIO
+    public GameObject n1,cntrl;
     void Start()
     {
         
@@ -119,6 +122,10 @@ public class LevelControler : MonoBehaviour
                     Destroy(Clone);
                     Clone = Instantiate(boss[3], pos.position, Quaternion.identity);
                     main.partida = false;
+
+                    //cenario
+                    n1.SetActive(false);
+                    Clone = Instantiate(cntrl);
                 }
             }
 

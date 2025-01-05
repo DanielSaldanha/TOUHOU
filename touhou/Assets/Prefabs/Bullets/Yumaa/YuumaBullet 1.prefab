@@ -50,7 +50,7 @@ MonoBehaviour:
   color: {r: 0.41509432, g: 0.072445706, b: 0.15002638, a: 1}
   lifetime: 5
   firerate: 0.5
-  size: 0.2
+  size: 0.3
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: -25
   system: {fileID: 0}
@@ -135,7 +135,7 @@ MonoBehaviour:
   color: {r: 0.41509432, g: 0.072445706, b: 0.15002638, a: 1}
   lifetime: 5
   firerate: 0.5
-  size: 0.2
+  size: 0.3
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: -25
   system: {fileID: 0}
@@ -189,7 +189,7 @@ MonoBehaviour:
   color: {r: 0.41509432, g: 0.072445706, b: 0.15002638, a: 1}
   lifetime: 5
   firerate: 0.5
-  size: 0.2
+  size: 0.3
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 25
   system: {fileID: 0}
@@ -298,7 +298,7 @@ MonoBehaviour:
   color: {r: 0.41509432, g: 0.072445706, b: 0.15002638, a: 1}
   lifetime: 5
   firerate: 0.5
-  size: 0.2
+  size: 0.3
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 25
   system: {fileID: 0}

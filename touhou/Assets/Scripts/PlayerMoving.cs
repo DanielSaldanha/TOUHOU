@@ -215,7 +215,7 @@ public class PlayerMoving : MonoBehaviour
         }
         else
         {
-            gameObject.layer = 3;
+            gameObject.layer = 1;
             cor.a = 255;
             cor = Color.white;
             
