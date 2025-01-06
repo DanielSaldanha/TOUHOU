@@ -25,12 +25,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366650373224565424}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4389601135605748310}
+  m_Father: {fileID: 5475539486132566444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &7648912539231650707
 MonoBehaviour:
@@ -54,6 +54,41 @@ MonoBehaviour:
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: -25
   system: {fileID: 0}
+--- !u!1 &1916933269956962608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2992848783145313318}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2992848783145313318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916933269956962608}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8466191798764701960}
+  - {fileID: 7083152685255089708}
+  - {fileID: 7578809666016719811}
+  - {fileID: 4762097192139229586}
+  m_Father: {fileID: 4389601135605748310}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2860866429807772225
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,12 +145,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3206366201393279560}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4389601135605748310}
+  m_Father: {fileID: 5475539486132566444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &4612188623533554791
 MonoBehaviour:
@@ -139,6 +174,95 @@ MonoBehaviour:
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: -25
   system: {fileID: 0}
+--- !u!1 &3417767744235665624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7578809666016719811}
+  - component: {fileID: 8523031931165171914}
+  m_Layer: 0
+  m_Name: YuumaBullet1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7578809666016719811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3417767744235665624}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2992848783145313318}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &8523031931165171914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3417767744235665624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0d4ead5440c294da62b68801caec2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Number_of_coluns: 5
+  speed: 1.7
+  texture: {fileID: -2046171471, guid: 760b2d43d3dbff14198141758808424e, type: 3}
+  color: {r: 0.41509432, g: 0.072445706, b: 0.15002638, a: 1}
+  lifetime: 5
+  firerate: 0.5
+  size: 0.25
+  material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  spin_speed: 30
+  system: {fileID: 0}
+--- !u!1 &3782557040990102607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5475539486132566444}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5475539486132566444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3782557040990102607}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6184895730511537324}
+  - {fileID: 2466152855786184980}
+  - {fileID: 3209233182809395466}
+  - {fileID: 6990533740257339045}
+  m_Father: {fileID: 4389601135605748310}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4168695850991890618
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,12 +288,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4168695850991890618}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4389601135605748310}
+  m_Father: {fileID: 5475539486132566444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!114 &5958037303810086995
 MonoBehaviour:
@@ -223,11 +347,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6184895730511537324}
-  - {fileID: 2466152855786184980}
-  - {fileID: 3209233182809395466}
-  - {fileID: 6990533740257339045}
   - {fileID: 7608458420314342206}
+  - {fileID: 5475539486132566444}
+  - {fileID: 2992848783145313318}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1712188349691820673
@@ -248,6 +370,114 @@ MonoBehaviour:
   time: 0
   maxtime: 0
   maxtime2: 0
+--- !u!1 &4720127361041421306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8466191798764701960}
+  - component: {fileID: 499439650610329747}
+  m_Layer: 0
+  m_Name: YuumaBullet1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8466191798764701960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720127361041421306}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2992848783145313318}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &499439650610329747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720127361041421306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0d4ead5440c294da62b68801caec2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Number_of_coluns: 5
+  speed: 1.7
+  texture: {fileID: -2046171471, guid: 760b2d43d3dbff14198141758808424e, type: 3}
+  color: {r: 0.41509432, g: 0.072445706, b: 0.15002638, a: 1}
+  lifetime: 5
+  firerate: 0.5
+  size: 0.25
+  material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  spin_speed: 30
+  system: {fileID: 0}
+--- !u!1 &5448290608055291203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7083152685255089708}
+  - component: {fileID: 7275106897868199781}
+  m_Layer: 0
+  m_Name: YuumaBullet1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7083152685255089708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5448290608055291203}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2992848783145313318}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &7275106897868199781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5448290608055291203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0d4ead5440c294da62b68801caec2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Number_of_coluns: 5
+  speed: 1.7
+  texture: {fileID: -2046171471, guid: 760b2d43d3dbff14198141758808424e, type: 3}
+  color: {r: 0.41509432, g: 0.072445706, b: 0.15002638, a: 1}
+  lifetime: 5
+  firerate: 0.5
+  size: 0.25
+  material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  spin_speed: -30
+  system: {fileID: 0}
 --- !u!1 &7532060577653752404
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,7 +508,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4389601135605748310}
+  m_Father: {fileID: 5475539486132566444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1127079555816867680
 MonoBehaviour:
@@ -301,4 +531,58 @@ MonoBehaviour:
   size: 0.3
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 25
+  system: {fileID: 0}
+--- !u!1 &7637627831701983195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4762097192139229586}
+  - component: {fileID: 8668767218544011294}
+  m_Layer: 0
+  m_Name: YuumaBullet1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4762097192139229586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7637627831701983195}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2992848783145313318}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &8668767218544011294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7637627831701983195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0d4ead5440c294da62b68801caec2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Number_of_coluns: 5
+  speed: 1.7
+  texture: {fileID: -2046171471, guid: 760b2d43d3dbff14198141758808424e, type: 3}
+  color: {r: 0.41509432, g: 0.072445706, b: 0.15002638, a: 1}
+  lifetime: 5
+  firerate: 0.5
+  size: 0.25
+  material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  spin_speed: -30
   system: {fileID: 0}
