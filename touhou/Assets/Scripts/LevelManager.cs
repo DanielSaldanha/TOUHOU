@@ -41,11 +41,15 @@ public class LevelManager : MonoBehaviour
 
         cor.a = 255;
         cor = Color.black;
-        medio();
+      //  medio();
         pause = true;
         permitir = false;
         pausagem.SetActive(false);
 
+        //MEDIO
+        main.vidaAtual = 5;
+        main.Uso = 5;
+        main2.damage = 0.009f;
 
     }
 
@@ -110,8 +114,9 @@ public class LevelManager : MonoBehaviour
     {
         main.vidaAtual = 10;
         main.Uso = 10;
-        main2.damage = 0.5f;
+        main2.damage = 0.025f;
         armazem();
+        Comecar();
     }
     public void medio()
     {
@@ -119,6 +124,7 @@ public class LevelManager : MonoBehaviour
         main.Uso = 5;
         main2.damage = 0.009f;
         armazem();
+        Comecar();
     }
     public void dificil()
     {
@@ -126,6 +132,7 @@ public class LevelManager : MonoBehaviour
         main.Uso = 5;
         main2.damage = 0.009f;
         armazem();
+        Comecar();
     }
     void armazem()
     {

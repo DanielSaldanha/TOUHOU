@@ -183,13 +183,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0d4ead5440c294da62b68801caec2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Number_of_coluns: 25
+  Number_of_coluns: 20
   speed: 1.7
   texture: {fileID: 1493713479, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
   color: {r: 0.6698113, g: 0.0979441, b: 0.0979441, a: 1}
   lifetime: 7
   firerate: 0.4
-  size: 0.2
+  size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 3.5
   system: {fileID: 0}

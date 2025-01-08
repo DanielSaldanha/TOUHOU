@@ -50,7 +50,7 @@ MonoBehaviour:
   color: {r: 0.6226415, g: 0.07929868, b: 0.20162201, a: 1}
   lifetime: 5
   firerate: 0.5
-  size: 0.2
+  size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: -25
   system: {fileID: 0}
@@ -170,7 +170,7 @@ MonoBehaviour:
   color: {r: 0.6226415, g: 0.07929868, b: 0.20162201, a: 1}
   lifetime: 5
   firerate: 0.5
-  size: 0.2
+  size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: -25
   system: {fileID: 0}
@@ -224,7 +224,7 @@ MonoBehaviour:
   color: {r: 0.5849056, g: 0.057938762, b: 0.1779702, a: 1}
   lifetime: 5
   firerate: 0.5
-  size: 0.2
+  size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 30
   system: {fileID: 0}
@@ -313,7 +313,7 @@ MonoBehaviour:
   color: {r: 0.6226415, g: 0.07929868, b: 0.20162201, a: 1}
   lifetime: 5
   firerate: 0.5
-  size: 0.2
+  size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 25
   system: {fileID: 0}
@@ -420,7 +420,7 @@ MonoBehaviour:
   color: {r: 0.5849056, g: 0.057938762, b: 0.1779702, a: 1}
   lifetime: 5
   firerate: 0.5
-  size: 0.2
+  size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 30
   system: {fileID: 0}
@@ -474,7 +474,7 @@ MonoBehaviour:
   color: {r: 0.5849056, g: 0.057938762, b: 0.1779702, a: 1}
   lifetime: 5
   firerate: 0.5
-  size: 0.2
+  size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: -30
   system: {fileID: 0}
@@ -528,7 +528,7 @@ MonoBehaviour:
   color: {r: 0.6226415, g: 0.07929868, b: 0.20162201, a: 1}
   lifetime: 5
   firerate: 0.5
-  size: 0.2
+  size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 25
   system: {fileID: 0}
@@ -582,7 +582,7 @@ MonoBehaviour:
   color: {r: 0.5849056, g: 0.057938762, b: 0.1779702, a: 1}
   lifetime: 5
   firerate: 0.5
-  size: 0.2
+  size: 0.15
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: -30
   system: {fileID: 0}

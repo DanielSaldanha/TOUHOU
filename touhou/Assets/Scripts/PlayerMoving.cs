@@ -12,6 +12,7 @@ public class PlayerMoving : MonoBehaviour
     private Vector2 _PlayerDirection;
     private Rigidbody2D _PlayerRB2D;
 
+
     [Header("SHOOT")]
     public GameObject Bullet;
     public GameObject BulletSuper;
@@ -66,7 +67,8 @@ public class PlayerMoving : MonoBehaviour
 
     void Update ()
     {
-        if(Controlador == true)
+        angular();
+        if (Controlador == true)
         {
             Bull3t();
             Bull3tSuper();
@@ -88,11 +90,13 @@ public class PlayerMoving : MonoBehaviour
 
         //SYSTEM OF THE DEATH BOMB
         timeDamage += Time.deltaTime;
+
     }
 
     void FixedUpdate()
     {
         _PlayerRB2D.MovePosition(_PlayerRB2D.position + _PlayerDirection* _PlayerSpeed * Time.deltaTime); 
+
     }
 
     private void OnParticleCollision(GameObject c)
@@ -262,5 +266,23 @@ public class PlayerMoving : MonoBehaviour
             CloneSound = Instantiate(AutoHurt);
         }Input.GetKeyDown(KeyCode.X)
         */
+    }
+    void angular()
+    {
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 7);
+        }
+        else if (Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.rotation = Quaternion.Euler(0, 0, -7);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+
+        
+       
     }
 }

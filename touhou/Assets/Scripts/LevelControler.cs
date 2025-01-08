@@ -23,7 +23,7 @@ public class LevelControler : MonoBehaviour
 
 
     //MUSICAS
-    public GameObject themeChen, themeMariza;
+    public GameObject themeChen, themeMariza, themeYuuma;
    public GameObject CloneSongs;
 
     //CENARIO
@@ -117,7 +117,7 @@ public class LevelControler : MonoBehaviour
                 if (aviso == false)
                 {
                     Destroy(CloneSongs);
-                    CloneSongs = Instantiate(themeChen);
+                    CloneSongs = Instantiate(themeYuuma);
                     // Main.destrua();
                     Destroy(Clone);
                     Clone = Instantiate(boss[3], pos.position, Quaternion.identity);
