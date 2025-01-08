@@ -136,13 +136,13 @@ MonoBehaviour:
   p5: {fileID: 3091186302551928108, guid: bcda33631614b75498c8d2aa718ea452, type: 3}
   n1: {fileID: 4755339890402023557, guid: dbc866c42e2444348bc915f51b4b2ffb, type: 3}
   n2: {fileID: 6557614216611548627, guid: 40bd8dbc4d7e41b4ea08735d7e35fbf0, type: 3}
-  n3: {fileID: 6557614216611548627, guid: 40bd8dbc4d7e41b4ea08735d7e35fbf0, type: 3}
-  n4: {fileID: 4755339890402023557, guid: dbc866c42e2444348bc915f51b4b2ffb, type: 3}
+  n3: {fileID: 7338585425724732673, guid: 2f5df58613a2ed24ca11056827d909c9, type: 3}
+  n4: {fileID: 6692674956586379398, guid: f72128de2ec77584dab1e7f138edfd03, type: 3}
   n5: {fileID: 206057879352170622, guid: 8cc5e40fb0d03b94d989a6fca7b163da, type: 3}
   n6: {fileID: 7338585425724732673, guid: 2f5df58613a2ed24ca11056827d909c9, type: 3}
   n7: {fileID: 6557614216611548627, guid: 74eb4ee374637524cb64be49137b2b02, type: 3}
   n8: {fileID: 6692674956586379398, guid: f72128de2ec77584dab1e7f138edfd03, type: 3}
-  n9: {fileID: 4755339890402023557, guid: dbc866c42e2444348bc915f51b4b2ffb, type: 3}
+  n9: {fileID: 206057879352170622, guid: 8cc5e40fb0d03b94d989a6fca7b163da, type: 3}
   aleatoriedade: 0
   time: 0
   maxtime: 10

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4003797603753333515}
-  - component: {fileID: 3822680878703014441}
+  - component: {fileID: 5577161731671502951}
   m_Layer: 0
   m_Name: Bullet 3
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4196325984810799840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3822680878703014441
+--- !u!114 &5577161731671502951
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,18 +41,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1068462704850697373}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0d4ead5440c294da62b68801caec2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6395d0749ceb68244b5d0c7d711ecb4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Number_of_coluns: 20
-  speed: 6
+  Number_of_coluns: 10
+  speed: 2.5
   texture: {fileID: -2046171471, guid: 760b2d43d3dbff14198141758808424e, type: 3}
-  color: {r: 1, g: 1, b: 1, a: 1}
-  lifetime: 10
-  firerate: 1
+  color: {r: 1, g: 1, b: 1, a: 0.80784315}
+  lifetime: 6
+  firerate: 2.5
   size: 0.8
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
-  spin_speed: 10
+  spin_speed: 30
   system: {fileID: 0}
 --- !u!1 &1424615664607760200
 GameObject:
@@ -63,7 +63,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7018911510520219213}
-  - component: {fileID: 543501334763644259}
+  - component: {fileID: 653173754867199708}
   m_Layer: 0
   m_Name: Bullet 3 (2)
   m_TagString: Untagged
@@ -86,7 +86,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4196325984810799840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!114 &543501334763644259
+--- !u!114 &653173754867199708
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,18 +95,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1424615664607760200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0d4ead5440c294da62b68801caec2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6395d0749ceb68244b5d0c7d711ecb4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Number_of_coluns: 20
-  speed: 7
+  Number_of_coluns: 10
+  speed: 2
   texture: {fileID: -2046171471, guid: 760b2d43d3dbff14198141758808424e, type: 3}
-  color: {r: 1, g: 1, b: 1, a: 1}
-  lifetime: 10
-  firerate: 3
-  size: 1.2
+  color: {r: 1, g: 1, b: 1, a: 0.80784315}
+  lifetime: 6
+  firerate: 1.5
+  size: 0.5
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
-  spin_speed: 15
+  spin_speed: -25
   system: {fileID: 0}
 --- !u!1 &6557614216611548627
 GameObject:
@@ -151,7 +151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 933756015554333030}
-  - component: {fileID: 5028237734874967992}
+  - component: {fileID: 1441802858020457923}
   m_Layer: 0
   m_Name: Bullet 3 (1)
   m_TagString: Untagged
@@ -174,7 +174,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4196325984810799840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!114 &5028237734874967992
+--- !u!114 &1441802858020457923
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,16 +183,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7635375187452315708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0d4ead5440c294da62b68801caec2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6395d0749ceb68244b5d0c7d711ecb4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Number_of_coluns: 20
-  speed: 6
+  Number_of_coluns: 10
+  speed: 2
   texture: {fileID: -2046171471, guid: 760b2d43d3dbff14198141758808424e, type: 3}
-  color: {r: 1, g: 1, b: 1, a: 1}
-  lifetime: 10
-  firerate: 2
-  size: 0.8
+  color: {r: 1, g: 1, b: 1, a: 0.80784315}
+  lifetime: 6
+  firerate: 1.5
+  size: 0.5
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
-  spin_speed: 10
+  spin_speed: 25
   system: {fileID: 0}

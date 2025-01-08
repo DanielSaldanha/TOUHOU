@@ -67,7 +67,7 @@ public class Main2 : MonoBehaviour
 
             mainModule.maxParticles = 10000;
             // mainModule.duration = 0f;
-            mainModule.simulationSpace = ParticleSystemSimulationSpace.World;
+          //  mainModule.simulationSpace = ParticleSystemSimulationSpace.World;
 
             //MEU SISTEMA DE COLISAO    
             // var Colisao = system.trigger;
@@ -77,7 +77,7 @@ public class Main2 : MonoBehaviour
             colisaum.type = ParticleSystemCollisionType.World;
             colisaum.mode = ParticleSystemCollisionMode.Collision2D;
             colisaum.bounce = 0;                          //nao deixar voar
-            colisaum.collidesWith -= 6;  // -= 5                  //layer
+            colisaum.collidesWith = 2;  // -= 5                  //layer
             colisaum.sendCollisionMessages = true;        //identificar colisao
             go.layer += 8;
 

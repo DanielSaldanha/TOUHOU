@@ -113,10 +113,10 @@ TextureImporter:
       name: yuupiii_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 485
-        width: 48
-        height: 50
+        x: 26
+        y: 487
+        width: 44
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,9 +198,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 293
-        y: 452
+        y: 479
         width: 52
-        height: 75
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

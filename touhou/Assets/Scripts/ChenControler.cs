@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChenControler : MonoBehaviour
 {
     public Transform p1, p2, p3, p4, p5;
-    public GameObject n1, n2, n3, n4, n5, n6, n7, n8, n9;
+    public GameObject n1, n2, n3, n4, n5, n6, n7;//, n8, n9;
     GameObject Clone1;//, Clone2, Clone3, Clone4, Clone5, Clone6, Clone7, Clone8, Clone9;
 
     [SerializeField] int aleatoriedade;
@@ -51,6 +51,7 @@ public class ChenControler : MonoBehaviour
         {
             destrua();
             main.aviso = false;
+            time = 5;
         }
         // DESTRUIR BULLETS COM O ESPECIAL DO "X" E DEATH BOMB
         if(mainP.derrota == true)//&& mainP.timeDamage >= mainP.MaxTimeDamage
@@ -66,7 +67,7 @@ public class ChenControler : MonoBehaviour
     void clonagem()
     {
 
-        aleatoriedade = Random.Range(1, 10);
+        aleatoriedade = Random.Range(1, 8);
         if (aleatoriedade == 1)
         {
             Clone1 = Instantiate(n1, p1.position, Quaternion.identity);
@@ -77,11 +78,11 @@ public class ChenControler : MonoBehaviour
         }
         else if (aleatoriedade == 3)
         {
-            Clone1 = Instantiate(n3, p3.position, Quaternion.identity);
+            Clone1 = Instantiate(n3, p5.position, Quaternion.identity);
         }
         else if (aleatoriedade == 4)
         {
-            Clone1 = Instantiate(n4, p4.position, Quaternion.identity);
+            Clone1 = Instantiate(n4, p5.position, Quaternion.identity);
         }
         else if (aleatoriedade == 5)
         {
@@ -95,15 +96,16 @@ public class ChenControler : MonoBehaviour
         {
             Clone1 = Instantiate(n7, p5.position, Quaternion.identity);
         }
+        /*
         else if (aleatoriedade == 8)
         {
             Clone1 = Instantiate(n8, p5.position, Quaternion.identity);
         }
         else if (aleatoriedade == 9)
         {
-            Clone1 = Instantiate(n9, p2.position, Quaternion.identity);
+            Clone1 = Instantiate(n9, p5.position, Quaternion.identity);
         }
-
+        */
 
 
 

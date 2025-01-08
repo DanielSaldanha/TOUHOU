@@ -79,7 +79,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Number_of_coluns: 5
   speed: 4.5
-  texture: {fileID: 224225613, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
+  texture: {fileID: 1493713479, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
   color: {r: 0.9329666, g: 0.6096476, b: 0.9433962, a: 1}
   lifetime: 10
   firerate: 0.15
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Number_of_coluns: 5
   speed: 4.5
-  texture: {fileID: 224225613, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
+  texture: {fileID: 1493713479, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
   color: {r: 0.9433962, g: 0.6363475, b: 0.89835644, a: 1}
   lifetime: 10
   firerate: 0.15

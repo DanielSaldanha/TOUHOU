@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Number_of_coluns: 35
   speed: 4
-  texture: {fileID: -1871815113, guid: 760b2d43d3dbff14198141758808424e, type: 3}
+  texture: {fileID: 1493713479, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
   color: {r: 0.9245283, g: 0.3009078, b: 0.3009078, a: 1}
   lifetime: 10
   firerate: 2
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Number_of_coluns: 35
   speed: 4
-  texture: {fileID: -1686478847, guid: 760b2d43d3dbff14198141758808424e, type: 3}
+  texture: {fileID: 1493713479, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
   color: {r: 0.8295018, g: 0.3568441, b: 0.9339623, a: 1}
   lifetime: 10
   firerate: 4
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Number_of_coluns: 35
   speed: 4
-  texture: {fileID: 417348778, guid: 760b2d43d3dbff14198141758808424e, type: 3}
+  texture: {fileID: 1493713479, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
   color: {r: 0.8295018, g: 0.3568441, b: 0.9339623, a: 1}
   lifetime: 10
   firerate: 3
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Number_of_coluns: 35
   speed: 4
-  texture: {fileID: -208385266, guid: 760b2d43d3dbff14198141758808424e, type: 3}
+  texture: {fileID: 1493713479, guid: de93cfb645844c24bbb32b73a1e3182a, type: 3}
   color: {r: 0.9245283, g: 0.3009078, b: 0.3009078, a: 1}
   lifetime: 10
   firerate: 1
