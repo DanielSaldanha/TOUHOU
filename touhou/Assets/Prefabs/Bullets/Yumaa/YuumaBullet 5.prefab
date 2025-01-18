@@ -53,6 +53,7 @@ MonoBehaviour:
   size: 0.65
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 20
+  spin_speed2: 0
   system: {fileID: 0}
 --- !u!1 &249257388988292272
 GameObject:
@@ -107,6 +108,7 @@ MonoBehaviour:
   size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
+  spin_speed2: 5
   system: {fileID: 0}
 --- !u!1 &521364990024347809
 GameObject:
@@ -193,6 +195,7 @@ MonoBehaviour:
   size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
+  spin_speed2: 5
   system: {fileID: 0}
 --- !u!1 &1322559306585499364
 GameObject:
@@ -247,6 +250,7 @@ MonoBehaviour:
   size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
+  spin_speed2: 5
   system: {fileID: 0}
 --- !u!1 &2086057855783416225
 GameObject:
@@ -335,6 +339,7 @@ MonoBehaviour:
   size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
+  spin_speed2: 5
   system: {fileID: 0}
 --- !u!1 &5048988148610724964
 GameObject:
@@ -423,6 +428,7 @@ MonoBehaviour:
   size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
+  spin_speed2: 5
   system: {fileID: 0}
 --- !u!1 &6692674956586379398
 GameObject:
@@ -511,4 +517,5 @@ MonoBehaviour:
   size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
+  spin_speed2: 5
   system: {fileID: 0}

@@ -56,8 +56,6 @@ MonoBehaviour:
   n5: {fileID: 3216336431786167170, guid: 7dee7e62f1bd39442b6f82466108d732, type: 3}
   n6: {fileID: 7102023202211877191, guid: aa4f1bd01dd1cd54caebb0573b27ea2b, type: 3}
   n7: {fileID: 5575905778458735764, guid: fc5dff7845f026440be1d9abfcfbad43, type: 3}
-  n8: {fileID: 8043806132503411281, guid: c4da0d5c1b1a26540bb39cd1ccd0f5aa, type: 3}
-  n9: {fileID: 5575905778458735764, guid: fc5dff7845f026440be1d9abfcfbad43, type: 3}
   aleatoriedade: 0
   time: 0
   maxtime: 13
@@ -90,7 +88,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.6433337, y: -1.8300002, z: 0.12709534}
-  m_LocalScale: {x: 1.0240428, y: 1.0240428, z: 1.0240428}
+  m_LocalScale: {x: 1.7188736, y: 1.7188736, z: 1.7188736}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 202224836548418475}
@@ -137,7 +135,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -905920641, guid: 42679db5a73cd6c41b1c55aa1abdd6c3, type: 3}
+  m_Sprite: {fileID: -1856476321, guid: 52fd8367cc6541643a3330d5ae35517c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

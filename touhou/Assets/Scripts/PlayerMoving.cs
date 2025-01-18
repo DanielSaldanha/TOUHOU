@@ -32,7 +32,7 @@ public class PlayerMoving : MonoBehaviour
 
     [Header("DAMAGE")]
     [SerializeField] Color cor;
-    [SerializeField] SpriteRenderer spritecor;
+    [SerializeField] SpriteRenderer spritecor,spritecor2;
     public float timeframe;
     public bool derrota;
 
@@ -53,6 +53,10 @@ public class PlayerMoving : MonoBehaviour
     public GameObject SoundBullet, AutoHurt;
     GameObject CloneSound;
 
+    [Header("SKINS")]
+    public GameObject Sprite1;
+    public GameObject Sprite2;
+    public bool SpriteControler;
 
     void Start ()
     {
@@ -63,11 +67,13 @@ public class PlayerMoving : MonoBehaviour
      //   LevelManager.ManagerStop += Destruir;     
         timelife = 5;
         timeDamage = MaxTimeDamage;
+        SpriteControler = true;
     }
 
     void Update ()
     {
         angular();
+        TrocaSprite();
         if (Controlador == true)
         {
             Bull3t();
@@ -207,6 +213,7 @@ public class PlayerMoving : MonoBehaviour
     void SistemaDeDanoEhp()
     {
         spritecor.color = cor;
+        spritecor2.color = cor;
 
         if (timelife < maxtimelife)
         {
@@ -235,7 +242,7 @@ public class PlayerMoving : MonoBehaviour
         {
             abreviaTempo += 1;
         }
-        if (main2.Index >= 3)
+        if (main2.Index >= 5)
         {
             Vitoria.text = "v o c e   v e n c e u";
         }
@@ -285,4 +292,14 @@ public class PlayerMoving : MonoBehaviour
         
        
     }
+    void TrocaSprite()
+    {
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            SpriteControler = !SpriteControler;
+            Sprite1.SetActive(SpriteControler);
+            Sprite2.SetActive(!SpriteControler);
+        }
+    }
+
 }

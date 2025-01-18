@@ -13,7 +13,7 @@ public class Main : MonoBehaviour
     public float size;
     float angle;
     public Material material;
-    public float spin_speed;
+    public float spin_speed, spin_speed2;
     float time;
 
     //ALteraçoes
@@ -82,13 +82,12 @@ public class Main : MonoBehaviour
             go.layer += 8;
 
             var visualizar = system;
-            //   visualizar.r
+            //ROTATION
 
-            //LUZES
-          //  var luz = system.lights;
-           // luz.enabled = true;
-           // luz.light = luzinha;
-          //  luz.ratio = Ratio;
+            var rodacao = system.rotationBySpeed;
+            rodacao.enabled = true;
+            rodacao.separateAxes = true;
+            rodacao.z = spin_speed2;
 
 
 

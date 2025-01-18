@@ -47,13 +47,13 @@ MonoBehaviour:
   Number_of_coluns: 15
   speed: 4
   texture: {fileID: 21300000, guid: d9716a39470b33b4aa449611d4928527, type: 3}
-  color: {r: 0.67630833, g: 0.9622642, b: 0.7663646, a: 1}
+  color: {r: 0.46226418, g: 0.10684408, b: 0.45330593, a: 1}
   lifetime: 10
   firerate: 0.6
-  size: 0.1
+  size: 0.3
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
-  spin_speed2: 3
+  spin_speed2: 4
   system: {fileID: 0}
 --- !u!1 &996312429199621934
 GameObject:
@@ -102,13 +102,13 @@ MonoBehaviour:
   Number_of_coluns: 15
   speed: 4
   texture: {fileID: 21300000, guid: d9716a39470b33b4aa449611d4928527, type: 3}
-  color: {r: 1, g: 0.98169726, b: 0.6084906, a: 1}
+  color: {r: 0.6792453, g: 0.086507656, b: 0.086507656, a: 1}
   lifetime: 10
   firerate: 0.6
   size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
-  spin_speed2: 3
+  spin_speed2: 7
   system: {fileID: 0}
 --- !u!1 &1179051895231863693
 GameObject:
@@ -157,13 +157,13 @@ MonoBehaviour:
   Number_of_coluns: 15
   speed: 4
   texture: {fileID: 21300000, guid: d9716a39470b33b4aa449611d4928527, type: 3}
-  color: {r: 0.7730079, g: 0.9716981, b: 0.7471075, a: 1}
+  color: {r: 0.6792453, g: 0.086507656, b: 0.086507656, a: 1}
   lifetime: 10
   firerate: 0.6
-  size: 0.1
+  size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 15
-  spin_speed2: 3
+  spin_speed2: 4
   system: {fileID: 0}
 --- !u!1 &2557938571538331172
 GameObject:
@@ -212,13 +212,13 @@ MonoBehaviour:
   Number_of_coluns: 15
   speed: 4
   texture: {fileID: 21300000, guid: d9716a39470b33b4aa449611d4928527, type: 3}
-  color: {r: 0.7512943, g: 0.9254902, b: 0.49411765, a: 1}
+  color: {r: 0.42466605, g: 0.0757387, b: 0.4339623, a: 1}
   lifetime: 10
   firerate: 0.6
-  size: 0.1
+  size: 0.3
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 10
-  spin_speed2: 3
+  spin_speed2: 4
   system: {fileID: 0}
 --- !u!1 &3773592924072327440
 GameObject:
@@ -267,13 +267,13 @@ MonoBehaviour:
   Number_of_coluns: 15
   speed: 4
   texture: {fileID: 21300000, guid: d9716a39470b33b4aa449611d4928527, type: 3}
-  color: {r: 0.92086625, g: 0.9811321, b: 0.56924176, a: 1}
+  color: {r: 0.38844973, g: 0.08139017, b: 0.5566038, a: 1}
   lifetime: 10
   firerate: 0.6
-  size: 0.2
+  size: 0.3
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 15
-  spin_speed2: 3
+  spin_speed2: 4
   system: {fileID: 0}
 --- !u!1 &4755339890402023557
 GameObject:
@@ -285,7 +285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705952189363976278}
   m_Layer: 0
-  m_Name: bullet 10
+  m_Name: remilia 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -359,11 +359,11 @@ MonoBehaviour:
   Number_of_coluns: 15
   speed: 4
   texture: {fileID: 21300000, guid: d9716a39470b33b4aa449611d4928527, type: 3}
-  color: {r: 0.9811321, g: 0.81996876, b: 0.54147387, a: 1}
+  color: {r: 1, g: 0, b: 0, a: 1}
   lifetime: 10
   firerate: 0.6
-  size: 0.15
+  size: 0.2
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 15
-  spin_speed2: 3
+  spin_speed2: 7
   system: {fileID: 0}

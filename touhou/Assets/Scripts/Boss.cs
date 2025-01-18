@@ -74,7 +74,7 @@ public class Boss : MonoBehaviour
         }   
         if(c.tag == "X")
         {
-            life -= 0.02f;
+            life -= 0.035f;
             CloneSound = Instantiate(HurtXsound);
         }
     }

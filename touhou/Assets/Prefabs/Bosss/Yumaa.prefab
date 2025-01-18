@@ -53,6 +53,7 @@ MonoBehaviour:
   size: 0.8
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 50
+  spin_speed2: 100
   system: {fileID: 0}
 --- !u!1 &6814195827054864773
 GameObject:
@@ -107,6 +108,7 @@ MonoBehaviour:
   size: 0.8
   material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   spin_speed: 50
+  spin_speed2: 100
   system: {fileID: 0}
 --- !u!1 &7506662943761807138
 GameObject:
