@@ -15,7 +15,7 @@ public class PlayerMoving : MonoBehaviour
 
     [Header("SHOOT")]
     public GameObject Bullet;
-    public GameObject BulletSuper;
+    public GameObject BulletSuper,BulletSuper2;
     GameObject Clone,CloneSuper;
     public  float time, MaxTime;
     public float timeSuper, MaxTimeSuper;
@@ -56,6 +56,7 @@ public class PlayerMoving : MonoBehaviour
     [Header("SKINS")]
     public GameObject Sprite1;
     public GameObject Sprite2;
+    public GameObject SpriteVisual, SpriteVisual2;
     public bool SpriteControler;
 
     void Start ()
@@ -73,7 +74,7 @@ public class PlayerMoving : MonoBehaviour
     void Update ()
     {
         angular();
-        TrocaSprite();
+      
         if (Controlador == true)
         {
             Bull3t();
@@ -82,6 +83,7 @@ public class PlayerMoving : MonoBehaviour
             _PlayerDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             txtlife.text = "Life " + vidaAtual.ToString();
             frameTime.text = "Frame " + abreviaTempo.ToString();
+            UltraPower.text = "Especial " + Uso.ToString();
             SistemaDeDanoEhp();
             EspecialDoX();
             DeathBomb();
@@ -92,7 +94,7 @@ public class PlayerMoving : MonoBehaviour
         {
             Destroy(CloneX); 
         }
-        UltraPower.text = "Especial " + Uso.ToString();
+      
 
         //SYSTEM OF THE DEATH BOMB
         timeDamage += Time.deltaTime;
@@ -149,9 +151,17 @@ public class PlayerMoving : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Z) &&  Input.GetKey(KeyCode.LeftShift) && timeSuper > MaxTimeSuper)
         {
-
-            CloneSuper = Instantiate(BulletSuper, transform.position, Quaternion.identity);
-            timeSuper = 0;
+            if(SpriteControler == true)
+            {
+                CloneSuper = Instantiate(BulletSuper, transform.position, Quaternion.identity);
+                timeSuper = 0;
+            }
+            if (SpriteControler == false)
+            {
+                CloneSuper = Instantiate(BulletSuper2, transform.position, Quaternion.identity);
+                timeSuper = 0;
+            }
+           
 
         }
       
@@ -292,14 +302,15 @@ public class PlayerMoving : MonoBehaviour
         
        
     }
-    void TrocaSprite()
+   public void TrocaSprite()
     {
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            SpriteControler = !SpriteControler;
-            Sprite1.SetActive(SpriteControler);
-            Sprite2.SetActive(!SpriteControler);
-        }
+        
+        SpriteControler = !SpriteControler;
+        Sprite1.SetActive(SpriteControler);
+        SpriteVisual.SetActive(SpriteControler);
+        Sprite2.SetActive(!SpriteControler);       
+        SpriteVisual2.SetActive(!SpriteControler);
+
     }
 
 }

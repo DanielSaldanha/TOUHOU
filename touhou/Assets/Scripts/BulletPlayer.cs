@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class BulletPlayer : MonoBehaviour
 {
+
    public Transform posiçaoInimigo;
   public  float Velocidade;
     Rigidbody2D RB;
     public float time, MaxTime;
 
-    
+   
     void Start()
     {
         RB = GetComponent<Rigidbody2D>();
+        
     }
     void Update()
     {
@@ -33,5 +35,6 @@ public class BulletPlayer : MonoBehaviour
       RB.velocity = Direçao * Velocidade;
 
     }
+    
 
 }

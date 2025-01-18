@@ -17,6 +17,7 @@ public class LevelControler : MonoBehaviour
     public Transform pos;
 
     Boss main;
+    PlayerMoving player;
     public bool aviso = false;
 
     ChenControler Main;
@@ -40,6 +41,7 @@ public class LevelControler : MonoBehaviour
 
         main = FindObjectOfType<Boss>();
         Main = FindObjectOfType<ChenControler>();
+        player = FindObjectOfType<PlayerMoving>();
     }
 
 
@@ -80,10 +82,18 @@ public class LevelControler : MonoBehaviour
             if (main.Index == 0)
             {
                 CloneSongs = Instantiate(themeMariza);
+                if(player.SpriteControler == true)
+                {
+                    Clone = Instantiate(boss[0], pos.position, Quaternion.identity);
+                    main.partida = false;
+                }
+                if (player.SpriteControler == false)
+                {
+                    Clone = Instantiate(boss[5], pos.position, Quaternion.identity);
+                    main.partida = false;
+                }
 
-                Clone = Instantiate(boss[0], pos.position, Quaternion.identity);
-                main.partida = false;
-                
+
 
             }
             if (main.Index == 1 )
