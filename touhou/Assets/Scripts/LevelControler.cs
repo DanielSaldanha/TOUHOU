@@ -13,7 +13,7 @@ public class LevelControler : MonoBehaviour
 
     //BOSSES
     public GameObject[] boss;
-    GameObject Clone,Clone2,Clone3,Clone4;
+    GameObject Clone,Clone2,Clone3,Clone4,Clone5;
     public Transform pos;
 
     Boss main;
@@ -70,7 +70,9 @@ public class LevelControler : MonoBehaviour
         Destroy(Clone);
         Destroy(Clone2);
         Destroy(Clone3);
-       
+        Destroy(Clone4);
+        Destroy(Clone5);
+
 
     }
     void controle()
@@ -155,7 +157,24 @@ public class LevelControler : MonoBehaviour
                     Clone = Instantiate(cntrl);
                 }
             }
-            
+            if (main.Index == 5)
+            {
+                if (aviso == false)
+                {
+                    Destroy(CloneSongs);
+                    CloneSongs = Instantiate(themeChen);
+                    // Main.destrua();
+                    Destroy(Clone4);
+                    Clone5 = Instantiate(boss[6], pos.position, Quaternion.identity);
+                    main.partida = false;
+
+                    //cenario
+                    n1.SetActive(false);
+                    Clone = Instantiate(cntrl);
+                }
+            }
+
+
 
         }
        
